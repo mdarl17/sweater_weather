@@ -1,5 +1,6 @@
 class BookPoro
-	attr_reader :id, :type, :total_books_found, 
+	attr_reader :id, :type, :total_books_found, :books
+	
 	def initialize(book_data)
 		@id = "null"
 		@type = "books"
