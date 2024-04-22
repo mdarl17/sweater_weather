@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   get "/api/v1/book-search", to: "api/v1/books#search"
+  get "/api/v1/weather", to: "api/v1/weather#show"
 end

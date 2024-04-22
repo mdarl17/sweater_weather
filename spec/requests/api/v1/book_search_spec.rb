@@ -1,7 +1,32 @@
 require "rails_helper"
 
 RSpec.describe "Api::V1::book-search", :vcr, type: :request do 
+	before(:each) do 
+		def @conn(slug, options)
+			Faraday.get(slug) do |f|
+				f.header["Content-Type"] = "application/json"
+				f.header["Accept"] = "*/*"
+				f.params[:options] = options
+			end
+		end
+	end
 	it "returns books that include the destination city provided" do
+		location = "Denver, CO"
+		weather_loc_formatted = location.downcase.delete(" ")
+		air_quality = false
+		weather_url = "https://api.weatherapi.com/v1/current.json?q=#{weather_loc_formatted}&aqi=#{air_quality}"
+
+		def conn(url)
+			Faraday.new(url: "https://api.weatherapi.com/v1/current.json?q=#{weather_loc_formatted}&aqi=#{air_quality}")
+		end
+
+		def weather_request(location="London, England", air_quality=false)
+			response = conn("https://api.weatherapi.com/v1/current.json?q=#{weather_loc_formatted}&aqi=#{air_quality}")
+		end
+
+		get "/api/v1/weather"
+		https://api.weatherapi.com/v1/current.json?q=London&aqi=no
+
 		get "/api/v1/book-search?location=denver,co&quantity=5"
 
 		books = JSON.parse(response.body, symbolize_names: :true)
