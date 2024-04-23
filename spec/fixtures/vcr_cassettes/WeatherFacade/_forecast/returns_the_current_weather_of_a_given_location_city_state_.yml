@@ -1,0 +1,1139 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?aqi=false&key=wapi_key&q=cleveland,oh
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Apr 2024 20:15:54 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1068
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 haproxy-api-1 (Varnish/7.3)
+      X-Weatherapi-Qpm-Left:
+      - '4999956'
+      X-Varnish:
+      - '52700241'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/23/2024 20:15:13
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 3e4aa889465e7e4ec117b2b432cdd487
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713903320,"localtime":"2024-04-23
+        16:15"},"current":{"last_updated_epoch":1713903300,"last_updated":"2024-04-23
+        16:15","temp_c":16.7,"temp_f":62.1,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":21.7,"wind_kph":34.9,"wind_degree":220,"wind_dir":"SW","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.8,"precip_in":0.03,"humidity":38,"cloud":100,"feelslike_c":16.7,"feelslike_f":62.1,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":26.2,"gust_kph":42.1}}'
+  recorded_at: Tue, 23 Apr 2024 20:15:54 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?aqi=false&key=wapi_key&q=cleveland,oh
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Apr 2024 20:15:54 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1068
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 haproxy-api-1 (Varnish/7.3)
+      X-Weatherapi-Qpm-Left:
+      - '4999956'
+      X-Varnish:
+      - '52700241'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/23/2024 20:15:13
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 22679aff7b26263536e77d9a0bfc0338
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713903320,"localtime":"2024-04-23
+        16:15"},"current":{"last_updated_epoch":1713903300,"last_updated":"2024-04-23
+        16:15","temp_c":16.7,"temp_f":62.1,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":21.7,"wind_kph":34.9,"wind_degree":220,"wind_dir":"SW","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.8,"precip_in":0.03,"humidity":38,"cloud":100,"feelslike_c":16.7,"feelslike_f":62.1,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":26.2,"gust_kph":42.1}}'
+  recorded_at: Tue, 23 Apr 2024 20:15:54 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?aqi=false&key=wapi_key&q=cleveland,oh
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Apr 2024 20:15:54 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1068
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 haproxy-api-1 (Varnish/7.3)
+      X-Weatherapi-Qpm-Left:
+      - '4999956'
+      X-Varnish:
+      - '52700241'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/23/2024 20:15:13
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 186827c1b12cf33bff70d0d2bf42f08d
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713903320,"localtime":"2024-04-23
+        16:15"},"current":{"last_updated_epoch":1713903300,"last_updated":"2024-04-23
+        16:15","temp_c":16.7,"temp_f":62.1,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":21.7,"wind_kph":34.9,"wind_degree":220,"wind_dir":"SW","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.8,"precip_in":0.03,"humidity":38,"cloud":100,"feelslike_c":16.7,"feelslike_f":62.1,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":26.2,"gust_kph":42.1}}'
+  recorded_at: Tue, 23 Apr 2024 20:15:54 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?aqi=false&key=wapi_key&q=cleveland,oh
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Apr 2024 20:15:54 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1068
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 haproxy-api-1 (Varnish/7.3)
+      X-Weatherapi-Qpm-Left:
+      - '4999956'
+      X-Varnish:
+      - '52700241'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/23/2024 20:15:13
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 9f1ba350b506ba5eb386c2b03830b03c
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713903320,"localtime":"2024-04-23
+        16:15"},"current":{"last_updated_epoch":1713903300,"last_updated":"2024-04-23
+        16:15","temp_c":16.7,"temp_f":62.1,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":21.7,"wind_kph":34.9,"wind_degree":220,"wind_dir":"SW","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.8,"precip_in":0.03,"humidity":38,"cloud":100,"feelslike_c":16.7,"feelslike_f":62.1,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":26.2,"gust_kph":42.1}}'
+  recorded_at: Tue, 23 Apr 2024 20:15:54 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?aqi=false&key=wapi_key&q=cleveland,oh
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Apr 2024 20:15:55 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1068
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 haproxy-api-1 (Varnish/7.3)
+      X-Weatherapi-Qpm-Left:
+      - '4999956'
+      X-Varnish:
+      - '52700241'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/23/2024 20:15:13
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - bc01a61e2de3af27b22ff2f8196bd620
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713903320,"localtime":"2024-04-23
+        16:15"},"current":{"last_updated_epoch":1713903300,"last_updated":"2024-04-23
+        16:15","temp_c":16.7,"temp_f":62.1,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":21.7,"wind_kph":34.9,"wind_degree":220,"wind_dir":"SW","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.8,"precip_in":0.03,"humidity":38,"cloud":100,"feelslike_c":16.7,"feelslike_f":62.1,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":26.2,"gust_kph":42.1}}'
+  recorded_at: Tue, 23 Apr 2024 20:15:55 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?aqi=false&key=wapi_key&q=cleveland,oh
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Apr 2024 20:15:55 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1068
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 haproxy-api-1 (Varnish/7.3)
+      X-Weatherapi-Qpm-Left:
+      - '4999956'
+      X-Varnish:
+      - '52700241'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/23/2024 20:15:13
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 57be68b82c6fa4befa509bd8c2501617
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713903320,"localtime":"2024-04-23
+        16:15"},"current":{"last_updated_epoch":1713903300,"last_updated":"2024-04-23
+        16:15","temp_c":16.7,"temp_f":62.1,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":21.7,"wind_kph":34.9,"wind_degree":220,"wind_dir":"SW","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.8,"precip_in":0.03,"humidity":38,"cloud":100,"feelslike_c":16.7,"feelslike_f":62.1,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":26.2,"gust_kph":42.1}}'
+  recorded_at: Tue, 23 Apr 2024 20:15:55 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?aqi=false&key=wapi_key&q=cleveland,oh
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Apr 2024 20:15:55 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1068
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 haproxy-api-1 (Varnish/7.3)
+      X-Weatherapi-Qpm-Left:
+      - '4999956'
+      X-Varnish:
+      - '52700241'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/23/2024 20:15:13
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 898ad063bec53f9fb1625c2188f7225b
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713903320,"localtime":"2024-04-23
+        16:15"},"current":{"last_updated_epoch":1713903300,"last_updated":"2024-04-23
+        16:15","temp_c":16.7,"temp_f":62.1,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":21.7,"wind_kph":34.9,"wind_degree":220,"wind_dir":"SW","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.8,"precip_in":0.03,"humidity":38,"cloud":100,"feelslike_c":16.7,"feelslike_f":62.1,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":26.2,"gust_kph":42.1}}'
+  recorded_at: Tue, 23 Apr 2024 20:15:55 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?aqi=false&key=wapi_key&q=cleveland,oh
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Apr 2024 20:15:55 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1068
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 haproxy-api-1 (Varnish/7.3)
+      X-Weatherapi-Qpm-Left:
+      - '4999956'
+      X-Varnish:
+      - '52700241'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/23/2024 20:15:13
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 375b4d0b4877c4a61b303399bc59bffd
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713903320,"localtime":"2024-04-23
+        16:15"},"current":{"last_updated_epoch":1713903300,"last_updated":"2024-04-23
+        16:15","temp_c":16.7,"temp_f":62.1,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":21.7,"wind_kph":34.9,"wind_degree":220,"wind_dir":"SW","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.8,"precip_in":0.03,"humidity":38,"cloud":100,"feelslike_c":16.7,"feelslike_f":62.1,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":26.2,"gust_kph":42.1}}'
+  recorded_at: Tue, 23 Apr 2024 20:15:55 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?aqi=false&key=wapi_key&q=cleveland,oh
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Apr 2024 20:15:56 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1068
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 haproxy-api-1 (Varnish/7.3)
+      X-Weatherapi-Qpm-Left:
+      - '4999956'
+      X-Varnish:
+      - '52700241'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/23/2024 20:15:13
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - fef8454db45a1dfa840d6c6ca1083382
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713903320,"localtime":"2024-04-23
+        16:15"},"current":{"last_updated_epoch":1713903300,"last_updated":"2024-04-23
+        16:15","temp_c":16.7,"temp_f":62.1,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":21.7,"wind_kph":34.9,"wind_degree":220,"wind_dir":"SW","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.8,"precip_in":0.03,"humidity":38,"cloud":100,"feelslike_c":16.7,"feelslike_f":62.1,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":26.2,"gust_kph":42.1}}'
+  recorded_at: Tue, 23 Apr 2024 20:15:56 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?aqi=false&key=wapi_key&q=cleveland,oh
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Apr 2024 20:15:56 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1068
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 haproxy-api-1 (Varnish/7.3)
+      X-Weatherapi-Qpm-Left:
+      - '4999956'
+      X-Varnish:
+      - '52700241'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/23/2024 20:15:13
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - b7c1070a8ab044fd3d7e873eb7f19202
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713903320,"localtime":"2024-04-23
+        16:15"},"current":{"last_updated_epoch":1713903300,"last_updated":"2024-04-23
+        16:15","temp_c":16.7,"temp_f":62.1,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":21.7,"wind_kph":34.9,"wind_degree":220,"wind_dir":"SW","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.8,"precip_in":0.03,"humidity":38,"cloud":100,"feelslike_c":16.7,"feelslike_f":62.1,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":26.2,"gust_kph":42.1}}'
+  recorded_at: Tue, 23 Apr 2024 20:15:56 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?aqi=false&key=wapi_key&q=cleveland,oh
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Apr 2024 20:15:56 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1068
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 haproxy-api-1 (Varnish/7.3)
+      X-Weatherapi-Qpm-Left:
+      - '4999956'
+      X-Varnish:
+      - '52700241'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/23/2024 20:15:13
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 1c7de0da0cdc15e33973fb4ff25203fe
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713903320,"localtime":"2024-04-23
+        16:15"},"current":{"last_updated_epoch":1713903300,"last_updated":"2024-04-23
+        16:15","temp_c":16.7,"temp_f":62.1,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":21.7,"wind_kph":34.9,"wind_degree":220,"wind_dir":"SW","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.8,"precip_in":0.03,"humidity":38,"cloud":100,"feelslike_c":16.7,"feelslike_f":62.1,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":26.2,"gust_kph":42.1}}'
+  recorded_at: Tue, 23 Apr 2024 20:15:56 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?aqi=false&key=wapi_key&q=cleveland,oh
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Apr 2024 20:15:57 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1068
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 haproxy-api-1 (Varnish/7.3)
+      X-Weatherapi-Qpm-Left:
+      - '4999956'
+      X-Varnish:
+      - '52700241'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/23/2024 20:15:13
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - fed5bce96773075b1bac60f0f23c44a1
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713903320,"localtime":"2024-04-23
+        16:15"},"current":{"last_updated_epoch":1713903300,"last_updated":"2024-04-23
+        16:15","temp_c":16.7,"temp_f":62.1,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":21.7,"wind_kph":34.9,"wind_degree":220,"wind_dir":"SW","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.8,"precip_in":0.03,"humidity":38,"cloud":100,"feelslike_c":16.7,"feelslike_f":62.1,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":26.2,"gust_kph":42.1}}'
+  recorded_at: Tue, 23 Apr 2024 20:15:57 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?aqi=false&key=wapi_key&q=cleveland,oh
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Apr 2024 20:15:57 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1068
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 haproxy-api-1 (Varnish/7.3)
+      X-Weatherapi-Qpm-Left:
+      - '4999956'
+      X-Varnish:
+      - '52700241'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/23/2024 20:15:13
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - d2cdb7c870144570a311a6527283a65c
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713903320,"localtime":"2024-04-23
+        16:15"},"current":{"last_updated_epoch":1713903300,"last_updated":"2024-04-23
+        16:15","temp_c":16.7,"temp_f":62.1,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":21.7,"wind_kph":34.9,"wind_degree":220,"wind_dir":"SW","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.8,"precip_in":0.03,"humidity":38,"cloud":100,"feelslike_c":16.7,"feelslike_f":62.1,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":26.2,"gust_kph":42.1}}'
+  recorded_at: Tue, 23 Apr 2024 20:15:57 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?aqi=false&key=wapi_key&q=cleveland,oh
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Apr 2024 20:15:57 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1068
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 haproxy-api-1 (Varnish/7.3)
+      X-Weatherapi-Qpm-Left:
+      - '4999956'
+      X-Varnish:
+      - '52700241'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/23/2024 20:15:13
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 0d09923029b47a5253fa307ca41f34d4
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713903320,"localtime":"2024-04-23
+        16:15"},"current":{"last_updated_epoch":1713903300,"last_updated":"2024-04-23
+        16:15","temp_c":16.7,"temp_f":62.1,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":21.7,"wind_kph":34.9,"wind_degree":220,"wind_dir":"SW","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.8,"precip_in":0.03,"humidity":38,"cloud":100,"feelslike_c":16.7,"feelslike_f":62.1,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":26.2,"gust_kph":42.1}}'
+  recorded_at: Tue, 23 Apr 2024 20:15:57 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?aqi=false&key=wapi_key&q=cleveland,oh
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Apr 2024 20:15:57 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1068
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 haproxy-api-1 (Varnish/7.3)
+      X-Weatherapi-Qpm-Left:
+      - '4999956'
+      X-Varnish:
+      - '52700241'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/23/2024 20:15:13
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 11502041460f07f0a5d1d8df8fd2ce53
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713903320,"localtime":"2024-04-23
+        16:15"},"current":{"last_updated_epoch":1713903300,"last_updated":"2024-04-23
+        16:15","temp_c":16.7,"temp_f":62.1,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":21.7,"wind_kph":34.9,"wind_degree":220,"wind_dir":"SW","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.8,"precip_in":0.03,"humidity":38,"cloud":100,"feelslike_c":16.7,"feelslike_f":62.1,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":26.2,"gust_kph":42.1}}'
+  recorded_at: Tue, 23 Apr 2024 20:15:57 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?aqi=false&key=wapi_key&q=cleveland,oh
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Apr 2024 20:15:58 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1068
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 haproxy-api-1 (Varnish/7.3)
+      X-Weatherapi-Qpm-Left:
+      - '4999956'
+      X-Varnish:
+      - '52700241'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/23/2024 20:15:13
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 544463cda66c9790b2f42fe9bc22a151
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713903320,"localtime":"2024-04-23
+        16:15"},"current":{"last_updated_epoch":1713903300,"last_updated":"2024-04-23
+        16:15","temp_c":16.7,"temp_f":62.1,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":21.7,"wind_kph":34.9,"wind_degree":220,"wind_dir":"SW","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.8,"precip_in":0.03,"humidity":38,"cloud":100,"feelslike_c":16.7,"feelslike_f":62.1,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":26.2,"gust_kph":42.1}}'
+  recorded_at: Tue, 23 Apr 2024 20:15:58 GMT
+recorded_with: VCR 6.2.0
