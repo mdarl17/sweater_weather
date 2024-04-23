@@ -1,6 +1,6 @@
 class WeatherService
-	def get_weather(location="london,en", air_quality=false)
-		get_url("/v1/current.json", location, air_quality)
+	def get_forecast(weather_params)
+		get_url("/v1/current.json", weather_params[:location], weather_params[:air_quality])
 	end
 
 	def get_url(url, location, air_quality)
@@ -9,6 +9,7 @@ class WeatherService
 			f.params[:aqi] = air_quality
 			f.params[:key] = Rails.application.credentials.open_weather[:api_key]
 		end
+		JSON.parse(response.body, symbolize_names: true)
 	end 	
 
 	def conn
@@ -22,4 +23,4 @@ class WeatherService
 	end
 end
 
-w = WeatherService.new.get_weather(location="denver,co", air_quality=false)
+# w = WeatherService.new.get_forecast(location="denver,co", air_quality=false)
