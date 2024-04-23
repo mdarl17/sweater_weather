@@ -22,5 +22,3 @@ class WeatherService
 		)
 	end
 end
-
-# w = WeatherService.new.get_forecast(location="denver,co", air_quality=false)
