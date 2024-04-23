@@ -6,7 +6,7 @@ RSpec.describe BooksFacade, :vcr, type: :facade do
 	end
 
 	describe "#books" do 
-		it "returns the first n (default is 5) results of a book search given a book's location" do 
+		it "returns the first n (default is 5) results - as plain ruby objects - of a book search given a location" do 
 			expect(@facade.books("denver,co", 5)).to be_a BookPoro
 			expect(@facade.books("denver,co", 5).total_books_found).to be_an Integer
 			expect(@facade.books("denver,co", 5).total_books_found).to eq(781)
