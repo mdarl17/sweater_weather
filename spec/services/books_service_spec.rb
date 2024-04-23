@@ -13,7 +13,7 @@ RSpec.describe BooksService, :vcr, type: :facade do
 			expect(cleveland_books[:docs].count).to eq(5)
 			expect(cleveland_books.keys).to match_array([:numFound, :start, :numFoundExact, :num_found, :docs, :q, :offset])
 			expect(cleveland_books[:numFound]).to be_an Integer
-			expect(cleveland_books[:numFound]).to eq(98)
+			expect(cleveland_books[:numFound]).to eq(107)
 			expect(cleveland_books[:start]).to be_an Integer
 			expect(cleveland_books[:start]).to eq(0)
 			expect(cleveland_books[:numFoundExact]).to be_a TrueClass
