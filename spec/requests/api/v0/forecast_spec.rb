@@ -5,9 +5,7 @@ RSpec.describe "Forecast for city", :vcr, type: :request do
 		it "retrieves weather for a city" do
 			location = "cincinnati,ohio"
 			air_quality = false
-			get "/api/v0/forecast",
-				headers: { "Content-Type": "application/json"},
-				params: { q: location, aqi: air_quality }
+			get "/api/v0/forecast", headers: { "Content-Type": "application/json"}, params: { q: location, aqi: air_quality }
 
 			parsed_response = JSON.parse(response.body, symbolize_names: true)
 
