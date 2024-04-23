@@ -1,4 +1,6 @@
 class WeatherFacade
+	attr_reader :service, :location, :air_quality
+	
 	def initialize(search_params)
 		@service = WeatherService.new
 		@location = search_params[:q]
