@@ -15,6 +15,26 @@ RSpec.describe "Forecast for city", :vcr, type: :request do
 			expect(parsed_response[:data][:id]).to eq("null")
 			expect(parsed_response[:data][:type]).to eq("forecast")
 			expect(parsed_response[:data][:attributes]).to be_a Hash
+			expect(parsed_response[:data][:attributes].keys).to match_array([:id, :current_weather, :location])
+			expect(parsed_response[:data][:attributes][:id]).to eq("null")
+			expect(parsed_response[:data][:attributes][:location]).to be_a Hash
+			expect(parsed_response[:data][:attributes][:location]).to eq({name: "Cincinnati", country: "United States of America"})
+			expect(parsed_response[:data][:attributes][:location][:name]).to be_a String
+			expect(parsed_response[:data][:attributes][:location][:country]).to be_a String
+			expect(parsed_response[:data][:attributes][:current_weather]).to be_a Hash
+			expect(parsed_response[:data][:attributes][:current_weather].keys).to match_array(
+				[:last_updated, :temperature, :feels_like, :humidity, :uvi, :visibility, :condition]
+			)
+			expect(parsed_response[:data][:attributes][:current_weather][:last_updated]).to be_a String
+			expect(parsed_response[:data][:attributes][:current_weather][:temperature]).to be_a Float
+			expect(parsed_response[:data][:attributes][:current_weather][:feels_like]).to be_nil.or be_a Float
+			expect(parsed_response[:data][:attributes][:current_weather][:humidity]).to be_an Integer
+			expect(parsed_response[:data][:attributes][:current_weather][:uvi]).to be_a Float
+			expect(parsed_response[:data][:attributes][:current_weather][:visibility]).to be_a Float
+			expect(parsed_response[:data][:attributes][:current_weather][:condition]).to be_a Hash
+			expect(parsed_response[:data][:attributes][:current_weather][:condition].keys).to match_array([:text, :icon])
+			expect(parsed_response[:data][:attributes][:current_weather][:condition][:text]).to be_a String
+			expect(parsed_response[:data][:attributes][:current_weather][:condition][:icon]).to be_a String
 		end
 	end
 end 
