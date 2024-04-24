@@ -8,7 +8,6 @@ class Api::V0::WeatherController < ApplicationController
 	def forecast
 		facade = WeatherFacade.new(q: params[:q], aqi: params[:aqi])
 		forecast = facade.forecast
-
 		render json: WeatherSerializer.new(forecast)
 	end
 end
