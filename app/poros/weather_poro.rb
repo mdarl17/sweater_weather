@@ -2,13 +2,14 @@
 
 class WeatherPoro
 	attr_reader :id, :type, :location, :current, :daily_weather, :hourly_weather
-
 	include ApplicationHelper
 	
 	def initialize(attrs)
 		@id = "null"
 		@type = "forecast"
 		@location = {
+			lat: attrs[:geocoding].latlon[:lat],
+			lon: attrs[:geocoding].latlon[:lng],
 			city: attrs[:location][:name],
 			state: get_state_code(attrs[:location][:region]),
 			country: attrs[:location][:country].include?("United States") ? 

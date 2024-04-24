@@ -8,7 +8,8 @@ class WeatherFacade
 	end
 
 	def weather
-		WeatherPoro.new(location: current_weather[:location], current: current_weather[:current], hourly: hourly_weather, daily: daily_weather)
+		geo_data = LocationsFacade.new(@location).lat_lon
+		WeatherPoro.new(geocoding: geo_data, location: current_weather[:location], current: current_weather[:current], hourly: hourly_weather, daily: daily_weather)
 	end
 
 	def current_weather

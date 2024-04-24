@@ -10,7 +10,7 @@ RSpec.describe "Forecast for city", :vcr, type: :request do
 					params: { q: location, days: days }
 
 			parsed_response = JSON.parse(response.body, symbolize_names: true)
-
+			
 			expect(response).to have_http_status(200)
 			expect(parsed_response).to have_key(:data)
 			expect(parsed_response[:data].keys).to match_array([:id, :type, :attributes])
@@ -20,7 +20,7 @@ RSpec.describe "Forecast for city", :vcr, type: :request do
 			expect(parsed_response[:data][:attributes].keys).to match_array([:id, :type, :location, :current, :daily_weather, :hourly_weather])
 			expect(parsed_response[:data][:attributes][:id]).to eq("null")
 			expect(parsed_response[:data][:attributes][:location]).to be_a Hash
-			expect(parsed_response[:data][:attributes][:location]).to eq({city: "Cincinnati", state: "OH", country: "United States"})
+			expect(parsed_response[:data][:attributes][:location]).to eq({city: "Cincinnati", state: "OH", country: "United States", lat:  39.10713, lon: -84.50413 })
 			expect(parsed_response[:data][:attributes][:location][:city]).to be_a String
 			expect(parsed_response[:data][:attributes][:location][:state]).to be_a String
 			expect(parsed_response[:data][:attributes][:location][:country]).to be_a String

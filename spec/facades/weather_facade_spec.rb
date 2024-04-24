@@ -21,7 +21,7 @@ RSpec.describe WeatherFacade, :vcr, type: :facade do
 			expect(@facade.weather.instance_variables).to match_array([:@current, :@daily_weather, :@hourly_weather, :@id, :@location, :@type])
 			expect(@facade.weather.id).to eq("null")
 			expect(@facade.weather.type).to eq("forecast")
-			expect(@facade.weather.location.keys).to match_array([:city, :state, :country])
+			expect(@facade.weather.location.keys).to match_array([:city, :lat, :lon, :state, :country])
 			expect(@facade.weather.location[:city]).to be_a String
 			expect(@facade.weather.location[:state]).to be_a String
 			expect(@facade.weather.location[:country]).to be_a String
