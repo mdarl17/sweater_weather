@@ -1,19 +1,23 @@
 class WeatherPoro
-	attr_reader :id, :type, :current_weather
+	attr_reader :id, :type, :location, :current_weather
 	
-	def initialize(attributes)
+	def initialize(location_attrs, current_attrs)
 		@id = "null"
 		@type = "forecast"
+		@location = {
+			name: location_attrs[:name],
+			country: location_attrs[:country]
+		}
 		@current_weather = {
-			last_updated: attributes[:last_updated],
-			temperature: attributes[:temp_f],
-			feels_like: attributes[:feels_like_f],
-			humidity: attributes[:humidity],
-			uvi: attributes[:uv],
-			visibility: attributes[:vis_miles],
+			last_updated: current_attrs[:last_updated],
+			temperature: current_attrs[:temp_f],
+			feels_like: current_attrs[:feels_like_f],
+			humidity: current_attrs[:humidity],
+			uvi: current_attrs[:uv],
+			visibility: current_attrs[:vis_miles],
 			condition: {
-				text: attributes[:condition][:text],
-				icon: attributes[:condition][:icon]
+				text: current_attrs[:condition][:text],
+				icon: current_attrs[:condition][:icon]
 			}
 		}
 	end
