@@ -71,4 +71,75 @@ http_interactions:
         21:15"},"current":{"last_updated_epoch":1713932100,"last_updated":"2024-04-23
         21:15","temp_c":15.0,"temp_f":59.0,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.2,"wind_kph":3.6,"wind_degree":10,"wind_dir":"N","pressure_mb":1017.0,"pressure_in":30.03,"precip_mm":0.0,"precip_in":0.0,"humidity":67,"cloud":0,"feelslike_c":14.5,"feelslike_f":58.0,"vis_km":16.0,"vis_miles":9.0,"uv":1.0,"gust_mph":8.3,"gust_kph":13.4}}'
   recorded_at: Wed, 24 Apr 2024 04:17:28 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?key=wapi_key&q=los%20angeles,%20ca
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 24 Apr 2024 11:06:08 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1067
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999848'
+      X-Varnish:
+      - '50492523'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/24/2024 11:06:08
+      Cdn-Edgestorageid:
+      - '1029'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 899190bd9f908780867607f18216b27a
+      Cdn-Cache:
+      - MISS
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Los Angeles","region":"California","country":"United
+        States of America","lat":34.05,"lon":-118.24,"tz_id":"America/Los_Angeles","localtime_epoch":1713956645,"localtime":"2024-04-24
+        4:04"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
+        04:00","temp_c":15.0,"temp_f":59.0,"is_day":0,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009},"wind_mph":3.8,"wind_kph":6.1,"wind_degree":190,"wind_dir":"S","pressure_mb":1017.0,"pressure_in":30.04,"precip_mm":0.0,"precip_in":0.0,"humidity":72,"cloud":100,"feelslike_c":15.4,"feelslike_f":59.8,"vis_km":16.0,"vis_miles":9.0,"uv":1.0,"gust_mph":4.1,"gust_kph":6.6}}'
+  recorded_at: Wed, 24 Apr 2024 11:06:08 GMT
 recorded_with: VCR 6.2.0

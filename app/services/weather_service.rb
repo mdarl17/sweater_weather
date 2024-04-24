@@ -1,24 +1,41 @@
 class WeatherService
-	def get_forecast(weather_params)
-		get_url("/v1/current.json", weather_params[:location], weather_params[:air_quality])
-	end
-
-	def get_url(url, location, air_quality)
-		response = conn.get(url) do |f|
+	def get_current_data(location)
+		response = conn.get("/v1/current.json") do |f|
 			f.params[:q] = location
-			f.params[:aqi] = air_quality
-			f.params[:key] = Rails.application.credentials.open_weather[:api_key]
 		end
 		JSON.parse(response.body, symbolize_names: true)
-	end 	
+	end
+
+	def get_daily_data(location, days)
+		response = conn.get("/v1/forecast.json") do |f|
+			f.params[:q] = location
+			f.params[:days] = days
+			f.params[:tp] = 24
+		end
+		JSON.parse(response.body, symbolize_names: true)[:forecast][:forecastday]
+	end
+
+	def get_hourly_data(location)
+		result = []
+		24.times do |n|
+			response = conn.get("/v1/forecast.json") do |f|
+				f.params[:q] = location
+				f.params[:hour] = n
+				f.params[:days] = 1
+			end
+			parsed = JSON.parse(response.body, symbolize_names: true)
+			result << parsed[:forecast][:forecastday].first[:hour].first
+		end
+		result
+	end
 
 	def conn
-		Faraday.new(
-			url: "https://api.weatherapi.com",
-			headers: {
+		Faraday.new(url: "https://api.weatherapi.com") do |f|
+			f.headers = {
 				"Content-Type": "application/json",
 				"Accept": "application/json"
 			}
-		)
+			f.params[:key] = Rails.application.credentials.open_weather[:api_key]
+		end
 	end
 end

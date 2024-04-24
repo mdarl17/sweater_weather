@@ -8,8 +8,8 @@ RSpec.describe "Weather Service", :vcr, type: :service do
 	describe "#get_forecast" do 
 		it "returns current weather data for a given location" do
 			location = "los angeles, ca"
-			aqi = false
-			weather_data = @service.get_forecast(location: location, air_quality: aqi)
+			weather_data = @service.get_current_data(location)
+
 			expect(weather_data).to be_a Hash
 			expect(weather_data.keys).to match_array([:location, :current])
 			expect(weather_data[:location]).to be_a Hash

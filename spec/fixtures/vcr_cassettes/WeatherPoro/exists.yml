@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/current.json?aqi=false&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/current.json?key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 23 Apr 2024 20:23:44 GMT
+      - Wed, 24 Apr 2024 12:05:06 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -31,78 +31,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999956'
-      X-Varnish:
-      - '51684492'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/23/2024 20:23:44
-      Cdn-Edgestorageid:
-      - '1070'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 2140c9ee0c290b3eaf8e85aaca5dd694
-      Cdn-Cache:
-      - EXPIRED
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713903702,"localtime":"2024-04-23
-        16:21"},"current":{"last_updated_epoch":1713903300,"last_updated":"2024-04-23
-        16:15","temp_c":12.2,"temp_f":54.0,"is_day":1,"condition":{"text":"Light rain","icon":"//cdn.weatherapi.com/weather/64x64/day/296.png","code":1183},"wind_mph":15.0,"wind_kph":24.1,"wind_degree":240,"wind_dir":"WSW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.8,"precip_in":0.03,"humidity":72,"cloud":100,"feelslike_c":10.2,"feelslike_f":50.4,"vis_km":13.0,"vis_miles":8.0,"uv":3.0,"gust_mph":19.2,"gust_kph":30.9}}'
-  recorded_at: Tue, 23 Apr 2024 20:23:44 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/current.json?key=wapi_key&q=cleveland,oh
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 11:13:32 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -118,7 +47,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '51099802'
+      - '62201028'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -126,25 +55,26 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:12:53
+      - 04/24/2024 12:05:06
       Cdn-Edgestorageid:
-      - '1068'
+      - '845'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - e7ec358a347a53268c46aff0a5b7fc56
+      - 50bb706058c9668e0b22384f1470a712
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957051,"localtime":"2024-04-24
-        7:10"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:32 GMT
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960183,"localtime":"2024-04-24
+        8:03"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4}}'
+  recorded_at: Wed, 24 Apr 2024 12:05:06 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/current.json?key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/current.json?key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -163,7 +93,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:33 GMT
+      - Wed, 24 Apr 2024 12:05:06 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -173,7 +103,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -189,7 +119,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '51099802'
+      - '54024432'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -197,25 +127,26 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:12:53
+      - 04/24/2024 12:05:06
       Cdn-Edgestorageid:
-      - '1068'
+      - '845'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - d01cac38d17e4f936f8558ff9f9de9a3
+      - 3b4435477959de6b49f21007f1b59dc5
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957051,"localtime":"2024-04-24
-        7:10"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:33 GMT
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960183,"localtime":"2024-04-24
+        8:03"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4}}'
+  recorded_at: Wed, 24 Apr 2024 12:05:06 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=0&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=0&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -234,7 +165,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:33 GMT
+      - Wed, 24 Apr 2024 12:05:06 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -244,7 +175,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -260,7 +191,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '61594968'
+      - '61838961'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -268,29 +199,30 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:12:54
+      - 04/24/2024 12:05:06
       Cdn-Edgestorageid:
-      - '894'
+      - '718'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - adb5b08a653bbab21aa56cb099eb9a6a
+      - a684a3e2638eb43e85c04eaf4b36f64c
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957174,"localtime":"2024-04-24
-        7:12"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960306,"localtime":"2024-04-24
+        8:05"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713931200,"time":"2024-04-24
         00:00","temp_c":8.5,"temp_f":47.2,"is_day":0,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030},"wind_mph":6.5,"wind_kph":10.4,"wind_degree":226,"wind_dir":"SW","pressure_mb":1010.0,"pressure_in":29.83,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":94,"cloud":23,"feelslike_c":6.4,"feelslike_f":43.5,"windchill_c":6.4,"windchill_f":43.5,"heatindex_c":8.4,"heatindex_f":47.2,"dewpoint_c":7.8,"dewpoint_f":46.1,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":2.0,"vis_miles":1.0,"gust_mph":10.5,"gust_kph":16.8,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:33 GMT
+  recorded_at: Wed, 24 Apr 2024 12:05:06 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=1&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=1&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -309,7 +241,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:33 GMT
+      - Wed, 24 Apr 2024 12:05:07 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -319,7 +251,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -335,7 +267,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '32269717'
+      - '59035221'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -343,29 +275,30 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:12:55
+      - 04/24/2024 12:05:07
       Cdn-Edgestorageid:
-      - '1069'
+      - '845'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 13e1f25fba2b1011b75c79077c1f950f
+      - d5835d62c226a9b06621cd73d7e7dade
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957051,"localtime":"2024-04-24
-        7:10"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960184,"localtime":"2024-04-24
+        8:03"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713934800,"time":"2024-04-24
         01:00","temp_c":8.1,"temp_f":46.6,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":8.5,"wind_kph":13.7,"wind_degree":221,"wind_dir":"SW","pressure_mb":1010.0,"pressure_in":29.83,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":93,"cloud":15,"feelslike_c":5.8,"feelslike_f":42.4,"windchill_c":5.8,"windchill_f":42.4,"heatindex_c":8.1,"heatindex_f":46.6,"dewpoint_c":7.0,"dewpoint_f":44.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":15.1,"gust_kph":24.3,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:33 GMT
+  recorded_at: Wed, 24 Apr 2024 12:05:07 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=2&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=2&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -384,7 +317,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:33 GMT
+      - Wed, 24 Apr 2024 12:05:07 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -394,7 +327,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -410,7 +343,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '38238599'
+      - '59035223'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -418,30 +351,31 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:12:55
+      - 04/24/2024 12:05:07
       Cdn-Edgestorageid:
-      - '894'
+      - '940'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - d0f6a9d9229e8012236e97496d780821
+      - 322e540db47cf05c2a9416401840784e
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957051,"localtime":"2024-04-24
-        7:10"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960185,"localtime":"2024-04-24
+        8:03"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713938400,"time":"2024-04-24
         02:00","temp_c":8.1,"temp_f":46.5,"is_day":0,"condition":{"text":"Partly Cloudy
         ","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":232,"wind_dir":"SW","pressure_mb":1010.0,"pressure_in":29.83,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":93,"cloud":34,"feelslike_c":5.5,"feelslike_f":42.0,"windchill_c":5.5,"windchill_f":42.0,"heatindex_c":8.1,"heatindex_f":46.5,"dewpoint_c":6.8,"dewpoint_f":44.2,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":16.8,"gust_kph":27.0,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:33 GMT
+  recorded_at: Wed, 24 Apr 2024 12:05:07 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=3&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=3&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -460,7 +394,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:34 GMT
+      - Wed, 24 Apr 2024 12:05:08 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -470,7 +404,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -486,7 +420,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '61594984'
+      - '5589035'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -494,29 +428,30 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:12:55
+      - 04/24/2024 12:05:08
       Cdn-Edgestorageid:
-      - '1070'
+      - '1067'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 66771605a1c30ce3424152860ba6a09b
+      - f9e9d2f4c37f19b10d4faf920754aed9
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957052,"localtime":"2024-04-24
-        7:10"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960198,"localtime":"2024-04-24
+        8:03"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713942000,"time":"2024-04-24
         03:00","temp_c":8.1,"temp_f":46.6,"is_day":0,"condition":{"text":"Light drizzle","icon":"//cdn.weatherapi.com/weather/64x64/night/266.png","code":1153},"wind_mph":10.1,"wind_kph":16.2,"wind_degree":231,"wind_dir":"SW","pressure_mb":1010.0,"pressure_in":29.83,"precip_mm":0.31,"precip_in":0.01,"snow_cm":0.0,"humidity":94,"cloud":100,"feelslike_c":5.3,"feelslike_f":41.6,"windchill_c":5.3,"windchill_f":41.6,"heatindex_c":8.1,"heatindex_f":46.6,"dewpoint_c":7.1,"dewpoint_f":44.8,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":2.0,"vis_miles":1.0,"gust_mph":17.3,"gust_kph":27.8,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:34 GMT
+  recorded_at: Wed, 24 Apr 2024 12:05:08 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=4&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=4&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -535,7 +470,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:34 GMT
+      - Wed, 24 Apr 2024 12:05:08 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -545,7 +480,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -561,7 +496,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '48394127'
+      - '64669609'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -569,30 +504,31 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:12:55
+      - 04/24/2024 12:05:08
       Cdn-Edgestorageid:
       - '1069'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - c759d5fbab4f54110b92b9bb41a833a5
+      - 133273358abb7f137bcdcabd43bb4433
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957053,"localtime":"2024-04-24
-        7:10"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960185,"localtime":"2024-04-24
+        8:03"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713945600,"time":"2024-04-24
         04:00","temp_c":8.2,"temp_f":46.8,"is_day":0,"condition":{"text":"Light rain
         shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png","code":1240},"wind_mph":12.1,"wind_kph":19.4,"wind_degree":248,"wind_dir":"WSW","pressure_mb":1011.0,"pressure_in":29.84,"precip_mm":0.43,"precip_in":0.02,"snow_cm":0.0,"humidity":95,"cloud":100,"feelslike_c":5.3,"feelslike_f":41.5,"windchill_c":5.3,"windchill_f":41.5,"heatindex_c":8.2,"heatindex_f":46.8,"dewpoint_c":7.4,"dewpoint_f":45.3,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":19.0,"gust_kph":30.6,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:34 GMT
+  recorded_at: Wed, 24 Apr 2024 12:05:08 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=5&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=5&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -611,7 +547,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:34 GMT
+      - Wed, 24 Apr 2024 12:05:09 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -621,7 +557,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -637,7 +573,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '41744433'
+      - '55937823'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -645,30 +581,31 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:12:56
+      - 04/24/2024 12:05:09
       Cdn-Edgestorageid:
-      - '1070'
+      - '845'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - cfef0dc8009c8479ad7a8ae81dda1c7b
+      - 7b6edac39bdcafb9a4b2bc0da7ccf471
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957183,"localtime":"2024-04-24
-        7:13"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960186,"localtime":"2024-04-24
+        8:03"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713949200,"time":"2024-04-24
         05:00","temp_c":8.1,"temp_f":46.5,"is_day":0,"condition":{"text":"Overcast
         ","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":255,"wind_dir":"WSW","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":94,"cloud":97,"feelslike_c":4.8,"feelslike_f":40.7,"windchill_c":4.8,"windchill_f":40.7,"heatindex_c":8.1,"heatindex_f":46.5,"dewpoint_c":7.4,"dewpoint_f":45.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":19.0,"gust_kph":30.6,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:34 GMT
+  recorded_at: Wed, 24 Apr 2024 12:05:09 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=6&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=6&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -687,7 +624,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:34 GMT
+      - Wed, 24 Apr 2024 12:05:09 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -697,7 +634,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -713,7 +650,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '46196137'
+      - '49637427'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -721,30 +658,31 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:12:56
+      - 04/24/2024 12:05:09
       Cdn-Edgestorageid:
-      - '941'
+      - '894'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - a2fd8d25bdf24b898b5614d18abc8260
+      - 89fcd1fa4ed4945073354ef7b3e51f3d
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957053,"localtime":"2024-04-24
-        7:10"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960186,"localtime":"2024-04-24
+        8:03"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713952800,"time":"2024-04-24
         06:00","temp_c":7.9,"temp_f":46.3,"is_day":0,"condition":{"text":"Overcast
         ","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009},"wind_mph":14.8,"wind_kph":23.8,"wind_degree":272,"wind_dir":"W","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":95,"cloud":100,"feelslike_c":4.6,"feelslike_f":40.2,"windchill_c":4.6,"windchill_f":40.2,"heatindex_c":7.9,"heatindex_f":46.3,"dewpoint_c":7.1,"dewpoint_f":44.8,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":22.3,"gust_kph":35.9,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:34 GMT
+  recorded_at: Wed, 24 Apr 2024 12:05:09 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=7&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=7&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -763,7 +701,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:35 GMT
+      - Wed, 24 Apr 2024 12:05:09 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -773,7 +711,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -789,7 +727,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '45936950'
+      - '50855816'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -797,29 +735,31 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:12:57
+      - 04/24/2024 12:05:09
       Cdn-Edgestorageid:
-      - '1068'
+      - '940'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 2ec8b9ca9bd6431171114ff2b6443a04
+      - 114aea06a49a5780f593a2a1e4708f2f
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957053,"localtime":"2024-04-24
-        7:10"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960186,"localtime":"2024-04-24
+        8:03"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713956400,"time":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"snow_cm":0.0,"humidity":86,"cloud":100,"feelslike_c":4.1,"feelslike_f":39.3,"windchill_c":4.1,"windchill_f":39.3,"heatindex_c":7.5,"heatindex_f":45.6,"dewpoint_c":6.6,"dewpoint_f":43.9,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":16.0,"vis_miles":9.0,"gust_mph":20.8,"gust_kph":33.4,"uv":2.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:35 GMT
+        07:00","temp_c":7.5,"temp_f":45.6,"is_day":1,"condition":{"text":"Patchy rain
+        nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"wind_mph":14.1,"wind_kph":22.7,"wind_degree":296,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.92,"precip_mm":0.07,"precip_in":0.0,"snow_cm":0.0,"humidity":92,"cloud":100,"feelslike_c":4.1,"feelslike_f":39.3,"windchill_c":4.1,"windchill_f":39.3,"heatindex_c":7.5,"heatindex_f":45.6,"dewpoint_c":6.6,"dewpoint_f":43.9,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":20.8,"gust_kph":33.4,"uv":2.0}]}]}}'
+  recorded_at: Wed, 24 Apr 2024 12:05:09 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=8&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=8&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -838,7 +778,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:35 GMT
+      - Wed, 24 Apr 2024 12:05:10 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -848,7 +788,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -864,7 +804,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '46060700'
+      - '42157052'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -872,30 +812,31 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:12:57
+      - 04/24/2024 12:05:10
       Cdn-Edgestorageid:
       - '941'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 9a63afc284c91476b7bfca941c4fb272
+      - 96095102431691e4a6894375b23b6402
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957067,"localtime":"2024-04-24
-        7:11"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960310,"localtime":"2024-04-24
+        8:05"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713960000,"time":"2024-04-24
-        08:00","temp_c":7.0,"temp_f":44.6,"is_day":1,"condition":{"text":"Patchy rain
-        nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"wind_mph":13.6,"wind_kph":22.0,"wind_degree":302,"wind_dir":"WNW","pressure_mb":1015.0,"pressure_in":29.96,"precip_mm":0.06,"precip_in":0.0,"snow_cm":0.0,"humidity":92,"cloud":100,"feelslike_c":3.2,"feelslike_f":37.8,"windchill_c":3.2,"windchill_f":37.8,"heatindex_c":7.0,"heatindex_f":44.6,"dewpoint_c":5.9,"dewpoint_f":42.6,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":18.3,"gust_kph":29.4,"uv":2.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:35 GMT
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"snow_cm":0.0,"humidity":83,"cloud":75,"feelslike_c":3.2,"feelslike_f":37.8,"windchill_c":3.2,"windchill_f":37.8,"heatindex_c":7.0,"heatindex_f":44.6,"dewpoint_c":5.9,"dewpoint_f":42.6,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":16.0,"vis_miles":9.0,"gust_mph":18.3,"gust_kph":29.4,"uv":2.0}]}]}}'
+  recorded_at: Wed, 24 Apr 2024 12:05:10 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=9&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=9&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -914,7 +855,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:35 GMT
+      - Wed, 24 Apr 2024 12:05:10 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -924,7 +865,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -940,7 +881,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '56508767'
+      - '57573985'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -948,30 +889,31 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:12:57
+      - 04/24/2024 12:05:10
       Cdn-Edgestorageid:
-      - '1068'
+      - '894'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - cd0f02bd4cae96e744fa0bd4f6843f8b
+      - dc8c8b6f4cab11d9789eeca4a09ca4bc
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957054,"localtime":"2024-04-24
-        7:10"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960188,"localtime":"2024-04-24
+        8:03"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713963600,"time":"2024-04-24
         09:00","temp_c":6.4,"temp_f":43.5,"is_day":1,"condition":{"text":"Patchy rain
         nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"wind_mph":15.9,"wind_kph":25.6,"wind_degree":312,"wind_dir":"NW","pressure_mb":1016.0,"pressure_in":30.01,"precip_mm":0.1,"precip_in":0.0,"snow_cm":0.0,"humidity":94,"cloud":100,"feelslike_c":2.3,"feelslike_f":36.2,"windchill_c":2.3,"windchill_f":36.2,"heatindex_c":6.4,"heatindex_f":43.5,"dewpoint_c":5.6,"dewpoint_f":42.1,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":20.6,"gust_kph":33.2,"uv":2.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:35 GMT
+  recorded_at: Wed, 24 Apr 2024 12:05:10 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=10&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=10&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -990,7 +932,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:35 GMT
+      - Wed, 24 Apr 2024 12:05:11 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1000,7 +942,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -1016,7 +958,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '57148689'
+      - '55166163'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -1024,29 +966,30 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:12:58
+      - 04/24/2024 12:05:11
       Cdn-Edgestorageid:
-      - '1029'
+      - '1070'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 869e518271cd040e9dc67995e9f2744a
+      - '082de9bf4dfae8994bda6c8fc1acf4c9'
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957178,"localtime":"2024-04-24
-        7:12"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":9.6,"temp_f":49.3,"is_day":1,"condition":{"text":"Light rain","icon":"//cdn.weatherapi.com/weather/64x64/day/296.png","code":1183},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":270,"wind_dir":"W","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.07,"precip_in":0.0,"humidity":95,"cloud":100,"feelslike_c":6.6,"feelslike_f":43.9,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960310,"localtime":"2024-04-24
+        8:05"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713967200,"time":"2024-04-24
         10:00","temp_c":5.7,"temp_f":42.3,"is_day":1,"condition":{"text":"Light drizzle","icon":"//cdn.weatherapi.com/weather/64x64/day/266.png","code":1153},"wind_mph":16.1,"wind_kph":25.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1017.0,"pressure_in":30.05,"precip_mm":0.16,"precip_in":0.01,"snow_cm":0.0,"humidity":94,"cloud":100,"feelslike_c":1.4,"feelslike_f":34.6,"windchill_c":1.4,"windchill_f":34.6,"heatindex_c":5.7,"heatindex_f":42.3,"dewpoint_c":4.8,"dewpoint_f":40.7,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":2.0,"vis_miles":1.0,"gust_mph":20.7,"gust_kph":33.3,"uv":2.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:35 GMT
+  recorded_at: Wed, 24 Apr 2024 12:05:10 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=11&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=11&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -1065,7 +1008,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:36 GMT
+      - Wed, 24 Apr 2024 12:05:11 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1075,7 +1018,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -1091,7 +1034,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '63215093'
+      - '61133684'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -1099,29 +1042,30 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:12:58
+      - 04/24/2024 12:05:11
       Cdn-Edgestorageid:
-      - '940'
+      - '1029'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 2a77c28c34ff53e2a11f7d03502e501d
+      - 0e2616cd9319b8b59f2606eee1467084
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957185,"localtime":"2024-04-24
-        7:13"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960188,"localtime":"2024-04-24
+        8:03"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713970800,"time":"2024-04-24
         11:00","temp_c":5.1,"temp_f":41.2,"is_day":1,"condition":{"text":"Light drizzle","icon":"//cdn.weatherapi.com/weather/64x64/day/266.png","code":1153},"wind_mph":15.9,"wind_kph":25.6,"wind_degree":345,"wind_dir":"NNW","pressure_mb":1019.0,"pressure_in":30.09,"precip_mm":0.16,"precip_in":0.01,"snow_cm":0.0,"humidity":91,"cloud":100,"feelslike_c":0.7,"feelslike_f":33.3,"windchill_c":0.7,"windchill_f":33.3,"heatindex_c":5.1,"heatindex_f":41.2,"dewpoint_c":3.8,"dewpoint_f":38.8,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":2.0,"vis_miles":1.0,"gust_mph":19.9,"gust_kph":32.0,"uv":2.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:36 GMT
+  recorded_at: Wed, 24 Apr 2024 12:05:11 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=12&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=12&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -1140,7 +1084,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:36 GMT
+      - Wed, 24 Apr 2024 12:05:11 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1150,7 +1094,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -1166,7 +1110,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '64848986'
+      - '50396409'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -1174,30 +1118,31 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:12:58
+      - 04/24/2024 12:05:11
       Cdn-Edgestorageid:
-      - '871'
+      - '1069'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 4d136d5e903e7fc3293e6fab6c3a99b0
+      - e7113c30326f30dd4aba6346606bd318
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957149,"localtime":"2024-04-24
-        7:12"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960311,"localtime":"2024-04-24
+        8:05"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713974400,"time":"2024-04-24
         12:00","temp_c":4.6,"temp_f":40.3,"is_day":1,"condition":{"text":"Light rain
         shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png","code":1240},"wind_mph":14.8,"wind_kph":23.8,"wind_degree":348,"wind_dir":"NNW","pressure_mb":1020.0,"pressure_in":30.13,"precip_mm":0.18,"precip_in":0.01,"snow_cm":0.0,"humidity":90,"cloud":100,"feelslike_c":0.2,"feelslike_f":32.4,"windchill_c":0.2,"windchill_f":32.4,"heatindex_c":4.6,"heatindex_f":40.3,"dewpoint_c":3.0,"dewpoint_f":37.5,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":18.7,"gust_kph":30.0,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:36 GMT
+  recorded_at: Wed, 24 Apr 2024 12:05:11 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=13&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=13&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -1216,7 +1161,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:36 GMT
+      - Wed, 24 Apr 2024 12:05:12 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1226,7 +1171,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -1242,7 +1187,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '48747550'
+      - '57573997'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -1250,29 +1195,30 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:12:59
+      - 04/24/2024 12:05:12
       Cdn-Edgestorageid:
-      - '1069'
+      - '941'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 619e6199094a4ac5508c9e248e6eb492
+      - ae1b5e42961ed0979b140621cca4674d
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957179,"localtime":"2024-04-24
-        7:12"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960324,"localtime":"2024-04-24
+        8:05"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713978000,"time":"2024-04-24
         13:00","temp_c":4.1,"temp_f":39.4,"is_day":1,"condition":{"text":"Light drizzle","icon":"//cdn.weatherapi.com/weather/64x64/day/266.png","code":1153},"wind_mph":13.9,"wind_kph":22.3,"wind_degree":348,"wind_dir":"NNW","pressure_mb":1021.0,"pressure_in":30.16,"precip_mm":0.24,"precip_in":0.01,"snow_cm":0.0,"humidity":89,"cloud":100,"feelslike_c":-0.2,"feelslike_f":31.6,"windchill_c":-0.2,"windchill_f":31.6,"heatindex_c":4.1,"heatindex_f":39.4,"dewpoint_c":2.4,"dewpoint_f":36.4,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":2.0,"vis_miles":1.0,"gust_mph":17.1,"gust_kph":27.5,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:36 GMT
+  recorded_at: Wed, 24 Apr 2024 12:05:12 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=14&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=14&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -1291,7 +1237,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:36 GMT
+      - Wed, 24 Apr 2024 12:05:12 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1301,7 +1247,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -1317,7 +1263,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '56560245'
+      - '61413691'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -1325,30 +1271,31 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:10:37
+      - 04/24/2024 12:05:12
       Cdn-Edgestorageid:
-      - '845'
+      - '1070'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 6788f99f2233ab1d9952879c2904746f
+      - 6f7d5bb5532afea6929872e41ba911b0
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713956915,"localtime":"2024-04-24
-        7:08"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960189,"localtime":"2024-04-24
+        8:03"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713981600,"time":"2024-04-24
         14:00","temp_c":4.0,"temp_f":39.1,"is_day":1,"condition":{"text":"Light sleet
         showers","icon":"//cdn.weatherapi.com/weather/64x64/day/362.png","code":1249},"wind_mph":12.3,"wind_kph":19.8,"wind_degree":351,"wind_dir":"N","pressure_mb":1022.0,"pressure_in":30.18,"precip_mm":0.16,"precip_in":0.01,"snow_cm":0.0,"humidity":93,"cloud":100,"feelslike_c":-0.1,"feelslike_f":31.8,"windchill_c":-0.1,"windchill_f":31.8,"heatindex_c":4.0,"heatindex_f":39.1,"dewpoint_c":2.6,"dewpoint_f":36.7,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":15.3,"gust_kph":24.6,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:36 GMT
+  recorded_at: Wed, 24 Apr 2024 12:05:12 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=15&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=15&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -1367,7 +1314,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:36 GMT
+      - Wed, 24 Apr 2024 12:05:12 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1377,7 +1324,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -1393,7 +1340,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '55384742'
+      - '54017076'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -1401,257 +1348,31 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:13:00
-      Cdn-Edgestorageid:
-      - '871'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 5eefacdd9260018ca6e8d12ded8f8b19
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957070,"localtime":"2024-04-24
-        7:11"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
-        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
-        AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713985200,"time":"2024-04-24
-        15:00","temp_c":4.0,"temp_f":39.2,"is_day":1,"condition":{"text":"Patchy rain
-        nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":339,"wind_dir":"NNW","pressure_mb":1023.0,"pressure_in":30.2,"precip_mm":0.11,"precip_in":0.0,"snow_cm":0.0,"humidity":96,"cloud":100,"feelslike_c":0.0,"feelslike_f":32.1,"windchill_c":0.0,"windchill_f":32.1,"heatindex_c":4.0,"heatindex_f":39.2,"dewpoint_c":3.2,"dewpoint_f":37.8,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":13.2,"gust_kph":21.2,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:37 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=16&key=wapi_key&q=cleveland,oh
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 11:13:37 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1068
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '366'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999848'
-      X-Varnish:
-      - 55261996 63388838
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 11:13:00
-      Cdn-Edgestorageid:
-      - '940'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 5cd9ef14e4b466ebf7deb3c74bdb46b1
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713956826,"localtime":"2024-04-24
-        7:07"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
-        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
-        AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713988800,"time":"2024-04-24
-        16:00","temp_c":4.6,"temp_f":40.2,"is_day":1,"condition":{"text":"Patchy rain
-        nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"wind_mph":10.7,"wind_kph":17.3,"wind_degree":328,"wind_dir":"NNW","pressure_mb":1023.0,"pressure_in":30.2,"precip_mm":0.03,"precip_in":0.0,"snow_cm":0.0,"humidity":93,"cloud":100,"feelslike_c":0.9,"feelslike_f":33.6,"windchill_c":0.9,"windchill_f":33.6,"heatindex_c":4.6,"heatindex_f":40.2,"dewpoint_c":3.1,"dewpoint_f":37.5,"will_it_rain":1,"chance_of_rain":71,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":13.8,"gust_kph":22.2,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:37 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=17&key=wapi_key&q=cleveland,oh
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 11:13:37 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1068
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999810'
-      X-Varnish:
-      - '22221988'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 11:13:00
-      Cdn-Edgestorageid:
-      - '940'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - bfdd48e527a317fafe27a0258ce79a2d
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957187,"localtime":"2024-04-24
-        7:13"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
-        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
-        AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713992400,"time":"2024-04-24
-        17:00","temp_c":5.1,"temp_f":41.2,"is_day":1,"condition":{"text":"Overcast
-        ","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":10.1,"wind_kph":16.2,"wind_degree":319,"wind_dir":"NW","pressure_mb":1023.0,"pressure_in":30.21,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":78,"cloud":96,"feelslike_c":1.5,"feelslike_f":34.8,"windchill_c":1.5,"windchill_f":34.8,"heatindex_c":5.1,"heatindex_f":41.2,"dewpoint_c":1.7,"dewpoint_f":35.0,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":13.0,"gust_kph":21.0,"uv":2.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:37 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=18&key=wapi_key&q=cleveland,oh
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 11:13:37 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1068
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999810'
-      X-Varnish:
-      - '64392357'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 11:13:00
+      - 04/24/2024 12:05:12
       Cdn-Edgestorageid:
       - '1069'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 37003d92b0fa34f938b0f07fcd559ee8
+      - b092ffc8c030ab54cf7363f5a4e7eb3f
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957071,"localtime":"2024-04-24
-        7:11"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960203,"localtime":"2024-04-24
+        8:03"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713996000,"time":"2024-04-24
-        18:00","temp_c":5.4,"temp_f":41.7,"is_day":1,"condition":{"text":"Cloudy ","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png","code":1006},"wind_mph":11.2,"wind_kph":18.0,"wind_degree":318,"wind_dir":"NW","pressure_mb":1023.0,"pressure_in":30.22,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":70,"cloud":63,"feelslike_c":1.8,"feelslike_f":35.2,"windchill_c":1.8,"windchill_f":35.2,"heatindex_c":5.4,"heatindex_f":41.7,"dewpoint_c":0.7,"dewpoint_f":33.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":14.6,"gust_kph":23.4,"uv":2.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:37 GMT
+        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713985200,"time":"2024-04-24
+        15:00","temp_c":4.0,"temp_f":39.2,"is_day":1,"condition":{"text":"Patchy rain
+        nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":339,"wind_dir":"NNW","pressure_mb":1023.0,"pressure_in":30.2,"precip_mm":0.11,"precip_in":0.0,"snow_cm":0.0,"humidity":96,"cloud":100,"feelslike_c":0.0,"feelslike_f":32.1,"windchill_c":0.0,"windchill_f":32.1,"heatindex_c":4.0,"heatindex_f":39.2,"dewpoint_c":3.2,"dewpoint_f":37.8,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":13.2,"gust_kph":21.2,"uv":1.0}]}]}}'
+  recorded_at: Wed, 24 Apr 2024 12:05:12 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=19&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=16&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -1670,7 +1391,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:38 GMT
+      - Wed, 24 Apr 2024 12:05:13 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1680,7 +1401,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -1688,7 +1409,7 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Age:
-      - '181'
+      - '0'
       Cache-Control:
       - public, max-age=180
       Via:
@@ -1696,7 +1417,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - 58188820 40042179
+      - '50855831'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -1704,30 +1425,261 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:13:01
+      - 04/24/2024 12:05:13
       Cdn-Edgestorageid:
-      - '1068'
+      - '1069'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 3dd423abc285fada1d983964c42cdd8c
+      - c758730c9b4f48a8be9391f0f49c813f
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713956877,"localtime":"2024-04-24
-        7:07"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960190,"localtime":"2024-04-24
+        8:03"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
+        AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
+        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713988800,"time":"2024-04-24
+        16:00","temp_c":4.6,"temp_f":40.2,"is_day":1,"condition":{"text":"Patchy rain
+        nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"wind_mph":10.7,"wind_kph":17.3,"wind_degree":328,"wind_dir":"NNW","pressure_mb":1023.0,"pressure_in":30.2,"precip_mm":0.03,"precip_in":0.0,"snow_cm":0.0,"humidity":93,"cloud":100,"feelslike_c":0.9,"feelslike_f":33.6,"windchill_c":0.9,"windchill_f":33.6,"heatindex_c":4.6,"heatindex_f":40.2,"dewpoint_c":3.1,"dewpoint_f":37.5,"will_it_rain":1,"chance_of_rain":71,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":13.8,"gust_kph":22.2,"uv":1.0}]}]}}'
+  recorded_at: Wed, 24 Apr 2024 12:05:13 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=17&key=wapi_key&q=Cleveland,%20OH
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 24 Apr 2024 12:05:13 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1067
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999810'
+      X-Varnish:
+      - '54837281'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/24/2024 12:05:13
+      Cdn-Edgestorageid:
+      - '718'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 29d29b70846ccec01b8fb13b84cd4eea
+      Cdn-Cache:
+      - MISS
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960313,"localtime":"2024-04-24
+        8:05"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
+        AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
+        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713992400,"time":"2024-04-24
+        17:00","temp_c":5.1,"temp_f":41.2,"is_day":1,"condition":{"text":"Overcast
+        ","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":10.1,"wind_kph":16.2,"wind_degree":319,"wind_dir":"NW","pressure_mb":1023.0,"pressure_in":30.21,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":78,"cloud":96,"feelslike_c":1.5,"feelslike_f":34.8,"windchill_c":1.5,"windchill_f":34.8,"heatindex_c":5.1,"heatindex_f":41.2,"dewpoint_c":1.7,"dewpoint_f":35.0,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":13.0,"gust_kph":21.0,"uv":2.0}]}]}}'
+  recorded_at: Wed, 24 Apr 2024 12:05:13 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=18&key=wapi_key&q=Cleveland,%20OH
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 24 Apr 2024 12:05:14 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1067
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999810'
+      X-Varnish:
+      - '56435154'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/24/2024 12:05:14
+      Cdn-Edgestorageid:
+      - '718'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 145e9162abd4da24c958668b1700313f
+      Cdn-Cache:
+      - MISS
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960326,"localtime":"2024-04-24
+        8:05"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
+        AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
+        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713996000,"time":"2024-04-24
+        18:00","temp_c":5.4,"temp_f":41.7,"is_day":1,"condition":{"text":"Cloudy ","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png","code":1006},"wind_mph":11.2,"wind_kph":18.0,"wind_degree":318,"wind_dir":"NW","pressure_mb":1023.0,"pressure_in":30.22,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":70,"cloud":63,"feelslike_c":1.8,"feelslike_f":35.2,"windchill_c":1.8,"windchill_f":35.2,"heatindex_c":5.4,"heatindex_f":41.7,"dewpoint_c":0.7,"dewpoint_f":33.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":14.6,"gust_kph":23.4,"uv":2.0}]}]}}'
+  recorded_at: Wed, 24 Apr 2024 12:05:14 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=19&key=wapi_key&q=Cleveland,%20OH
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 24 Apr 2024 12:05:14 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1067
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999810'
+      X-Varnish:
+      - '42270295'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/24/2024 12:05:14
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - fd0f0c9d9ef72c5ee5d5547b2e3099a8
+      Cdn-Cache:
+      - MISS
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960314,"localtime":"2024-04-24
+        8:05"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713999600,"time":"2024-04-24
         19:00","temp_c":5.3,"temp_f":41.5,"is_day":1,"condition":{"text":"Partly Cloudy
         ","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":11.6,"wind_kph":18.7,"wind_degree":323,"wind_dir":"NW","pressure_mb":1024.0,"pressure_in":30.24,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":67,"cloud":52,"feelslike_c":1.6,"feelslike_f":34.9,"windchill_c":1.6,"windchill_f":34.9,"heatindex_c":5.3,"heatindex_f":41.5,"dewpoint_c":0.1,"dewpoint_f":32.2,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":15.4,"gust_kph":24.8,"uv":3.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:38 GMT
+  recorded_at: Wed, 24 Apr 2024 12:05:14 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=20&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=20&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -1746,7 +1698,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:38 GMT
+      - Wed, 24 Apr 2024 12:05:14 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1756,7 +1708,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -1772,7 +1724,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '51012530'
+      - '56533661'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -1780,30 +1732,31 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:13:01
+      - 04/24/2024 12:05:14
       Cdn-Edgestorageid:
-      - '1029'
+      - '1067'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 0d78e9ae8fd59350e6f94fb5013797c0
+      - 1374d60e91addc739f17c7a84f8c0ff7
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957057,"localtime":"2024-04-24
-        7:10"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960192,"localtime":"2024-04-24
+        8:03"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714003200,"time":"2024-04-24
         20:00","temp_c":4.9,"temp_f":40.8,"is_day":1,"condition":{"text":"Partly Cloudy
         ","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":11.6,"wind_kph":18.7,"wind_degree":337,"wind_dir":"NNW","pressure_mb":1025.0,"pressure_in":30.26,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":65,"cloud":27,"feelslike_c":1.2,"feelslike_f":34.2,"windchill_c":1.2,"windchill_f":34.2,"heatindex_c":4.9,"heatindex_f":40.8,"dewpoint_c":-1.0,"dewpoint_f":30.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":16.5,"gust_kph":26.6,"uv":3.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:38 GMT
+  recorded_at: Wed, 24 Apr 2024 12:05:14 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=21&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=21&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -1822,7 +1775,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:38 GMT
+      - Wed, 24 Apr 2024 12:05:15 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1832,7 +1785,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -1848,7 +1801,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '56680803'
+      - '46788865'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -1856,29 +1809,30 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:13:02
+      - 04/24/2024 12:05:15
       Cdn-Edgestorageid:
       - '894'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - b369e81ff5b4bb24f0dfb3e157e5bd5c
+      - 9d5a09ce1a8bc6891304b4b569494611
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957059,"localtime":"2024-04-24
-        7:10"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960286,"localtime":"2024-04-24
+        8:04"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714006800,"time":"2024-04-24
         21:00","temp_c":4.5,"temp_f":40.2,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":10.7,"wind_kph":17.3,"wind_degree":346,"wind_dir":"NNW","pressure_mb":1026.0,"pressure_in":30.29,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":64,"cloud":24,"feelslike_c":0.9,"feelslike_f":33.6,"windchill_c":0.9,"windchill_f":33.6,"heatindex_c":4.5,"heatindex_f":40.2,"dewpoint_c":-1.7,"dewpoint_f":29.0,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":15.7,"gust_kph":25.3,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:38 GMT
+  recorded_at: Wed, 24 Apr 2024 12:05:15 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=22&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=22&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -1897,7 +1851,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:38 GMT
+      - Wed, 24 Apr 2024 12:05:15 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1907,7 +1861,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -1923,7 +1877,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '53320783'
+      - '35001219'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -1931,29 +1885,30 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:13:02
+      - 04/24/2024 12:05:15
       Cdn-Edgestorageid:
-      - '940'
+      - '1067'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 18afae6e88f186db25413e7d22241f1c
+      - d827ba3ebebfb63a7e46bee287297c04
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957059,"localtime":"2024-04-24
-        7:10"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960315,"localtime":"2024-04-24
+        8:05"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714010400,"time":"2024-04-24
         22:00","temp_c":4.1,"temp_f":39.5,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":9.8,"wind_kph":15.8,"wind_degree":353,"wind_dir":"N","pressure_mb":1026.0,"pressure_in":30.31,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":66,"cloud":7,"feelslike_c":0.8,"feelslike_f":33.4,"windchill_c":0.8,"windchill_f":33.4,"heatindex_c":4.1,"heatindex_f":39.5,"dewpoint_c":-1.7,"dewpoint_f":29.0,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":14.5,"gust_kph":23.3,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:38 GMT
+  recorded_at: Wed, 24 Apr 2024 12:05:15 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=23&key=wapi_key&q=cleveland,oh
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=23&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
       string: ''
@@ -1972,7 +1927,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:39 GMT
+      - Wed, 24 Apr 2024 12:05:15 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1982,7 +1937,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -1998,7 +1953,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '61385133'
+      - '53613248'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -2006,29 +1961,30 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:13:02
+      - 04/24/2024 12:05:15
       Cdn-Edgestorageid:
-      - '1029'
+      - '718'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 37019d9f52530ccafa63a841acb33437
+      - 81435a84083398ba8b5b26e7e4d2f242
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713957058,"localtime":"2024-04-24
-        7:10"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960322,"localtime":"2024-04-24
+        8:05"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714014000,"time":"2024-04-24
         23:00","temp_c":3.8,"temp_f":38.9,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":355,"wind_dir":"N","pressure_mb":1026.0,"pressure_in":30.31,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":69,"cloud":0,"feelslike_c":0.8,"feelslike_f":33.5,"windchill_c":0.8,"windchill_f":33.5,"heatindex_c":3.8,"heatindex_f":38.9,"dewpoint_c":-1.4,"dewpoint_f":29.4,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":11.9,"gust_kph":19.1,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:39 GMT
+  recorded_at: Wed, 24 Apr 2024 12:05:15 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=5&key=wapi_key&q=cleveland,oh&tp=24
+    uri: https://api.weatherapi.com/v1/forecast.json?days=5&key=wapi_key&q=Cleveland,%20OH&tp=24
     body:
       encoding: US-ASCII
       string: ''
@@ -2047,7 +2003,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 24 Apr 2024 11:13:39 GMT
+      - Wed, 24 Apr 2024 12:05:16 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -2057,7 +2013,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-1067
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -2073,7 +2029,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999810'
       X-Varnish:
-      - '64848512'
+      - '47454418'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -2081,21 +2037,22 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/24/2024 11:10:40
+      - 04/24/2024 12:05:16
       Cdn-Edgestorageid:
-      - '845'
+      - '1069'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 3a4adff8d62d52940d863ef541193ff3
+      - 2215d2fde5a77c0aa9793db62199f1ab
       Cdn-Cache:
-      - HIT
+      - MISS
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713956918,"localtime":"2024-04-24
-        7:08"},"current":{"last_updated_epoch":1713956400,"last_updated":"2024-04-24
-        07:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.07,"precip_in":0.0,"humidity":86,"cloud":100,"feelslike_c":7.1,"feelslike_f":44.8,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":20.8,"gust_kph":33.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960323,"localtime":"2024-04-24
+        8:05"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
+        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
         AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
         Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1}},{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":9.1,"maxtemp_f":48.4,"mintemp_c":1.5,"mintemp_f":34.8,"avgtemp_c":5.5,"avgtemp_f":42.0,"maxwind_mph":11.0,"maxwind_kph":17.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":53,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":6.0},"astro":{"sunrise":"06:31
@@ -2110,5 +2067,5 @@ http_interactions:
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:27
         AM","sunset":"08:22 PM","moonrise":"12:43 AM","moonset":"09:12 AM","moon_phase":"Waning
         Gibbous","moon_illumination":84,"is_moon_up":0,"is_sun_up":1}}]}}'
-  recorded_at: Wed, 24 Apr 2024 11:13:39 GMT
+  recorded_at: Wed, 24 Apr 2024 12:05:16 GMT
 recorded_with: VCR 6.2.0
