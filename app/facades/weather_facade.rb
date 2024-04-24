@@ -1,6 +1,6 @@
 class WeatherFacade
 	attr_reader :service, :location, :air_quality
-	
+
 	def initialize(search_params)
 		@service = WeatherService.new
 		@location = search_params[:q]
@@ -8,14 +8,12 @@ class WeatherFacade
 	end
 
 	def forecast
-		loc_array = @location.delete(" ").split(",")
-		city = loc_array[0].downcase
-		state = loc_array[1].downcase
-		response = @service.get_forecast(location: "#{city},#{state}", air_quality: @air_quality)
-		weather_poro = make_weather_poro(response)
+		loc = @location
+		response = @service.get_forecast(location: loc, air_quality: @air_quality)
+		make_weather_poro(response)
 	end
 
 	def make_weather_poro(weather_data)
-		wp = WeatherPoro.new(weather_data[:current])
+		wp = WeatherPoro.new(weather_data[:location], weather_data[:current])
 	end
 end
