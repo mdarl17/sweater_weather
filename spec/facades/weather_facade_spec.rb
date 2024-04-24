@@ -23,6 +23,9 @@ RSpec.describe WeatherFacade, :vcr, type: :facade do
 			expect(@facade.forecast.instance_variables).to match_array([:@id, :@type, :@location, :@current_weather])
 			expect(@facade.forecast.id).to eq("null")
 			expect(@facade.forecast.type).to eq("forecast")
+			expect(@facade.forecast.location.keys).to match_array([:name, :country])
+			expect(@facade.forecast.location[:name]).to be_a String
+			expect(@facade.forecast.location[:country]).to be_a String
 			expect(@facade.forecast.current_weather).to be_a Hash
 			expect(@facade.forecast.current_weather.keys).to match_array(
 				[:last_updated, :temperature, :feels_like, :humidity, :uvi, :visibility, :condition]
