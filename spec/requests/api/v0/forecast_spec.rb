@@ -4,10 +4,14 @@ RSpec.describe "Forecast for city", :vcr, type: :request do
 	describe "Api::V0::Forecast" do 
 		it "retrieves weather for a city" do
 			location = "Cincinnati, OH"
-			days = 5
+			get "/api/v0/locations", headers: {"Content-Type": "application/json", "Accept": "application/json "}, 
+				params: { location: location }
+				parsed = JSON.parse(response.body, symbolize_names: true)
+				require 'pry'; binding.pry
+				days = 5
 
 			get "/api/v0/forecast", headers: { "Content-Type": "application/json", "Accept": "application/json"},
-					params: { q: location, days: days }
+				params: { q: location, days: days }
 
 			parsed_response = JSON.parse(response.body, symbolize_names: true)
 			
