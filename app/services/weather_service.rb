@@ -35,7 +35,7 @@ class WeatherService
 				"Content-Type": "application/json",
 				"Accept": "application/json"
 			}
-			f.params[:key] = Rails.application.credentials.open_weather[:api_key]
+			f.params[:key] = Rails.application.credentials.weather[:api_key]
 		end
 	end
 end
