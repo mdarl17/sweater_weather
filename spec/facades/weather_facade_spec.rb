@@ -20,7 +20,7 @@ RSpec.describe WeatherFacade, :vcr, type: :facade do
 	describe "#forecast" do 
 		it "returns current weather data of a given location (city, state)" do
 			expect(@facade.forecast).to be_a WeatherPoro
-			expect(@facade.forecast.instance_variables).to match_array([:@id, :@type, :@current_weather])
+			expect(@facade.forecast.instance_variables).to match_array([:@id, :@type, :@location, :@current_weather])
 			expect(@facade.forecast.id).to eq("null")
 			expect(@facade.forecast.type).to eq("forecast")
 			expect(@facade.forecast.current_weather).to be_a Hash
