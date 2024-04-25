@@ -5,7 +5,7 @@ RSpec.describe "Get geo data", type: :request do
 		it "searches for and returns geo data for a given city and state/region" do
 			location = "sao paolo, brazil"
 			get "/api/v0/locations", headers: {"Content-Type": "application/json", "Accept": "application/json "}, 
-					params: { location: location }
+					params: { q: location }
 		end
 	end
 end 

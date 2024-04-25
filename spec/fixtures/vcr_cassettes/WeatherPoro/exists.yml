@@ -2,150 +2,6 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/current.json?key=wapi_key&q=Cleveland,%20OH
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 12:05:06 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1067
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999810'
-      X-Varnish:
-      - '62201028'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 12:05:06
-      Cdn-Edgestorageid:
-      - '845'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 50bb706058c9668e0b22384f1470a712
-      Cdn-Cache:
-      - MISS
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960183,"localtime":"2024-04-24
-        8:03"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
-        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4}}'
-  recorded_at: Wed, 24 Apr 2024 12:05:06 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/current.json?key=wapi_key&q=Cleveland,%20OH
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 12:05:06 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1067
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999810'
-      X-Varnish:
-      - '54024432'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 12:05:06
-      Cdn-Edgestorageid:
-      - '845'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 3b4435477959de6b49f21007f1b59dc5
-      Cdn-Cache:
-      - MISS
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960183,"localtime":"2024-04-24
-        8:03"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
-        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4}}'
-  recorded_at: Wed, 24 Apr 2024 12:05:06 GMT
-- request:
-    method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=0&key=wapi_key&q=Cleveland,%20OH
     body:
       encoding: US-ASCII
@@ -1984,92 +1840,6 @@ http_interactions:
   recorded_at: Wed, 24 Apr 2024 12:05:15 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=5&key=wapi_key&q=Cleveland,%20OH&tp=24
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 12:05:16 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1067
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999810'
-      X-Varnish:
-      - '47454418'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 12:05:16
-      Cdn-Edgestorageid:
-      - '1069'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 2215d2fde5a77c0aa9793db62199f1ab
-      Cdn-Cache:
-      - MISS
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1713960323,"localtime":"2024-04-24
-        8:05"},"current":{"last_updated_epoch":1713960000,"last_updated":"2024-04-24
-        08:00","temp_c":10.0,"temp_f":50.0,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":290,"wind_dir":"WNW","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.06,"precip_in":0.0,"humidity":83,"cloud":75,"feelslike_c":7.2,"feelslike_f":45.0,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":18.3,"gust_kph":29.4},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":7.9,"maxtemp_f":46.2,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":6.0,"avgtemp_f":42.7,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":2.04,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":8.3,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
-        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:32
-        AM","sunset":"08:17 PM","moonrise":"09:24 PM","moonset":"06:39 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1}},{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":9.1,"maxtemp_f":48.4,"mintemp_c":1.5,"mintemp_f":34.8,"avgtemp_c":5.5,"avgtemp_f":42.0,"maxwind_mph":11.0,"maxwind_kph":17.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":53,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":6.0},"astro":{"sunrise":"06:31
-        AM","sunset":"08:19 PM","moonrise":"10:31 PM","moonset":"07:05 AM","moon_phase":"Waning
-        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1}},{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":17.5,"maxtemp_f":63.5,"mintemp_c":3.6,"mintemp_f":38.4,"avgtemp_c":10.7,"avgtemp_f":51.2,"maxwind_mph":9.4,"maxwind_kph":15.1,"totalprecip_mm":1.55,"totalprecip_in":0.06,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":61,"daily_will_it_rain":1,"daily_chance_of_rain":70,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
-        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":6.0},"astro":{"sunrise":"06:30
-        AM","sunset":"08:20 PM","moonrise":"11:39 PM","moonset":"07:38 AM","moon_phase":"Waning
-        Gibbous","moon_illumination":96,"is_moon_up":0,"is_sun_up":1}},{"date":"2024-04-27","date_epoch":1714176000,"day":{"maxtemp_c":18.2,"maxtemp_f":64.8,"mintemp_c":12.7,"mintemp_f":54.8,"avgtemp_c":15.2,"avgtemp_f":59.3,"maxwind_mph":17.9,"maxwind_kph":28.8,"totalprecip_mm":5.85,"totalprecip_in":0.23,"totalsnow_cm":0.0,"avgvis_km":9.5,"avgvis_miles":5.0,"avghumidity":87,"daily_will_it_rain":1,"daily_chance_of_rain":82,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Moderate
-        rain","icon":"//cdn.weatherapi.com/weather/64x64/day/302.png","code":1189},"uv":5.0},"astro":{"sunrise":"06:28
-        AM","sunset":"08:21 PM","moonrise":"No moonrise","moonset":"08:19 AM","moon_phase":"Waning
-        Gibbous","moon_illumination":91,"is_moon_up":0,"is_sun_up":1}},{"date":"2024-04-28","date_epoch":1714262400,"day":{"maxtemp_c":22.2,"maxtemp_f":71.9,"mintemp_c":15.8,"mintemp_f":60.5,"avgtemp_c":17.7,"avgtemp_f":63.8,"maxwind_mph":16.3,"maxwind_kph":26.3,"totalprecip_mm":0.21,"totalprecip_in":0.01,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":84,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
-        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:27
-        AM","sunset":"08:22 PM","moonrise":"12:43 AM","moonset":"09:12 AM","moon_phase":"Waning
-        Gibbous","moon_illumination":84,"is_moon_up":0,"is_sun_up":1}}]}}'
-  recorded_at: Wed, 24 Apr 2024 12:05:16 GMT
-- request:
-    method: get
     uri: https://mapquestapi.com/geocoding/v1/address?key=HUm8TeTPbjdZdmNtPgOfHwQmekjwzGrg&location=Cleveland,%20OH
     body:
       encoding: US-ASCII
@@ -2109,1786 +1879,6 @@ http_interactions:
       string: !binary |-
         eyJpbmZvIjp7InN0YXR1c2NvZGUiOjAsImNvcHlyaWdodCI6eyJ0ZXh0IjoiwqkgMjAyNCBNYXBRdWVzdCwgSW5jLiIsImltYWdlVXJsIjoiaHR0cDovL2FwaS5tcWNkbi5jb20vcmVzL21xbG9nby5naWYiLCJpbWFnZUFsdFRleHQiOiLCqSAyMDI0IE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbXX0sIm9wdGlvbnMiOnsibWF4UmVzdWx0cyI6LTEsImlnbm9yZUxhdExuZ0lucHV0IjpmYWxzZX0sInJlc3VsdHMiOlt7InByb3ZpZGVkTG9jYXRpb24iOnsibG9jYXRpb24iOiJDbGV2ZWxhbmQsIE9IIn0sImxvY2F0aW9ucyI6W3sic3RyZWV0IjoiIiwiYWRtaW5BcmVhNiI6IiIsImFkbWluQXJlYTZUeXBlIjoiTmVpZ2hib3Job29kIiwiYWRtaW5BcmVhNSI6IkNsZXZlbGFuZCIsImFkbWluQXJlYTVUeXBlIjoiQ2l0eSIsImFkbWluQXJlYTQiOiJDdXlhaG9nYSIsImFkbWluQXJlYTRUeXBlIjoiQ291bnR5IiwiYWRtaW5BcmVhMyI6Ik9IIiwiYWRtaW5BcmVhM1R5cGUiOiJTdGF0ZSIsImFkbWluQXJlYTEiOiJVUyIsImFkbWluQXJlYTFUeXBlIjoiQ291bnRyeSIsInBvc3RhbENvZGUiOiIiLCJnZW9jb2RlUXVhbGl0eUNvZGUiOiJBNVhBWCIsImdlb2NvZGVRdWFsaXR5IjoiQ0lUWSIsImRyYWdQb2ludCI6ZmFsc2UsInNpZGVPZlN0cmVldCI6Ik4iLCJsaW5rSWQiOiIwIiwidW5rbm93bklucHV0IjoiIiwidHlwZSI6InMiLCJsYXRMbmciOnsibGF0Ijo0MS41MDQ3MywibG5nIjotODEuNjkwNzR9LCJkaXNwbGF5TGF0TG5nIjp7ImxhdCI6NDEuNTA0NzMsImxuZyI6LTgxLjY5MDc0fSwibWFwVXJsIjoiIn1dfV19
   recorded_at: Wed, 24 Apr 2024 18:56:16 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=0&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:23 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '52355865'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:03
-      Cdn-Edgestorageid:
-      - '894'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - fdf5867b372203f0e63c002d85940483
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998160,"localtime":"2024-04-24
-        16:36"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713938400,"time":"2024-04-24
-        00:00","temp_c":25.2,"temp_f":77.3,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.2,"wind_kph":3.6,"wind_degree":18,"wind_dir":"NNE","pressure_mb":1015.0,"pressure_in":29.98,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":89,"cloud":16,"feelslike_c":27.9,"feelslike_f":82.2,"windchill_c":25.2,"windchill_f":77.3,"heatindex_c":27.9,"heatindex_f":82.2,"dewpoint_c":23.1,"dewpoint_f":73.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":3.8,"gust_kph":6.1,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:23 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=1&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:23 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '62995566'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:11
-      Cdn-Edgestorageid:
-      - '718'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 5e9ac68aaeaf335f85745f9bf27b9bcb
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998167,"localtime":"2024-04-24
-        16:36"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713942000,"time":"2024-04-24
-        01:00","temp_c":24.9,"temp_f":76.8,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.7,"wind_kph":4.3,"wind_degree":34,"wind_dir":"NE","pressure_mb":1015.0,"pressure_in":29.96,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":90,"cloud":19,"feelslike_c":27.6,"feelslike_f":81.6,"windchill_c":24.9,"windchill_f":76.8,"heatindex_c":27.6,"heatindex_f":81.6,"dewpoint_c":23.1,"dewpoint_f":73.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":4.6,"gust_kph":7.4,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:23 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=2&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:23 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '48588044'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:04
-      Cdn-Edgestorageid:
-      - '940'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - c6b8ab4372f10c1ed72d33840f1f4d05
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998160,"localtime":"2024-04-24
-        16:36"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713945600,"time":"2024-04-24
-        02:00","temp_c":24.6,"temp_f":76.2,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":3.6,"wind_kph":5.8,"wind_degree":36,"wind_dir":"NE","pressure_mb":1014.0,"pressure_in":29.95,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":92,"cloud":25,"feelslike_c":27.2,"feelslike_f":81.0,"windchill_c":24.6,"windchill_f":76.2,"heatindex_c":27.2,"heatindex_f":81.0,"dewpoint_c":23.2,"dewpoint_f":73.7,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":6.2,"gust_kph":10.0,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:23 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=3&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:24 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '48324908'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:04
-      Cdn-Edgestorageid:
-      - '894'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 8a01f367e501e56ca4b8627e3e98f38f
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998284,"localtime":"2024-04-24
-        16:38"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713949200,"time":"2024-04-24
-        03:00","temp_c":24.2,"temp_f":75.6,"is_day":0,"condition":{"text":"Partly
-        Cloudy ","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":4.5,"wind_kph":7.2,"wind_degree":13,"wind_dir":"NNE","pressure_mb":1014.0,"pressure_in":29.93,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":94,"cloud":29,"feelslike_c":26.8,"feelslike_f":80.2,"windchill_c":24.2,"windchill_f":75.6,"heatindex_c":26.8,"heatindex_f":80.2,"dewpoint_c":23.2,"dewpoint_f":73.7,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":7.8,"gust_kph":12.6,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:24 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=4&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:24 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '62995574'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:11
-      Cdn-Edgestorageid:
-      - '718'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - cc79949e9ac14e4877f48e60db36a3e9
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998291,"localtime":"2024-04-24
-        16:38"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713952800,"time":"2024-04-24
-        04:00","temp_c":23.9,"temp_f":75.0,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":3.4,"wind_kph":5.4,"wind_degree":31,"wind_dir":"NNE","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":93,"cloud":19,"feelslike_c":26.4,"feelslike_f":79.5,"windchill_c":23.9,"windchill_f":75.0,"heatindex_c":26.4,"heatindex_f":79.5,"dewpoint_c":22.6,"dewpoint_f":72.8,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":5.9,"gust_kph":9.5,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:24 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=5&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:24 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '56998311'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:05
-      Cdn-Edgestorageid:
-      - '894'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - aa7248570f1b230285805b1ee8c6972b
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998160,"localtime":"2024-04-24
-        16:36"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713956400,"time":"2024-04-24
-        05:00","temp_c":23.5,"temp_f":74.4,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":3.6,"wind_kph":5.8,"wind_degree":21,"wind_dir":"NNE","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":94,"cloud":20,"feelslike_c":26.0,"feelslike_f":78.7,"windchill_c":23.5,"windchill_f":74.4,"heatindex_c":26.0,"heatindex_f":78.7,"dewpoint_c":22.5,"dewpoint_f":72.5,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":6.4,"gust_kph":10.4,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:24 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=6&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:24 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '42124541'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:05
-      Cdn-Edgestorageid:
-      - '894'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 5949cd49fe22fb6d2e972216fc178139
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998162,"localtime":"2024-04-24
-        16:36"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713960000,"time":"2024-04-24
-        06:00","temp_c":23.3,"temp_f":73.9,"is_day":0,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/night/143.png","code":1030},"wind_mph":3.1,"wind_kph":5.0,"wind_degree":41,"wind_dir":"NE","pressure_mb":1013.0,"pressure_in":29.92,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":94,"cloud":24,"feelslike_c":25.7,"feelslike_f":78.2,"windchill_c":23.3,"windchill_f":73.9,"heatindex_c":25.7,"heatindex_f":78.2,"dewpoint_c":22.2,"dewpoint_f":71.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":2.0,"vis_miles":1.0,"gust_mph":5.7,"gust_kph":9.2,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:24 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=7&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:24 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '68420715'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:05
-      Cdn-Edgestorageid:
-      - '940'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 2432b6c504c992cc1240cbb74f903e87
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998285,"localtime":"2024-04-24
-        16:38"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713963600,"time":"2024-04-24
-        07:00","temp_c":24.2,"temp_f":75.5,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":25,"wind_dir":"NNE","pressure_mb":1014.0,"pressure_in":29.95,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":94,"cloud":27,"feelslike_c":26.5,"feelslike_f":79.7,"windchill_c":24.2,"windchill_f":75.5,"heatindex_c":26.5,"heatindex_f":79.7,"dewpoint_c":22.1,"dewpoint_f":71.7,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":2.0,"vis_miles":1.0,"gust_mph":4.5,"gust_kph":7.2,"uv":5.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:24 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=8&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:24 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '59564304'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:06
-      Cdn-Edgestorageid:
-      - '871'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 0413c6d9a14426421c570925633b7cab
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998256,"localtime":"2024-04-24
-        16:37"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713967200,"time":"2024-04-24
-        08:00","temp_c":25.8,"temp_f":78.4,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":2.7,"wind_kph":4.3,"wind_degree":36,"wind_dir":"NE","pressure_mb":1015.0,"pressure_in":29.96,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":83,"cloud":20,"feelslike_c":28.2,"feelslike_f":82.8,"windchill_c":25.8,"windchill_f":78.4,"heatindex_c":28.2,"heatindex_f":82.8,"dewpoint_c":22.0,"dewpoint_f":71.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":3.6,"gust_kph":5.7,"uv":7.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:24 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=9&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:24 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '55188153'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:12
-      Cdn-Edgestorageid:
-      - '718'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 7468c0954bc3086175214eeb8f0c4f12
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998169,"localtime":"2024-04-24
-        16:36"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713970800,"time":"2024-04-24
-        09:00","temp_c":27.9,"temp_f":82.2,"is_day":1,"condition":{"text":"Partly
-        Cloudy ","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":3.6,"wind_kph":5.8,"wind_degree":61,"wind_dir":"ENE","pressure_mb":1015.0,"pressure_in":29.98,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":71,"cloud":54,"feelslike_c":30.6,"feelslike_f":87.1,"windchill_c":27.9,"windchill_f":82.2,"heatindex_c":30.6,"heatindex_f":87.1,"dewpoint_c":21.6,"dewpoint_f":70.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":4.1,"gust_kph":6.6,"uv":7.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:25 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=10&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:25 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '58944609'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:06
-      Cdn-Edgestorageid:
-      - '894'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 9ca5b17d75d8ac8bbddff9681ebbcc57
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998286,"localtime":"2024-04-24
-        16:38"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713974400,"time":"2024-04-24
-        10:00","temp_c":30.1,"temp_f":86.1,"is_day":1,"condition":{"text":"Partly
-        Cloudy ","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":2.7,"wind_kph":4.3,"wind_degree":50,"wind_dir":"NE","pressure_mb":1015.0,"pressure_in":29.98,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":59,"cloud":43,"feelslike_c":33.0,"feelslike_f":91.4,"windchill_c":30.1,"windchill_f":86.1,"heatindex_c":33.0,"heatindex_f":91.4,"dewpoint_c":21.2,"dewpoint_f":70.1,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":3.1,"gust_kph":5.0,"uv":8.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:25 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=11&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:25 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '6'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - 67438469 59493865
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:13
-      Cdn-Edgestorageid:
-      - '718'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 303d0bc73d0afb7e0905a732d52f3beb
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998286,"localtime":"2024-04-24
-        16:38"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713978000,"time":"2024-04-24
-        11:00","temp_c":32.1,"temp_f":89.8,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":3.8,"wind_kph":6.1,"wind_degree":89,"wind_dir":"E","pressure_mb":1015.0,"pressure_in":29.98,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":50,"cloud":21,"feelslike_c":35.1,"feelslike_f":95.1,"windchill_c":32.1,"windchill_f":89.8,"heatindex_c":35.1,"heatindex_f":95.1,"dewpoint_c":20.6,"dewpoint_f":69.0,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":4.4,"gust_kph":7.1,"uv":8.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:25 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=12&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:25 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 haproxy-api-1 (Varnish/7.3)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '66276108'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:07
-      Cdn-Edgestorageid:
-      - '940'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - e5647d348684252fed75026e70dc9137
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998163,"localtime":"2024-04-24
-        16:36"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713981600,"time":"2024-04-24
-        12:00","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":5.1,"wind_kph":8.3,"wind_degree":85,"wind_dir":"E","pressure_mb":1014.0,"pressure_in":29.95,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":43,"cloud":7,"feelslike_c":36.8,"feelslike_f":98.2,"windchill_c":34.0,"windchill_f":93.2,"heatindex_c":36.8,"heatindex_f":98.2,"dewpoint_c":19.7,"dewpoint_f":67.4,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":5.9,"gust_kph":9.5,"uv":8.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:25 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=13&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:25 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '68360752'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:07
-      Cdn-Edgestorageid:
-      - '871'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 56380a136752641638b818eae2937c00
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998164,"localtime":"2024-04-24
-        16:36"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713985200,"time":"2024-04-24
-        13:00","temp_c":35.8,"temp_f":96.4,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":6.7,"wind_kph":10.8,"wind_degree":85,"wind_dir":"E","pressure_mb":1013.0,"pressure_in":29.92,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":36,"cloud":14,"feelslike_c":38.0,"feelslike_f":100.5,"windchill_c":35.8,"windchill_f":96.4,"heatindex_c":38.0,"heatindex_f":100.5,"dewpoint_c":18.5,"dewpoint_f":65.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":7.7,"gust_kph":12.4,"uv":9.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:25 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=14&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:25 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '68224037'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:07
-      Cdn-Edgestorageid:
-      - '941'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - e5376c81793abf07d03b29058eb8b9c0
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998300,"localtime":"2024-04-24
-        16:38"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713988800,"time":"2024-04-24
-        14:00","temp_c":37.2,"temp_f":98.9,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":7.4,"wind_kph":11.9,"wind_degree":79,"wind_dir":"E","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":30,"cloud":17,"feelslike_c":38.9,"feelslike_f":101.9,"windchill_c":37.2,"windchill_f":98.9,"heatindex_c":38.9,"heatindex_f":101.9,"dewpoint_c":16.9,"dewpoint_f":62.4,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":8.5,"gust_kph":13.7,"uv":9.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:25 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=15&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:25 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '54915047'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:13
-      Cdn-Edgestorageid:
-      - '718'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - b20079165540210f7eaa8e5fcbe4207c
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998170,"localtime":"2024-04-24
-        16:36"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713992400,"time":"2024-04-24
-        15:00","temp_c":37.8,"temp_f":100.0,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":7.2,"wind_kph":11.5,"wind_degree":51,"wind_dir":"NE","pressure_mb":1010.0,"pressure_in":29.83,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":25,"cloud":8,"feelslike_c":39.2,"feelslike_f":102.6,"windchill_c":37.8,"windchill_f":100.0,"heatindex_c":39.2,"heatindex_f":102.6,"dewpoint_c":15.4,"dewpoint_f":59.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":8.2,"gust_kph":13.2,"uv":9.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:25 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=16&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:26 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '46782445'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:08
-      Cdn-Edgestorageid:
-      - '1068'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 28c4bbca7a771ff43a2d87ff8eea561f
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998165,"localtime":"2024-04-24
-        16:36"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713996000,"time":"2024-04-24
-        16:00","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":60,"cloud":50,"feelslike_c":38.2,"feelslike_f":100.8,"windchill_c":36.3,"windchill_f":97.3,"heatindex_c":38.2,"heatindex_f":100.8,"dewpoint_c":15.8,"dewpoint_f":60.4,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":8.0,"vis_miles":4.0,"gust_mph":14.2,"gust_kph":22.8,"uv":9.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:26 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=17&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:26 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '14128599'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:14
-      Cdn-Edgestorageid:
-      - '845'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 0fdb9982dda4e284ae48def8a059e11b
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998170,"localtime":"2024-04-24
-        16:36"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1713999600,"time":"2024-04-24
-        17:00","temp_c":34.3,"temp_f":93.7,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":19.2,"wind_kph":31.0,"wind_degree":359,"wind_dir":"N","pressure_mb":1010.0,"pressure_in":29.81,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":39,"cloud":4,"feelslike_c":36.4,"feelslike_f":97.5,"windchill_c":34.3,"windchill_f":93.7,"heatindex_c":36.4,"heatindex_f":97.5,"dewpoint_c":18.7,"dewpoint_f":65.7,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":22.1,"gust_kph":35.6,"uv":8.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:26 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=18&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:26 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '53922281'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:08
-      Cdn-Edgestorageid:
-      - '1070'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - acb4481f56a3fa2a346cfa26cf33e5ac
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998165,"localtime":"2024-04-24
-        16:36"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714003200,"time":"2024-04-24
-        18:00","temp_c":31.9,"temp_f":89.4,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":16.6,"wind_kph":26.6,"wind_degree":2,"wind_dir":"N","pressure_mb":1010.0,"pressure_in":29.83,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":46,"cloud":3,"feelslike_c":33.9,"feelslike_f":93.1,"windchill_c":31.9,"windchill_f":89.4,"heatindex_c":33.9,"heatindex_f":93.1,"dewpoint_c":19.2,"dewpoint_f":66.5,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":19.0,"gust_kph":30.6,"uv":8.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:26 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=19&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:26 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '48588065'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:09
-      Cdn-Edgestorageid:
-      - '940'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - b413cb96e0c2ec1c7143f705943ee9af
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998165,"localtime":"2024-04-24
-        16:36"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714006800,"time":"2024-04-24
-        19:00","temp_c":29.4,"temp_f":85.0,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":15.0,"wind_kph":24.1,"wind_degree":358,"wind_dir":"N","pressure_mb":1011.0,"pressure_in":29.85,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":55,"cloud":2,"feelslike_c":31.4,"feelslike_f":88.6,"windchill_c":29.4,"windchill_f":85.0,"heatindex_c":31.4,"heatindex_f":88.6,"dewpoint_c":19.6,"dewpoint_f":67.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":19.6,"gust_kph":31.6,"uv":7.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:26 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=20&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:26 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '56868183'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:09
-      Cdn-Edgestorageid:
-      - '871'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - d37cacc7c0a68b8e0911a8823490d4a6
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998289,"localtime":"2024-04-24
-        16:38"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714010400,"time":"2024-04-24
-        20:00","temp_c":27.7,"temp_f":81.8,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":11.4,"wind_kph":18.4,"wind_degree":352,"wind_dir":"N","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":67,"cloud":2,"feelslike_c":29.7,"feelslike_f":85.5,"windchill_c":27.7,"windchill_f":81.8,"heatindex_c":29.7,"heatindex_f":85.5,"dewpoint_c":20.3,"dewpoint_f":68.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":18.0,"gust_kph":28.9,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:26 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=21&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:26 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '41511754'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:09
-      Cdn-Edgestorageid:
-      - '940'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 5704b658dd7b5d407ac688fb003c5a03
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998289,"localtime":"2024-04-24
-        16:38"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714014000,"time":"2024-04-24
-        21:00","temp_c":26.3,"temp_f":79.3,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":8.3,"wind_kph":13.3,"wind_degree":349,"wind_dir":"N","pressure_mb":1013.0,"pressure_in":29.9,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":75,"cloud":3,"feelslike_c":28.4,"feelslike_f":83.0,"windchill_c":26.3,"windchill_f":79.3,"heatindex_c":28.4,"heatindex_f":83.0,"dewpoint_c":21.2,"dewpoint_f":70.1,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":13.6,"gust_kph":22.0,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:26 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=22&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:27 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '66462261'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:15
-      Cdn-Edgestorageid:
-      - '718'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - d7838de27f2700b60ebd69fd82f97968
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998171,"localtime":"2024-04-24
-        16:36"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714017600,"time":"2024-04-24
-        22:00","temp_c":25.5,"temp_f":77.9,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.2,"wind_kph":3.6,"wind_degree":208,"wind_dir":"SSW","pressure_mb":1014.0,"pressure_in":29.95,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":81,"cloud":3,"feelslike_c":27.6,"feelslike_f":81.7,"windchill_c":25.5,"windchill_f":77.9,"heatindex_c":27.6,"heatindex_f":81.7,"dewpoint_c":21.4,"dewpoint_f":70.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":4.0,"gust_kph":6.4,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:27 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=23&key=wapi_key&q=C,%20l
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 24 Apr 2024 22:38:27 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-1070
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999608'
-      X-Varnish:
-      - '55958657'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/24/2024 22:38:10
-      Cdn-Edgestorageid:
-      - '1068'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 5363b10f13f88dd9ac2fc0b7e4f6e861
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1713998167,"localtime":"2024-04-24
-        16:36"},"current":{"last_updated_epoch":1713997800,"last_updated":"2024-04-24
-        16:30","temp_c":34.0,"temp_f":93.2,"is_day":1,"condition":{"text":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":10.5,"wind_kph":16.9,"wind_degree":330,"wind_dir":"NNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":33.2,"feelslike_f":91.7,"vis_km":8.0,"vis_miles":4.0,"uv":9.0,"gust_mph":14.2,"gust_kph":22.8},"forecast":{"forecastday":[{"date":"2024-04-24","date_epoch":1713916800,"day":{"maxtemp_c":38.6,"maxtemp_f":101.5,"mintemp_c":23.0,"mintemp_f":73.5,"avgtemp_c":28.8,"avgtemp_f":83.8,"maxwind_mph":19.2,"maxwind_kph":31.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":9.3,"avgvis_miles":5.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
-        AM","sunset":"07:33 PM","moonrise":"08:23 PM","moonset":"07:08 AM","moon_phase":"Full
-        Moon","moon_illumination":100,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714021200,"time":"2024-04-24
-        23:00","temp_c":25.1,"temp_f":77.2,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":0.7,"wind_kph":1.1,"wind_degree":18,"wind_dir":"NNE","pressure_mb":1015.0,"pressure_in":29.98,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":82,"cloud":15,"feelslike_c":27.3,"feelslike_f":81.1,"windchill_c":25.1,"windchill_f":77.2,"heatindex_c":27.3,"heatindex_f":81.1,"dewpoint_c":21.5,"dewpoint_f":70.8,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":1.2,"gust_kph":1.9,"uv":1.0}]}]}}'
-  recorded_at: Wed, 24 Apr 2024 22:38:27 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/current.json?key=wapi_key&q
@@ -4021,4 +2011,1990 @@ http_interactions:
       encoding: UTF-8
       string: '{"error":{"code":1003,"message":"Parameter q is missing."}}'
   recorded_at: Wed, 24 Apr 2024 23:05:09 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?key=wapi_key&q=Cleveland,%20OH
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:00:44 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-871
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '67138456'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 15:59:49
+      Cdn-Edgestorageid:
+      - '845'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - af484c39e4121b4b260d24b9aa86988a
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1714060665,"localtime":"2024-04-25
+        11:57"},"current":{"last_updated_epoch":1714059900,"last_updated":"2024-04-25
+        11:45","temp_c":8.9,"temp_f":48.0,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":5.6,"wind_kph":9.0,"wind_degree":320,"wind_dir":"NW","pressure_mb":1028.0,"pressure_in":30.36,"precip_mm":0.0,"precip_in":0.0,"humidity":66,"cloud":0,"feelslike_c":7.3,"feelslike_f":45.1,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":7.2,"gust_kph":11.6}}'
+  recorded_at: Thu, 25 Apr 2024 16:00:44 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?key=wapi_key&q=Cleveland,%20OH
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:49 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1029
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '59865420'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:49
+      Cdn-Edgestorageid:
+      - '845'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - a77bd4b827728b8cdd5ddaaba263061b
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1714060964,"localtime":"2024-04-25
+        12:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        12:00","temp_c":8.9,"temp_f":48.0,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":5.6,"wind_kph":9.0,"wind_degree":320,"wind_dir":"NW","pressure_mb":1028.0,"pressure_in":30.36,"precip_mm":0.0,"precip_in":0.0,"humidity":66,"cloud":0,"feelslike_c":6.7,"feelslike_f":44.1,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":9.8,"gust_kph":15.7}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:49 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=0&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:49 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1029
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '299'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - 58473088 53803187
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:49
+      Cdn-Edgestorageid:
+      - '894'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 6e35bcf642b2a9d963527b7b13806ca8
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714060665,"localtime":"2024-04-25
+        9:57"},"current":{"last_updated_epoch":1714059900,"last_updated":"2024-04-25
+        09:45","temp_c":29.0,"temp_f":84.2,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":8.1,"wind_kph":13.0,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":30.0,"precip_mm":0.0,"precip_in":0.0,"humidity":75,"cloud":100,"feelslike_c":33.3,"feelslike_f":91.9,"vis_km":4.8,"vis_miles":2.0,"uv":6.0,"gust_mph":12.5,"gust_kph":20.2},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714024800,"time":"2024-04-25
+        00:00","temp_c":24.8,"temp_f":76.6,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":1.6,"wind_kph":2.5,"wind_degree":326,"wind_dir":"NNW","pressure_mb":1015.0,"pressure_in":29.98,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":84,"cloud":24,"feelslike_c":27.0,"feelslike_f":80.6,"windchill_c":24.8,"windchill_f":76.6,"heatindex_c":27.0,"heatindex_f":80.6,"dewpoint_c":21.8,"dewpoint_f":71.2,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":2.8,"gust_kph":4.5,"uv":1.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:49 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=1&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:50 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '71867737'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:50
+      Cdn-Edgestorageid:
+      - '718'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 13007de12203c396729f8fc7859e239e
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714060966,"localtime":"2024-04-25
+        10:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":75,"feelslike_c":33.3,"feelslike_f":92.0,"vis_km":4.8,"vis_miles":2.0,"uv":7.0,"gust_mph":11.4,"gust_kph":18.4},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714028400,"time":"2024-04-25
+        01:00","temp_c":24.5,"temp_f":76.2,"is_day":0,"condition":{"text":"Partly
+        Cloudy ","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":2.0,"wind_kph":3.2,"wind_degree":7,"wind_dir":"N","pressure_mb":1015.0,"pressure_in":29.97,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":86,"cloud":57,"feelslike_c":26.8,"feelslike_f":80.3,"windchill_c":24.5,"windchill_f":76.2,"heatindex_c":26.8,"heatindex_f":80.3,"dewpoint_c":22.0,"dewpoint_f":71.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":3.6,"gust_kph":5.7,"uv":1.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:50 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=2&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:50 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '62169829'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:50
+      Cdn-Edgestorageid:
+      - '940'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - e96739aaa55fad81d24045e7c368b338
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714060966,"localtime":"2024-04-25
+        10:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":75,"feelslike_c":33.3,"feelslike_f":92.0,"vis_km":4.8,"vis_miles":2.0,"uv":7.0,"gust_mph":11.4,"gust_kph":18.4},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714032000,"time":"2024-04-25
+        02:00","temp_c":24.3,"temp_f":75.8,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":3.6,"wind_kph":5.8,"wind_degree":30,"wind_dir":"NNE","pressure_mb":1015.0,"pressure_in":29.96,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":88,"cloud":20,"feelslike_c":26.6,"feelslike_f":80.0,"windchill_c":24.3,"windchill_f":75.8,"heatindex_c":26.6,"heatindex_f":80.0,"dewpoint_c":22.2,"dewpoint_f":71.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":6.4,"gust_kph":10.2,"uv":1.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:50 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=3&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:50 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '72389004'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:50
+      Cdn-Edgestorageid:
+      - '894'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 32e97f6607cf0154355a6caf7948a377
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714060966,"localtime":"2024-04-25
+        10:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":75,"feelslike_c":33.3,"feelslike_f":92.0,"vis_km":4.8,"vis_miles":2.0,"uv":7.0,"gust_mph":11.4,"gust_kph":18.4},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714035600,"time":"2024-04-25
+        03:00","temp_c":24.1,"temp_f":75.3,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.7,"wind_kph":4.3,"wind_degree":6,"wind_dir":"N","pressure_mb":1014.0,"pressure_in":29.93,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":90,"cloud":12,"feelslike_c":26.4,"feelslike_f":79.5,"windchill_c":24.1,"windchill_f":75.3,"heatindex_c":26.4,"heatindex_f":79.5,"dewpoint_c":22.4,"dewpoint_f":72.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":4.9,"gust_kph":7.8,"uv":1.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:50 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=4&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:50 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '299'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - 64368515 50389638
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:50
+      Cdn-Edgestorageid:
+      - '718'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - bcbf9e540cfba8e9d42131685e172260
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714060761,"localtime":"2024-04-25
+        9:59"},"current":{"last_updated_epoch":1714059900,"last_updated":"2024-04-25
+        09:45","temp_c":29.0,"temp_f":84.2,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":8.1,"wind_kph":13.0,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":30.0,"precip_mm":0.0,"precip_in":0.0,"humidity":75,"cloud":100,"feelslike_c":33.3,"feelslike_f":91.9,"vis_km":4.8,"vis_miles":2.0,"uv":6.0,"gust_mph":12.5,"gust_kph":20.2},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714039200,"time":"2024-04-25
+        04:00","temp_c":23.8,"temp_f":74.9,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.7,"wind_kph":4.3,"wind_degree":5,"wind_dir":"N","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":91,"cloud":14,"feelslike_c":26.2,"feelslike_f":79.1,"windchill_c":23.8,"windchill_f":74.9,"heatindex_c":26.2,"heatindex_f":79.1,"dewpoint_c":22.3,"dewpoint_f":72.2,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":4.9,"gust_kph":7.9,"uv":1.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:50 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=5&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:51 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '57884058'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:51
+      Cdn-Edgestorageid:
+      - '894'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - e5249ec2c6ece8f77100fa10efa10fad
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714061061,"localtime":"2024-04-25
+        10:04"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":75,"feelslike_c":33.3,"feelslike_f":92.0,"vis_km":4.8,"vis_miles":2.0,"uv":7.0,"gust_mph":11.4,"gust_kph":18.4},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714042800,"time":"2024-04-25
+        05:00","temp_c":23.6,"temp_f":74.5,"is_day":0,"condition":{"text":"Partly
+        Cloudy ","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":13,"wind_dir":"NNE","pressure_mb":1013.0,"pressure_in":29.92,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":93,"cloud":32,"feelslike_c":26.0,"feelslike_f":78.7,"windchill_c":23.6,"windchill_f":74.5,"heatindex_c":26.0,"heatindex_f":78.7,"dewpoint_c":22.4,"dewpoint_f":72.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":4.4,"gust_kph":7.1,"uv":1.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:51 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=6&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:51 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '54311078'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:51
+      Cdn-Edgestorageid:
+      - '894'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - f32fdfba7c3f1cdd935c19db9eeabf98
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714060967,"localtime":"2024-04-25
+        10:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":75,"feelslike_c":33.3,"feelslike_f":92.0,"vis_km":4.8,"vis_miles":2.0,"uv":7.0,"gust_mph":11.4,"gust_kph":18.4},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714046400,"time":"2024-04-25
+        06:00","temp_c":23.4,"temp_f":74.2,"is_day":0,"condition":{"text":"Partly
+        Cloudy ","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":0.7,"wind_kph":1.1,"wind_degree":62,"wind_dir":"ENE","pressure_mb":1013.0,"pressure_in":29.92,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":94,"cloud":49,"feelslike_c":25.8,"feelslike_f":78.4,"windchill_c":23.4,"windchill_f":74.2,"heatindex_c":25.8,"heatindex_f":78.4,"dewpoint_c":22.3,"dewpoint_f":72.1,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":1.2,"gust_kph":1.9,"uv":1.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:51 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=7&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:51 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '64767354'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:51
+      Cdn-Edgestorageid:
+      - '940'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 6f3fd6c7a73087f1b8b6bf21b2ceac43
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714061104,"localtime":"2024-04-25
+        10:05"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":75,"feelslike_c":33.3,"feelslike_f":92.0,"vis_km":4.8,"vis_miles":2.0,"uv":7.0,"gust_mph":11.4,"gust_kph":18.4},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714050000,"time":"2024-04-25
+        07:00","temp_c":24.3,"temp_f":75.7,"is_day":1,"condition":{"text":"Partly
+        Cloudy ","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":1.1,"wind_kph":1.8,"wind_degree":183,"wind_dir":"S","pressure_mb":1014.0,"pressure_in":29.94,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":94,"cloud":54,"feelslike_c":26.7,"feelslike_f":80.0,"windchill_c":24.3,"windchill_f":75.7,"heatindex_c":26.7,"heatindex_f":80.0,"dewpoint_c":22.2,"dewpoint_f":72.0,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":2.0,"gust_kph":3.2,"uv":6.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:51 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=8&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:51 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '68697599'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:51
+      Cdn-Edgestorageid:
+      - '871'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - d4e9884fd113f7eea7a95efec3aa6285
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714060967,"localtime":"2024-04-25
+        10:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":75,"feelslike_c":33.3,"feelslike_f":92.0,"vis_km":4.8,"vis_miles":2.0,"uv":7.0,"gust_mph":11.4,"gust_kph":18.4},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714053600,"time":"2024-04-25
+        08:00","temp_c":25.8,"temp_f":78.5,"is_day":1,"condition":{"text":"Partly
+        Cloudy ","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":2.0,"wind_kph":3.2,"wind_degree":149,"wind_dir":"SSE","pressure_mb":1014.0,"pressure_in":29.96,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":84,"cloud":51,"feelslike_c":28.4,"feelslike_f":83.1,"windchill_c":25.8,"windchill_f":78.5,"heatindex_c":28.4,"heatindex_f":83.1,"dewpoint_c":22.3,"dewpoint_f":72.1,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":2.6,"gust_kph":4.2,"uv":7.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:51 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=9&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '27455499'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:52
+      Cdn-Edgestorageid:
+      - '718'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 34e35300880e875889f0ed8715b76b53
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714061091,"localtime":"2024-04-25
+        10:04"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":29.9,"temp_f":85.7,"is_day":1,"condition":{"text":"Partly
+        Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":4.7,"wind_kph":7.6,"wind_degree":101,"wind_dir":"ESE","pressure_mb":1015.0,"pressure_in":29.98,"precip_mm":0.0,"precip_in":0.0,"humidity":61,"cloud":49,"feelslike_c":32.8,"feelslike_f":91.0,"vis_km":10.0,"vis_miles":6.0,"uv":7.0,"gust_mph":5.4,"gust_kph":8.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714057200,"time":"2024-04-25
+        09:00","temp_c":27.7,"temp_f":81.9,"is_day":1,"condition":{"text":"Cloudy
+        ","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png","code":1006},"wind_mph":2.2,"wind_kph":3.6,"wind_degree":140,"wind_dir":"SE","pressure_mb":1015.0,"pressure_in":29.97,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":73,"cloud":76,"feelslike_c":30.5,"feelslike_f":86.9,"windchill_c":27.7,"windchill_f":81.9,"heatindex_c":30.5,"heatindex_f":86.9,"dewpoint_c":22.0,"dewpoint_f":71.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":2.6,"gust_kph":4.1,"uv":6.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:52 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=10&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '62169843'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:52
+      Cdn-Edgestorageid:
+      - '894'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 9a392d9f2db715d04cbf1dd26f41cd5e
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714061062,"localtime":"2024-04-25
+        10:04"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":75,"feelslike_c":33.3,"feelslike_f":92.0,"vis_km":4.8,"vis_miles":2.0,"uv":7.0,"gust_mph":11.4,"gust_kph":18.4},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714060800,"time":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":70,"cloud":75,"feelslike_c":32.8,"feelslike_f":91.0,"windchill_c":29.9,"windchill_f":85.7,"heatindex_c":32.8,"heatindex_f":91.0,"dewpoint_c":21.4,"dewpoint_f":70.5,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":4.8,"vis_miles":2.0,"gust_mph":11.4,"gust_kph":18.4,"uv":7.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:52 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=11&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '64415036'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:52
+      Cdn-Edgestorageid:
+      - '718'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - cc1133357ff5f91d689aedaf6c4be0d0
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714060968,"localtime":"2024-04-25
+        10:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":75,"feelslike_c":33.3,"feelslike_f":92.0,"vis_km":4.8,"vis_miles":2.0,"uv":7.0,"gust_mph":11.4,"gust_kph":18.4},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714064400,"time":"2024-04-25
+        11:00","temp_c":32.0,"temp_f":89.6,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":6.3,"wind_kph":10.1,"wind_degree":105,"wind_dir":"ESE","pressure_mb":1015.0,"pressure_in":29.97,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":51,"cloud":20,"feelslike_c":35.0,"feelslike_f":95.0,"windchill_c":32.0,"windchill_f":89.6,"heatindex_c":35.0,"heatindex_f":95.0,"dewpoint_c":20.6,"dewpoint_f":69.1,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":7.2,"gust_kph":11.6,"uv":8.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:52 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=12&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '46387063'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:52
+      Cdn-Edgestorageid:
+      - '940'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 1492c50dd49373dcc3410563c6920706
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714060968,"localtime":"2024-04-25
+        10:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":75,"feelslike_c":33.3,"feelslike_f":92.0,"vis_km":4.8,"vis_miles":2.0,"uv":7.0,"gust_mph":11.4,"gust_kph":18.4},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714068000,"time":"2024-04-25
+        12:00","temp_c":34.1,"temp_f":93.4,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":7.2,"wind_kph":11.5,"wind_degree":107,"wind_dir":"ESE","pressure_mb":1014.0,"pressure_in":29.94,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":43,"cloud":5,"feelslike_c":36.9,"feelslike_f":98.5,"windchill_c":34.1,"windchill_f":93.4,"heatindex_c":36.9,"heatindex_f":98.5,"dewpoint_c":19.7,"dewpoint_f":67.5,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":8.2,"gust_kph":13.2,"uv":8.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:52 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=13&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:53 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '61380977'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:53
+      Cdn-Edgestorageid:
+      - '871'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 6e2396b932e77c3046be477e1787d477
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714060969,"localtime":"2024-04-25
+        10:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":75,"feelslike_c":33.3,"feelslike_f":92.0,"vis_km":4.8,"vis_miles":2.0,"uv":7.0,"gust_mph":11.4,"gust_kph":18.4},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714071600,"time":"2024-04-25
+        13:00","temp_c":36.1,"temp_f":96.9,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":95,"wind_dir":"E","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":35,"cloud":14,"feelslike_c":38.3,"feelslike_f":100.9,"windchill_c":36.1,"windchill_f":96.9,"heatindex_c":38.3,"heatindex_f":100.9,"dewpoint_c":18.5,"dewpoint_f":65.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":9.0,"gust_kph":14.5,"uv":9.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:53 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=14&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:53 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '70754427'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:53
+      Cdn-Edgestorageid:
+      - '941'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - e459cb60114e56b23921e82d6b37cc78
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714060969,"localtime":"2024-04-25
+        10:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":75,"feelslike_c":33.3,"feelslike_f":92.0,"vis_km":4.8,"vis_miles":2.0,"uv":7.0,"gust_mph":11.4,"gust_kph":18.4},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714075200,"time":"2024-04-25
+        14:00","temp_c":37.8,"temp_f":100.0,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":8.3,"wind_kph":13.3,"wind_degree":89,"wind_dir":"E","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":28,"cloud":10,"feelslike_c":39.0,"feelslike_f":102.3,"windchill_c":37.8,"windchill_f":100.0,"heatindex_c":39.0,"heatindex_f":102.3,"dewpoint_c":16.5,"dewpoint_f":61.7,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":9.5,"gust_kph":15.3,"uv":9.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:53 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=15&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:53 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '70629848'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:53
+      Cdn-Edgestorageid:
+      - '718'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - c591acf8204f463eca9905072035056b
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714061093,"localtime":"2024-04-25
+        10:04"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":75,"feelslike_c":33.3,"feelslike_f":92.0,"vis_km":4.8,"vis_miles":2.0,"uv":7.0,"gust_mph":11.4,"gust_kph":18.4},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714078800,"time":"2024-04-25
+        15:00","temp_c":38.4,"temp_f":101.2,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":8.5,"wind_kph":13.7,"wind_degree":64,"wind_dir":"ENE","pressure_mb":1009.0,"pressure_in":29.8,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":22,"cloud":23,"feelslike_c":39.5,"feelslike_f":103.1,"windchill_c":38.4,"windchill_f":101.2,"heatindex_c":39.5,"heatindex_f":103.1,"dewpoint_c":13.8,"dewpoint_f":56.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":9.8,"gust_kph":15.7,"uv":9.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:53 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=16&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:54 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '64368551'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:54
+      Cdn-Edgestorageid:
+      - '1068'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - e580c08d5168d49fb74c66f5d0ecd0b8
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714061101,"localtime":"2024-04-25
+        10:05"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":75,"feelslike_c":33.3,"feelslike_f":92.0,"vis_km":4.8,"vis_miles":2.0,"uv":7.0,"gust_mph":11.4,"gust_kph":18.4},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714082400,"time":"2024-04-25
+        16:00","temp_c":37.2,"temp_f":98.9,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":16.1,"wind_kph":25.9,"wind_degree":23,"wind_dir":"NNE","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":24,"cloud":19,"feelslike_c":38.9,"feelslike_f":102.0,"windchill_c":37.2,"windchill_f":98.9,"heatindex_c":38.9,"heatindex_f":102.0,"dewpoint_c":14.8,"dewpoint_f":58.7,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":18.5,"gust_kph":29.8,"uv":9.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:54 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=17&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:54 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '70597217'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:54
+      Cdn-Edgestorageid:
+      - '845'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - be6973c2b4fd196b6148833d0f09b306
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714060970,"localtime":"2024-04-25
+        10:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":75,"feelslike_c":33.3,"feelslike_f":92.0,"vis_km":4.8,"vis_miles":2.0,"uv":7.0,"gust_mph":11.4,"gust_kph":18.4},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714086000,"time":"2024-04-25
+        17:00","temp_c":35.4,"temp_f":95.7,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":19.0,"wind_kph":30.6,"wind_degree":10,"wind_dir":"N","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":35,"cloud":11,"feelslike_c":37.3,"feelslike_f":99.2,"windchill_c":35.4,"windchill_f":95.7,"heatindex_c":37.3,"heatindex_f":99.2,"dewpoint_c":18.2,"dewpoint_f":64.8,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":21.9,"gust_kph":35.2,"uv":9.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:54 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=18&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:54 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 haproxy-api-1 (Varnish/7.3)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '74396632'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:54
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 3d83e74f9f8b028d3bc0237bbc58b699
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714061093,"localtime":"2024-04-25
+        10:04"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":29.9,"temp_f":85.7,"is_day":1,"condition":{"text":"Partly
+        Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":4.7,"wind_kph":7.6,"wind_degree":101,"wind_dir":"ESE","pressure_mb":1015.0,"pressure_in":29.98,"precip_mm":0.0,"precip_in":0.0,"humidity":61,"cloud":49,"feelslike_c":32.8,"feelslike_f":91.0,"vis_km":10.0,"vis_miles":6.0,"uv":7.0,"gust_mph":5.4,"gust_kph":8.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714089600,"time":"2024-04-25
+        18:00","temp_c":33.4,"temp_f":92.0,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":16.8,"wind_kph":27.0,"wind_degree":9,"wind_dir":"N","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":41,"cloud":3,"feelslike_c":35.3,"feelslike_f":95.5,"windchill_c":33.4,"windchill_f":92.0,"heatindex_c":35.3,"heatindex_f":95.5,"dewpoint_c":18.6,"dewpoint_f":65.5,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":19.3,"gust_kph":31.1,"uv":8.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:54 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=19&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:54 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '51702433'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:54
+      Cdn-Edgestorageid:
+      - '940'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - '0692c98a8abfa4a5a9321e8ba9a028f9'
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714061094,"localtime":"2024-04-25
+        10:04"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":75,"feelslike_c":33.3,"feelslike_f":92.0,"vis_km":4.8,"vis_miles":2.0,"uv":7.0,"gust_mph":11.4,"gust_kph":18.4},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714093200,"time":"2024-04-25
+        19:00","temp_c":30.5,"temp_f":87.0,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":14.3,"wind_kph":23.0,"wind_degree":4,"wind_dir":"N","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":47,"cloud":1,"feelslike_c":32.4,"feelslike_f":90.4,"windchill_c":30.6,"windchill_f":87.0,"heatindex_c":32.4,"heatindex_f":90.4,"dewpoint_c":18.8,"dewpoint_f":65.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":18.9,"gust_kph":30.3,"uv":8.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:54 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=20&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:55 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '65275575'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:55
+      Cdn-Edgestorageid:
+      - '871'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - d5846615f64c98da4612afc6b565fb30
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714060971,"localtime":"2024-04-25
+        10:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":75,"feelslike_c":33.3,"feelslike_f":92.0,"vis_km":4.8,"vis_miles":2.0,"uv":7.0,"gust_mph":11.4,"gust_kph":18.4},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714096800,"time":"2024-04-25
+        20:00","temp_c":28.3,"temp_f":83.0,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":10.7,"wind_kph":17.3,"wind_degree":357,"wind_dir":"N","pressure_mb":1009.0,"pressure_in":29.8,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":62,"cloud":3,"feelslike_c":30.4,"feelslike_f":86.7,"windchill_c":28.3,"windchill_f":83.0,"heatindex_c":30.4,"heatindex_f":86.7,"dewpoint_c":19.9,"dewpoint_f":67.8,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":18.4,"gust_kph":29.6,"uv":1.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:55 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=21&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:55 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '61723758'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:55
+      Cdn-Edgestorageid:
+      - '940'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - d91726df63c53c1f8209c1e60799a4c2
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714060971,"localtime":"2024-04-25
+        10:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":75,"feelslike_c":33.3,"feelslike_f":92.0,"vis_km":4.8,"vis_miles":2.0,"uv":7.0,"gust_mph":11.4,"gust_kph":18.4},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714100400,"time":"2024-04-25
+        21:00","temp_c":27.0,"temp_f":80.5,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":9.8,"wind_kph":15.8,"wind_degree":354,"wind_dir":"N","pressure_mb":1010.0,"pressure_in":29.82,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":75,"cloud":4,"feelslike_c":29.2,"feelslike_f":84.6,"windchill_c":27.0,"windchill_f":80.5,"heatindex_c":29.2,"heatindex_f":84.6,"dewpoint_c":21.4,"dewpoint_f":70.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":18.5,"gust_kph":29.8,"uv":1.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:55 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=22&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:55 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '53559692'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:55
+      Cdn-Edgestorageid:
+      - '718'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - '09c15c72cf2111c5d37c37b6585ecf2e'
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714060971,"localtime":"2024-04-25
+        10:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":75,"feelslike_c":33.3,"feelslike_f":92.0,"vis_km":4.8,"vis_miles":2.0,"uv":7.0,"gust_mph":11.4,"gust_kph":18.4},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714104000,"time":"2024-04-25
+        22:00","temp_c":26.0,"temp_f":78.8,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":10.1,"wind_kph":16.2,"wind_degree":4,"wind_dir":"N","pressure_mb":1011.0,"pressure_in":29.84,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":81,"cloud":6,"feelslike_c":28.3,"feelslike_f":82.9,"windchill_c":26.0,"windchill_f":78.8,"heatindex_c":28.3,"heatindex_f":82.9,"dewpoint_c":22.2,"dewpoint_f":71.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":18.9,"gust_kph":30.4,"uv":1.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:55 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=23&key=wapi_key&q=C,%20l
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:56 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '61883281'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:56
+      Cdn-Edgestorageid:
+      - '1068'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 9cb613dc7ffa8882f8f314663044406b
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"C-32 (Licenciado Francisco Trujillo Gurria)","region":"Tabasco","country":"Mexico","lat":17.97,"lon":-93.5,"tz_id":"America/Mexico_City","localtime_epoch":1714060971,"localtime":"2024-04-25
+        10:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        10:00","temp_c":30.0,"temp_f":86.0,"is_day":1,"condition":{"text":"Mist","icon":"//cdn.weatherapi.com/weather/64x64/day/143.png","code":1030},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":80,"wind_dir":"E","pressure_mb":1016.0,"pressure_in":29.99,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":75,"feelslike_c":33.3,"feelslike_f":92.0,"vis_km":4.8,"vis_miles":2.0,"uv":7.0,"gust_mph":11.4,"gust_kph":18.4},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":39.4,"maxtemp_f":103.0,"mintemp_c":23.2,"mintemp_f":73.8,"avgtemp_c":29.1,"avgtemp_f":84.3,"maxwind_mph":19.0,"maxwind_kph":30.6,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":65,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"06:50
+        AM","sunset":"07:33 PM","moonrise":"09:18 PM","moonset":"07:47 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714107600,"time":"2024-04-25
+        23:00","temp_c":25.4,"temp_f":77.7,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":4.7,"wind_kph":7.6,"wind_degree":53,"wind_dir":"NE","pressure_mb":1011.0,"pressure_in":29.87,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":85,"cloud":7,"feelslike_c":27.6,"feelslike_f":81.7,"windchill_c":25.4,"windchill_f":77.7,"heatindex_c":27.6,"heatindex_f":81.7,"dewpoint_c":22.2,"dewpoint_f":72.0,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":8.8,"gust_kph":14.2,"uv":1.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:56 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=5&key=wapi_key&q=Cleveland,%20OH&tp=24
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:56 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-894
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '72490379'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:56
+      Cdn-Edgestorageid:
+      - '1069'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - c601a18727d93863ee5e91365621b8ff
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.7,"tz_id":"America/New_York","localtime_epoch":1714060972,"localtime":"2024-04-25
+        12:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        12:00","temp_c":8.9,"temp_f":48.0,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":5.6,"wind_kph":9.0,"wind_degree":320,"wind_dir":"NW","pressure_mb":1028.0,"pressure_in":30.36,"precip_mm":0.0,"precip_in":0.0,"humidity":66,"cloud":0,"feelslike_c":6.7,"feelslike_f":44.1,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":9.8,"gust_kph":15.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":8.0,"maxtemp_f":46.4,"mintemp_c":2.4,"mintemp_f":36.4,"avgtemp_c":5.4,"avgtemp_f":41.6,"maxwind_mph":13.0,"maxwind_kph":20.9,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":61,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":6.0},"astro":{"sunrise":"06:31
+        AM","sunset":"08:19 PM","moonrise":"10:31 PM","moonset":"07:05 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1}},{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":17.0,"maxtemp_f":62.7,"mintemp_c":3.3,"mintemp_f":37.9,"avgtemp_c":10.5,"avgtemp_f":50.8,"maxwind_mph":16.1,"maxwind_kph":25.9,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":60,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":6.0},"astro":{"sunrise":"06:30
+        AM","sunset":"08:20 PM","moonrise":"11:39 PM","moonset":"07:38 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":0,"is_sun_up":1}},{"date":"2024-04-27","date_epoch":1714176000,"day":{"maxtemp_c":16.5,"maxtemp_f":61.8,"mintemp_c":11.7,"mintemp_f":53.1,"avgtemp_c":14.0,"avgtemp_f":57.2,"maxwind_mph":17.4,"maxwind_kph":28.1,"totalprecip_mm":6.1,"totalprecip_in":0.24,"totalsnow_cm":0.0,"avgvis_km":9.2,"avgvis_miles":5.0,"avghumidity":88,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Moderate
+        rain","icon":"//cdn.weatherapi.com/weather/64x64/day/302.png","code":1189},"uv":2.0},"astro":{"sunrise":"06:28
+        AM","sunset":"08:21 PM","moonrise":"No moonrise","moonset":"08:19 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":91,"is_moon_up":0,"is_sun_up":1}},{"date":"2024-04-28","date_epoch":1714262400,"day":{"maxtemp_c":21.3,"maxtemp_f":70.4,"mintemp_c":14.5,"mintemp_f":58.2,"avgtemp_c":17.6,"avgtemp_f":63.6,"maxwind_mph":15.7,"maxwind_kph":25.2,"totalprecip_mm":1.68,"totalprecip_in":0.07,"totalsnow_cm":0.0,"avgvis_km":9.5,"avgvis_miles":5.0,"avghumidity":84,"daily_will_it_rain":1,"daily_chance_of_rain":82,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":8.0},"astro":{"sunrise":"06:27
+        AM","sunset":"08:22 PM","moonrise":"12:43 AM","moonset":"09:12 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":84,"is_moon_up":0,"is_sun_up":1}},{"date":"2024-04-29","date_epoch":1714348800,"day":{"maxtemp_c":22.4,"maxtemp_f":72.3,"mintemp_c":15.3,"mintemp_f":59.6,"avgtemp_c":18.6,"avgtemp_f":65.5,"maxwind_mph":14.3,"maxwind_kph":23.0,"totalprecip_mm":2.13,"totalprecip_in":0.08,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":79,"daily_will_it_rain":1,"daily_chance_of_rain":82,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"06:25
+        AM","sunset":"08:23 PM","moonrise":"01:40 AM","moonset":"10:14 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":76,"is_moon_up":0,"is_sun_up":1}}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:56 GMT
 recorded_with: VCR 6.2.0

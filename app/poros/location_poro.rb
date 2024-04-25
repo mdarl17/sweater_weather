@@ -4,6 +4,6 @@ class LocationPoro
 		@id = "null"
 		@type = "geocoding"
 		@latlon = attributes.first[:locations].first[:latLng]
-		@location = attributes.first[:providedLocation][:location]
+		# @location = attributes.first[:providedLocation][:location]
 	end
 end
