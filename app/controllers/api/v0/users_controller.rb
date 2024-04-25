@@ -13,11 +13,12 @@ class Api::V0::UsersController < ApplicationController
 	end
 
 	def login
+
 		user = User.find_by(email: request.params[:email])
-		if user && user.authenticate
+		if user && user.authenticate(params[:password])
 			render json: { data: user_data(user) }, status: 200
 		else
-			render json: { errors: user.errors.full_messages }, status: :unprocessable_entity
+			render json: { error: "The credentials entered were not accepted. Please try again." }, status: :unprocessable_entity
 		end
 	end
 

@@ -15416,7 +15416,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:04:56 GMT
+      - Thu, 25 Apr 2024 18:56:22 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -15426,7 +15426,7 @@ http_interactions:
       X-Powered-By:
       - MapQuest
       X-Request-Id:
-      - 8f62da90-031d-11ef-9e28-0da246a16d8a
+      - 82202730-0335-11ef-b6d7-ebc0802ca241
       Access-Control-Allow-Origin:
       - "*"
       Etag:
@@ -15435,7 +15435,7 @@ http_interactions:
       encoding: ASCII-8BIT
       string: !binary |-
         eyJpbmZvIjp7InN0YXR1c2NvZGUiOjAsImNvcHlyaWdodCI6eyJ0ZXh0IjoiwqkgMjAyNCBNYXBRdWVzdCwgSW5jLiIsImltYWdlVXJsIjoiaHR0cDovL2FwaS5tcWNkbi5jb20vcmVzL21xbG9nby5naWYiLCJpbWFnZUFsdFRleHQiOiLCqSAyMDI0IE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbXX0sIm9wdGlvbnMiOnsibWF4UmVzdWx0cyI6LTEsImlnbm9yZUxhdExuZ0lucHV0IjpmYWxzZX0sInJlc3VsdHMiOlt7InByb3ZpZGVkTG9jYXRpb24iOnsibG9jYXRpb24iOiJEZW52ZXIsIENPIn0sImxvY2F0aW9ucyI6W3sic3RyZWV0IjoiIiwiYWRtaW5BcmVhNiI6IiIsImFkbWluQXJlYTZUeXBlIjoiTmVpZ2hib3Job29kIiwiYWRtaW5BcmVhNSI6IkRlbnZlciIsImFkbWluQXJlYTVUeXBlIjoiQ2l0eSIsImFkbWluQXJlYTQiOiJEZW52ZXIiLCJhZG1pbkFyZWE0VHlwZSI6IkNvdW50eSIsImFkbWluQXJlYTMiOiJDTyIsImFkbWluQXJlYTNUeXBlIjoiU3RhdGUiLCJhZG1pbkFyZWExIjoiVVMiLCJhZG1pbkFyZWExVHlwZSI6IkNvdW50cnkiLCJwb3N0YWxDb2RlIjoiIiwiZ2VvY29kZVF1YWxpdHlDb2RlIjoiQTVYQVgiLCJnZW9jb2RlUXVhbGl0eSI6IkNJVFkiLCJkcmFnUG9pbnQiOmZhbHNlLCJzaWRlT2ZTdHJlZXQiOiJOIiwibGlua0lkIjoiMCIsInVua25vd25JbnB1dCI6IiIsInR5cGUiOiJzIiwibGF0TG5nIjp7ImxhdCI6MzkuNzQwMDEsImxuZyI6LTEwNC45OTIwMn0sImRpc3BsYXlMYXRMbmciOnsibGF0IjozOS43NDAwMSwibG5nIjotMTA0Ljk5MjAyfSwibWFwVXJsIjoiIn1dfV19
-  recorded_at: Thu, 25 Apr 2024 16:04:56 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:22 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/current.json?key=wapi_key&q=39.74001,%20-104.99202,%20
@@ -15457,7 +15457,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:04:58 GMT
+      - Thu, 25 Apr 2024 18:56:22 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -15467,7 +15467,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -15481,9 +15481,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '61209257'
+      - '74225866'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -15491,21 +15491,22 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:04:58
+      - 04/25/2024 18:56:22
       Cdn-Edgestorageid:
       - '718'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - b0215b8e2ad95d116ceba9c1e3256496
+      - fc5da64cfe3fb3fe324e8e761a897dc4
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
-      string: '{"location":{"name":"Yingko","region":"T''ai-wan","country":"Taiwan","lat":24.95,"lon":121.35,"tz_id":"Asia/Taipei","localtime_epoch":1714060974,"localtime":"2024-04-26
-        0:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-26
-        00:00","temp_c":23.0,"temp_f":73.4,"is_day":0,"condition":{"text":"Light rain","icon":"//cdn.weatherapi.com/weather/64x64/night/296.png","code":1183},"wind_mph":3.8,"wind_kph":6.1,"wind_degree":50,"wind_dir":"NE","pressure_mb":1007.0,"pressure_in":29.74,"precip_mm":1.16,"precip_in":0.05,"humidity":100,"cloud":75,"feelslike_c":25.2,"feelslike_f":77.4,"vis_km":7.0,"vis_miles":4.0,"uv":1.0,"gust_mph":13.6,"gust_kph":21.9}}'
-  recorded_at: Thu, 25 Apr 2024 16:04:58 GMT
+      string: '{"location":{"name":"Yingko","region":"T''ai-wan","country":"Taiwan","lat":24.95,"lon":121.35,"tz_id":"Asia/Taipei","localtime_epoch":1714071258,"localtime":"2024-04-26
+        2:54"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-26
+        02:45","temp_c":21.9,"temp_f":71.3,"is_day":0,"condition":{"text":"Patchy
+        light drizzle","icon":"//cdn.weatherapi.com/weather/64x64/night/263.png","code":1150},"wind_mph":8.3,"wind_kph":13.3,"wind_degree":205,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.44,"precip_in":0.02,"humidity":86,"cloud":79,"feelslike_c":21.9,"feelslike_f":71.3,"vis_km":5.0,"vis_miles":3.0,"uv":1.0,"gust_mph":13.3,"gust_kph":21.5}}'
+  recorded_at: Thu, 25 Apr 2024 18:56:22 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=0&key=wapi_key&q=3,%209
@@ -15527,7 +15528,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:04:58 GMT
+      - Thu, 25 Apr 2024 18:56:23 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -15537,7 +15538,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -15551,9 +15552,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '65606761'
+      - '66487853'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -15561,27 +15562,27 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:04:58
+      - 04/25/2024 18:56:23
       Cdn-Edgestorageid:
       - '1067'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 5c691bea5f12f880d5bbce4988c3597c
+      - 738f13849e94bfe01f9b7886d0f7c476
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714061105,"localtime":"2024-04-25
-        17:05"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071259,"localtime":"2024-04-25
+        19:54"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1713999600,"time":"2024-04-25
         00:00","temp_c":26.0,"temp_f":78.7,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":5.1,"wind_kph":8.3,"wind_degree":246,"wind_dir":"WSW","pressure_mb":1011.0,"pressure_in":29.85,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":84,"cloud":15,"feelslike_c":28.8,"feelslike_f":83.9,"windchill_c":26.0,"windchill_f":78.7,"heatindex_c":28.8,"heatindex_f":83.9,"dewpoint_c":23.0,"dewpoint_f":73.4,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":9.1,"gust_kph":14.7,"uv":1.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:04:58 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:23 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=1&key=wapi_key&q=3,%209
@@ -15603,7 +15604,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:04:58 GMT
+      - Thu, 25 Apr 2024 18:56:23 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -15613,7 +15614,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -15627,9 +15628,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '68567128'
+      - '66043378'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -15637,27 +15638,27 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:04:58
+      - 04/25/2024 18:56:23
       Cdn-Edgestorageid:
       - '718'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 1c6a92660952977f232bb277c0007adf
+      - 688aec03cec8a2dda9c7c62bbd50f0d8
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714060974,"localtime":"2024-04-25
-        17:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071272,"localtime":"2024-04-25
+        19:54"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714003200,"time":"2024-04-25
         01:00","temp_c":26.0,"temp_f":78.8,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":6.0,"wind_kph":9.7,"wind_degree":240,"wind_dir":"WSW","pressure_mb":1010.0,"pressure_in":29.81,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":83,"cloud":16,"feelslike_c":28.8,"feelslike_f":83.9,"windchill_c":26.0,"windchill_f":78.9,"heatindex_c":28.8,"heatindex_f":83.9,"dewpoint_c":22.8,"dewpoint_f":73.1,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":10.8,"gust_kph":17.4,"uv":1.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:04:58 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:23 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=2&key=wapi_key&q=3,%209
@@ -15679,7 +15680,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:04:58 GMT
+      - Thu, 25 Apr 2024 18:56:23 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -15689,7 +15690,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -15703,9 +15704,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '50722882'
+      - '58587942'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -15713,28 +15714,28 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:04:58
+      - 04/25/2024 18:56:23
       Cdn-Edgestorageid:
       - '894'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - ef8cb2a047bb25ec581728b270e2eb8b
+      - a1a5d6324980ec554a51e41d5bf250d6
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714060975,"localtime":"2024-04-25
-        17:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071382,"localtime":"2024-04-25
+        19:56"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714006800,"time":"2024-04-25
         02:00","temp_c":26.0,"temp_f":78.8,"is_day":0,"condition":{"text":"Partly
         Cloudy ","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":5.4,"wind_kph":8.6,"wind_degree":214,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.81,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":82,"cloud":27,"feelslike_c":28.7,"feelslike_f":83.7,"windchill_c":26.0,"windchill_f":78.7,"heatindex_c":28.7,"heatindex_f":83.7,"dewpoint_c":22.8,"dewpoint_f":73.0,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":9.4,"gust_kph":15.1,"uv":1.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:04:58 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:23 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=3&key=wapi_key&q=3,%209
@@ -15756,7 +15757,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:00 GMT
+      - Thu, 25 Apr 2024 18:56:23 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -15766,7 +15767,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -15780,9 +15781,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '55470753'
+      - '64016300'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -15790,28 +15791,28 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:00
+      - 04/25/2024 18:56:23
       Cdn-Edgestorageid:
       - '1029'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 37a9111b06847baefef974035b6c4e31
+      - b745492dd7aef47785aa6ccb365494af
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714060976,"localtime":"2024-04-25
-        17:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071353,"localtime":"2024-04-25
+        19:55"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714010400,"time":"2024-04-25
         03:00","temp_c":25.7,"temp_f":78.2,"is_day":0,"condition":{"text":"Partly
         Cloudy ","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":6.0,"wind_kph":9.7,"wind_degree":218,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":84,"cloud":56,"feelslike_c":28.3,"feelslike_f":83.0,"windchill_c":25.7,"windchill_f":78.2,"heatindex_c":28.3,"heatindex_f":83.0,"dewpoint_c":22.7,"dewpoint_f":72.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":10.6,"gust_kph":17.1,"uv":1.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:00 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:23 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=4&key=wapi_key&q=3,%209
@@ -15833,7 +15834,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:00 GMT
+      - Thu, 25 Apr 2024 18:56:24 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -15843,7 +15844,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -15857,9 +15858,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '47492944'
+      - '70609040'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -15867,27 +15868,27 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:00
+      - 04/25/2024 18:56:24
       Cdn-Edgestorageid:
       - '1068'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 8ccf593d547bd1669a93fb0f14f9c857
+      - d8a3647c0660142cbf2759a2f35ae793
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714060976,"localtime":"2024-04-25
-        17:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071260,"localtime":"2024-04-25
+        19:54"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714014000,"time":"2024-04-25
         04:00","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":3.1,"wind_kph":5.0,"wind_degree":244,"wind_dir":"WSW","pressure_mb":1009.0,"pressure_in":29.78,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":84,"cloud":25,"feelslike_c":28.7,"feelslike_f":83.7,"windchill_c":25.9,"windchill_f":78.6,"heatindex_c":28.7,"heatindex_f":83.7,"dewpoint_c":23.0,"dewpoint_f":73.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":5.6,"gust_kph":9.0,"uv":1.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:00 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:24 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=5&key=wapi_key&q=3,%209
@@ -15909,7 +15910,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:00 GMT
+      - Thu, 25 Apr 2024 18:56:24 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -15919,7 +15920,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -15933,9 +15934,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '64558195'
+      - '59144334'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -15943,27 +15944,27 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:00
+      - 04/25/2024 18:56:24
       Cdn-Edgestorageid:
       - '1067'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 40f633064986095dcf1279e66a18f8fa
+      - 2e404e15eea8a9fb5fc749c176a27539
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714061107,"localtime":"2024-04-25
-        17:05"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071260,"localtime":"2024-04-25
+        19:54"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714017600,"time":"2024-04-25
         05:00","temp_c":25.8,"temp_f":78.5,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":4.3,"wind_kph":6.8,"wind_degree":232,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":85,"cloud":23,"feelslike_c":28.7,"feelslike_f":83.6,"windchill_c":25.8,"windchill_f":78.5,"heatindex_c":28.7,"heatindex_f":83.6,"dewpoint_c":23.1,"dewpoint_f":73.5,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":7.4,"gust_kph":12.0,"uv":1.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:00 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:24 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=6&key=wapi_key&q=3,%209
@@ -15985,7 +15986,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:00 GMT
+      - Thu, 25 Apr 2024 18:56:24 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -15995,7 +15996,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -16009,9 +16010,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '59266043'
+      - '74459081'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -16019,28 +16020,28 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:00
+      - 04/25/2024 18:56:24
       Cdn-Edgestorageid:
       - '941'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - cf2c32372dadd71ae004e87bfa482aa7
+      - 69d42db60b727ad1e17e2bf73390d1ca
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714061108,"localtime":"2024-04-25
-        17:05"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071260,"localtime":"2024-04-25
+        19:54"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714021200,"time":"2024-04-25
         06:00","temp_c":26.7,"temp_f":80.1,"is_day":0,"condition":{"text":"Partly
         Cloudy ","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":4.7,"wind_kph":7.6,"wind_degree":223,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.81,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":86,"cloud":35,"feelslike_c":30.4,"feelslike_f":86.7,"windchill_c":26.7,"windchill_f":80.0,"heatindex_c":30.4,"heatindex_f":86.7,"dewpoint_c":24.1,"dewpoint_f":75.4,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":6.9,"gust_kph":11.1,"uv":1.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:00 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:24 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=7&key=wapi_key&q=3,%209
@@ -16062,7 +16063,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:01 GMT
+      - Thu, 25 Apr 2024 18:56:25 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -16072,7 +16073,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -16086,9 +16087,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '62213378'
+      - '72525346'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -16096,28 +16097,28 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:01
+      - 04/25/2024 18:56:25
       Cdn-Edgestorageid:
       - '1068'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - d5b287a2d2fe2c826b77ef0a7194b6db
+      - f27a68cadb9d90dc7c7cee8ff73c9402
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714060990,"localtime":"2024-04-25
-        17:03"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071385,"localtime":"2024-04-25
+        19:56"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714024800,"time":"2024-04-25
         07:00","temp_c":27.8,"temp_f":82.0,"is_day":1,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"wind_mph":4.3,"wind_kph":6.8,"wind_degree":224,"wind_dir":"SW","pressure_mb":1010.0,"pressure_in":29.83,"precip_mm":0.01,"precip_in":0.0,"snow_cm":0.0,"humidity":85,"cloud":76,"feelslike_c":32.7,"feelslike_f":90.8,"windchill_c":27.8,"windchill_f":82.0,"heatindex_c":32.7,"heatindex_f":90.8,"dewpoint_c":25.1,"dewpoint_f":77.1,"will_it_rain":1,"chance_of_rain":76,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":5.0,"gust_kph":8.1,"uv":6.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:01 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:25 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=8&key=wapi_key&q=3,%209
@@ -16139,7 +16140,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:01 GMT
+      - Thu, 25 Apr 2024 18:56:25 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -16149,7 +16150,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -16163,9 +16164,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '68597994'
+      - '74068604'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -16173,28 +16174,28 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:01
+      - 04/25/2024 18:56:25
       Cdn-Edgestorageid:
       - '1070'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 2dfc4d89270732ef3919780fdac8fffe
+      - abf76d4f6609c35a7d31bcce01065505
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714061071,"localtime":"2024-04-25
-        17:04"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071384,"localtime":"2024-04-25
+        19:56"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714028400,"time":"2024-04-25
         08:00","temp_c":28.2,"temp_f":82.7,"is_day":1,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"wind_mph":5.4,"wind_kph":8.6,"wind_degree":204,"wind_dir":"SSW","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.04,"precip_in":0.0,"snow_cm":0.0,"humidity":84,"cloud":75,"feelslike_c":33.4,"feelslike_f":92.1,"windchill_c":28.2,"windchill_f":82.7,"heatindex_c":33.4,"heatindex_f":92.1,"dewpoint_c":25.2,"dewpoint_f":77.3,"will_it_rain":1,"chance_of_rain":72,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":6.2,"gust_kph":9.9,"uv":6.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:01 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:25 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=9&key=wapi_key&q=3,%209
@@ -16216,7 +16217,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:01 GMT
+      - Thu, 25 Apr 2024 18:56:25 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -16226,7 +16227,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -16240,9 +16241,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '57440494'
+      - '59535221'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -16250,28 +16251,28 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:01
+      - 04/25/2024 18:56:25
       Cdn-Edgestorageid:
       - '941'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - d7b6dae0c0657970bbbf251005d435f3
+      - 6389bec4e91dae886caca6d10a4dd373
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714061114,"localtime":"2024-04-25
-        17:05"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071275,"localtime":"2024-04-25
+        19:54"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714032000,"time":"2024-04-25
         09:00","temp_c":28.4,"temp_f":83.1,"is_day":1,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"wind_mph":6.3,"wind_kph":10.1,"wind_degree":201,"wind_dir":"SSW","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.05,"precip_in":0.0,"snow_cm":0.0,"humidity":83,"cloud":87,"feelslike_c":33.8,"feelslike_f":92.8,"windchill_c":28.4,"windchill_f":83.1,"heatindex_c":33.8,"heatindex_f":92.8,"dewpoint_c":25.2,"dewpoint_f":77.4,"will_it_rain":0,"chance_of_rain":67,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":7.2,"gust_kph":11.6,"uv":6.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:01 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:25 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=10&key=wapi_key&q=3,%209
@@ -16293,7 +16294,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:02 GMT
+      - Thu, 25 Apr 2024 18:56:25 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -16303,7 +16304,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -16317,9 +16318,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '44693494'
+      - '68063727'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -16327,28 +16328,28 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:02
+      - 04/25/2024 18:56:25
       Cdn-Edgestorageid:
       - '940'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 77c5496de6741187eadaced9a1451ac1
+      - 0041dd576caedfda48a01ba7a69a2db0
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714061101,"localtime":"2024-04-25
-        17:05"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071261,"localtime":"2024-04-25
+        19:54"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714035600,"time":"2024-04-25
         10:00","temp_c":28.7,"temp_f":83.7,"is_day":1,"condition":{"text":"Thundery
         outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.2,"wind_kph":11.5,"wind_degree":208,"wind_dir":"SSW","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.01,"precip_in":0.0,"snow_cm":0.0,"humidity":82,"cloud":81,"feelslike_c":34.2,"feelslike_f":93.6,"windchill_c":28.7,"windchill_f":83.7,"heatindex_c":34.2,"heatindex_f":93.6,"dewpoint_c":25.2,"dewpoint_f":77.4,"will_it_rain":0,"chance_of_rain":64,"will_it_snow":0,"chance_of_snow":0,"vis_km":9.0,"vis_miles":5.0,"gust_mph":8.2,"gust_kph":13.2,"uv":6.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:02 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:25 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=11&key=wapi_key&q=3,%209
@@ -16370,7 +16371,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:02 GMT
+      - Thu, 25 Apr 2024 18:56:26 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -16380,7 +16381,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -16394,9 +16395,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '55540592'
+      - '71380771'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -16404,28 +16405,28 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:02
+      - 04/25/2024 18:56:26
       Cdn-Edgestorageid:
       - '1070'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 14c05489447462a20e3a4360f650548c
+      - 774fd77ef371b2ba6a8515533c924a51
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714060978,"localtime":"2024-04-25
-        17:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071393,"localtime":"2024-04-25
+        19:56"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714039200,"time":"2024-04-25
         11:00","temp_c":28.9,"temp_f":84.1,"is_day":1,"condition":{"text":"Thundery
         outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":201,"wind_dir":"SSW","pressure_mb":1012.0,"pressure_in":29.88,"precip_mm":0.03,"precip_in":0.0,"snow_cm":0.0,"humidity":80,"cloud":75,"feelslike_c":34.5,"feelslike_f":94.1,"windchill_c":28.9,"windchill_f":84.1,"heatindex_c":34.5,"heatindex_f":94.1,"dewpoint_c":25.2,"dewpoint_f":77.3,"will_it_rain":1,"chance_of_rain":88,"will_it_snow":0,"chance_of_snow":0,"vis_km":9.0,"vis_miles":5.0,"gust_mph":9.0,"gust_kph":14.5,"uv":6.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:02 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:26 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=12&key=wapi_key&q=3,%209
@@ -16447,7 +16448,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:02 GMT
+      - Thu, 25 Apr 2024 18:56:26 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -16457,7 +16458,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -16471,9 +16472,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '59637734'
+      - '14575358'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -16481,28 +16482,28 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:02
+      - 04/25/2024 18:56:26
       Cdn-Edgestorageid:
       - '894'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - d2afde39cbaa53b98380f02865eaaa8c
+      - 1f5f010c684620260d306909abee48c6
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714060978,"localtime":"2024-04-25
-        17:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071386,"localtime":"2024-04-25
+        19:56"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714042800,"time":"2024-04-25
         12:00","temp_c":29.0,"temp_f":84.1,"is_day":1,"condition":{"text":"Patchy
         light rain in area with thunder","icon":"//cdn.weatherapi.com/weather/64x64/day/386.png","code":1273},"wind_mph":7.6,"wind_kph":12.2,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.15,"precip_in":0.01,"snow_cm":0.0,"humidity":80,"cloud":85,"feelslike_c":34.6,"feelslike_f":94.2,"windchill_c":29.0,"windchill_f":84.1,"heatindex_c":34.6,"heatindex_f":94.2,"dewpoint_c":25.2,"dewpoint_f":77.3,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":8.8,"gust_kph":14.2,"uv":6.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:02 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:26 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=13&key=wapi_key&q=3,%209
@@ -16524,7 +16525,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:03 GMT
+      - Thu, 25 Apr 2024 18:56:26 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -16534,7 +16535,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -16546,11 +16547,11 @@ http_interactions:
       Cache-Control:
       - public, max-age=180
       Via:
-      - 1.1 varnish (Varnish/6.0)
+      - 1.1 haproxy-api-1 (Varnish/7.3)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '62526305'
+      - '74746070'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -16558,28 +16559,28 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:03
+      - 04/25/2024 18:56:26
       Cdn-Edgestorageid:
       - '1069'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 324ae409dd73d6396b0b676ee139ec9d
+      - 7dd0620926e00824d5b78754bdf14451
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714061103,"localtime":"2024-04-25
-        17:05"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071262,"localtime":"2024-04-25
+        19:54"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714046400,"time":"2024-04-25
         13:00","temp_c":28.8,"temp_f":83.9,"is_day":1,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"wind_mph":8.1,"wind_kph":13.0,"wind_degree":203,"wind_dir":"SSW","pressure_mb":1010.0,"pressure_in":29.82,"precip_mm":0.02,"precip_in":0.0,"snow_cm":0.0,"humidity":81,"cloud":72,"feelslike_c":34.4,"feelslike_f":93.8,"windchill_c":28.8,"windchill_f":83.9,"heatindex_c":34.4,"heatindex_f":93.8,"dewpoint_c":25.2,"dewpoint_f":77.3,"will_it_rain":1,"chance_of_rain":78,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":9.5,"gust_kph":15.3,"uv":6.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:03 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:26 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=14&key=wapi_key&q=3,%209
@@ -16601,7 +16602,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:03 GMT
+      - Thu, 25 Apr 2024 18:56:27 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -16611,7 +16612,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -16625,9 +16626,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '73045900'
+      - '57421955'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -16635,28 +16636,28 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:03
+      - 04/25/2024 18:56:27
       Cdn-Edgestorageid:
       - '1068'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - dc6c9fc66db8bbb77f85cfc3183de329
+      - cb12a9ccd6df3df97cfc6a613421083a
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714060992,"localtime":"2024-04-25
-        17:03"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071387,"localtime":"2024-04-25
+        19:56"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714050000,"time":"2024-04-25
         14:00","temp_c":28.8,"temp_f":83.9,"is_day":1,"condition":{"text":"Patchy
         light rain in area with thunder","icon":"//cdn.weatherapi.com/weather/64x64/day/386.png","code":1273},"wind_mph":8.3,"wind_kph":13.3,"wind_degree":203,"wind_dir":"SSW","pressure_mb":1009.0,"pressure_in":29.78,"precip_mm":0.39,"precip_in":0.02,"snow_cm":0.0,"humidity":80,"cloud":79,"feelslike_c":34.3,"feelslike_f":93.8,"windchill_c":28.8,"windchill_f":83.9,"heatindex_c":34.3,"heatindex_f":93.8,"dewpoint_c":25.1,"dewpoint_f":77.2,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":9.6,"gust_kph":15.5,"uv":6.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:03 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:27 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=15&key=wapi_key&q=3,%209
@@ -16678,7 +16679,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:03 GMT
+      - Thu, 25 Apr 2024 18:56:27 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -16688,7 +16689,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -16702,9 +16703,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '69712874'
+      - '61127895'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -16712,28 +16713,28 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:03
+      - 04/25/2024 18:56:27
       Cdn-Edgestorageid:
       - '845'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - dcf157c16a4652dcf8ca948d6b80c205
+      - fb2fcc1cf77ab6cdc6e00b2939215ac2
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714060979,"localtime":"2024-04-25
-        17:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071264,"localtime":"2024-04-25
+        19:54"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714053600,"time":"2024-04-25
         15:00","temp_c":28.9,"temp_f":84.0,"is_day":1,"condition":{"text":"Patchy
         light rain in area with thunder","icon":"//cdn.weatherapi.com/weather/64x64/day/386.png","code":1273},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":196,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.43,"precip_in":0.02,"snow_cm":0.0,"humidity":80,"cloud":85,"feelslike_c":34.2,"feelslike_f":93.6,"windchill_c":28.9,"windchill_f":84.0,"heatindex_c":34.2,"heatindex_f":93.6,"dewpoint_c":25.0,"dewpoint_f":77.0,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":10.6,"gust_kph":17.0,"uv":6.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:03 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:27 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=16&key=wapi_key&q=3,%209
@@ -16755,7 +16756,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:03 GMT
+      - Thu, 25 Apr 2024 18:56:28 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -16765,7 +16766,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -16779,9 +16780,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '32564269'
+      - '27714106'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -16789,28 +16790,28 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:03
+      - 04/25/2024 18:56:28
       Cdn-Edgestorageid:
       - '1067'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 4a9915d46e4a37fc967ad750af461529
+      - 3a93a2ed1a7d9dddd4664c2327a9a04c
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714060979,"localtime":"2024-04-25
-        17:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071264,"localtime":"2024-04-25
+        19:54"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714057200,"time":"2024-04-25
         16:00","temp_c":28.8,"temp_f":83.8,"is_day":1,"condition":{"text":"Patchy
         light rain in area with thunder","icon":"//cdn.weatherapi.com/weather/64x64/day/386.png","code":1273},"wind_mph":7.6,"wind_kph":12.2,"wind_degree":203,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.76,"precip_mm":0.67,"precip_in":0.03,"snow_cm":0.0,"humidity":79,"cloud":80,"feelslike_c":34.0,"feelslike_f":93.1,"windchill_c":28.8,"windchill_f":83.8,"heatindex_c":34.0,"heatindex_f":93.1,"dewpoint_c":24.8,"dewpoint_f":76.7,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":11.2,"gust_kph":18.0,"uv":6.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:03 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:28 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=17&key=wapi_key&q=3,%209
@@ -16832,7 +16833,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:04 GMT
+      - Thu, 25 Apr 2024 18:56:28 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -16842,7 +16843,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -16854,11 +16855,11 @@ http_interactions:
       Cache-Control:
       - public, max-age=180
       Via:
-      - 1.1 varnish (Varnish/6.0)
+      - 1.1 haproxy-api-1 (Varnish/7.3)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '59690088'
+      - '75041323'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -16866,28 +16867,28 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:04
+      - 04/25/2024 18:56:28
       Cdn-Edgestorageid:
       - '894'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 9debff983350594c4e4c296144046f29
+      - 6bf7faad9d19e26834eaf1643d9e2d45
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714061104,"localtime":"2024-04-25
-        17:05"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071264,"localtime":"2024-04-25
+        19:54"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714060800,"time":"2024-04-25
         17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
         outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"snow_cm":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"windchill_c":26.7,"windchill_f":80.0,"heatindex_c":29.8,"heatindex_f":85.6,"dewpoint_c":23.1,"dewpoint_f":73.6,"will_it_rain":0,"chance_of_rain":64,"will_it_snow":0,"chance_of_snow":0,"vis_km":9.0,"vis_miles":5.0,"gust_mph":12.3,"gust_kph":19.7,"uv":6.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:04 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:28 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=18&key=wapi_key&q=3,%209
@@ -16909,7 +16910,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:04 GMT
+      - Thu, 25 Apr 2024 18:56:28 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -16919,7 +16920,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -16933,9 +16934,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '42889833'
+      - '60975563'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -16943,28 +16944,28 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:04
+      - 04/25/2024 18:56:28
       Cdn-Edgestorageid:
       - '845'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - ea16c1e3e09579830836f165d9cafe07
+      - 7359036e1fa5a56529d941b8f95449d5
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714060994,"localtime":"2024-04-25
-        17:03"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071264,"localtime":"2024-04-25
+        19:54"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714064400,"time":"2024-04-25
         18:00","temp_c":26.4,"temp_f":79.5,"is_day":1,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"wind_mph":7.4,"wind_kph":11.9,"wind_degree":209,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.78,"precip_mm":0.01,"precip_in":0.0,"snow_cm":0.0,"humidity":83,"cloud":71,"feelslike_c":29.5,"feelslike_f":85.0,"windchill_c":26.4,"windchill_f":79.5,"heatindex_c":29.5,"heatindex_f":85.0,"dewpoint_c":23.2,"dewpoint_f":73.8,"will_it_rain":0,"chance_of_rain":70,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":11.8,"gust_kph":19.0,"uv":6.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:04 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:28 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=19&key=wapi_key&q=3,%209
@@ -16986,7 +16987,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:04 GMT
+      - Thu, 25 Apr 2024 18:56:28 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -16996,7 +16997,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -17010,9 +17011,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '59430980'
+      - '55137045'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -17020,28 +17021,28 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:04
+      - 04/25/2024 18:56:28
       Cdn-Edgestorageid:
       - '718'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 8a2861872ad1c343c31a33a0aaf6e426
+      - 989ac65a5fdc71646a3238bce18c42ae
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714060981,"localtime":"2024-04-25
-        17:03"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071264,"localtime":"2024-04-25
+        19:54"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714068000,"time":"2024-04-25
         19:00","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"snow_cm":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"windchill_c":25.9,"windchill_f":78.7,"heatindex_c":28.9,"heatindex_f":84.0,"dewpoint_c":23.3,"dewpoint_f":73.9,"will_it_rain":1,"chance_of_rain":78,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":13.1,"gust_kph":21.1,"uv":1.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:04 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:28 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=20&key=wapi_key&q=3,%209
@@ -17063,7 +17064,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:05 GMT
+      - Thu, 25 Apr 2024 18:56:29 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -17073,7 +17074,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -17081,15 +17082,15 @@ http_interactions:
       Cdn-Requestcountrycode:
       - US
       Age:
-      - '368'
+      - '0'
       Cache-Control:
       - public, max-age=180
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - 65244464 21486429
+      - '62071907'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -17097,27 +17098,27 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:05
+      - 04/25/2024 18:56:29
       Cdn-Edgestorageid:
       - '718'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - ade6764b1ae0567f9c296fb5aea5afc9
+      - e274a3545ac1bd69bab03808c98376b5
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714060736,"localtime":"2024-04-25
-        16:58"},"current":{"last_updated_epoch":1714059900,"last_updated":"2024-04-25
-        16:45","temp_c":28.8,"temp_f":83.8,"is_day":1,"condition":{"text":"Patchy
-        light rain in area with thunder","icon":"//cdn.weatherapi.com/weather/64x64/day/386.png","code":1273},"wind_mph":7.6,"wind_kph":12.2,"wind_degree":203,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.76,"precip_mm":0.67,"precip_in":0.03,"humidity":79,"cloud":80,"feelslike_c":34.0,"feelslike_f":93.1,"vis_km":10.0,"vis_miles":6.0,"uv":6.0,"gust_mph":11.2,"gust_kph":18.0},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071389,"localtime":"2024-04-25
+        19:56"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714071600,"time":"2024-04-25
         20:00","temp_c":25.8,"temp_f":78.5,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":7.4,"wind_kph":11.9,"wind_degree":236,"wind_dir":"WSW","pressure_mb":1009.0,"pressure_in":29.81,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":86,"cloud":18,"feelslike_c":28.7,"feelslike_f":83.7,"windchill_c":25.8,"windchill_f":78.5,"heatindex_c":28.7,"heatindex_f":83.7,"dewpoint_c":23.2,"dewpoint_f":73.8,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":12.6,"gust_kph":20.3,"uv":1.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:05 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:29 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=21&key=wapi_key&q=3,%209
@@ -17139,7 +17140,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:05 GMT
+      - Thu, 25 Apr 2024 18:56:29 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -17149,7 +17150,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -17163,9 +17164,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '70918812'
+      - '57298090'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -17173,28 +17174,28 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:05
+      - 04/25/2024 18:56:29
       Cdn-Edgestorageid:
       - '1069'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 893ef79d60b0bad476b8427459d4540b
+      - 17c8597bbe020c4808863ba03f3570f6
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714061112,"localtime":"2024-04-25
-        17:05"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071389,"localtime":"2024-04-25
+        19:56"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714075200,"time":"2024-04-25
         21:00","temp_c":26.8,"temp_f":80.2,"is_day":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.4,"wind_kph":11.9,"wind_degree":237,"wind_dir":"WSW","pressure_mb":1010.0,"pressure_in":29.83,"precip_mm":0.01,"precip_in":0.0,"snow_cm":0.0,"humidity":86,"cloud":79,"feelslike_c":30.5,"feelslike_f":87.0,"windchill_c":26.8,"windchill_f":80.2,"heatindex_c":30.5,"heatindex_f":87.0,"dewpoint_c":24.2,"dewpoint_f":75.5,"will_it_rain":1,"chance_of_rain":74,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":10.7,"gust_kph":17.2,"uv":1.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:05 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:29 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=22&key=wapi_key&q=3,%209
@@ -17216,7 +17217,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:05 GMT
+      - Thu, 25 Apr 2024 18:56:29 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -17226,7 +17227,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -17240,9 +17241,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '67826246'
+      - '59917659'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -17250,27 +17251,27 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:05
+      - 04/25/2024 18:56:29
       Cdn-Edgestorageid:
       - '1070'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - '0835fa6a71228076ebd4d1205c782360'
+      - 989384bbcb33b7172fda15f530c23bf5
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714061105,"localtime":"2024-04-25
-        17:05"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071265,"localtime":"2024-04-25
+        19:54"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714078800,"time":"2024-04-25
         22:00","temp_c":26.6,"temp_f":79.9,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":7.2,"wind_kph":11.5,"wind_degree":253,"wind_dir":"WSW","pressure_mb":1011.0,"pressure_in":29.84,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":85,"cloud":12,"feelslike_c":30.2,"feelslike_f":86.4,"windchill_c":26.6,"windchill_f":80.0,"heatindex_c":30.2,"heatindex_f":86.4,"dewpoint_c":24.0,"dewpoint_f":75.2,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":10.7,"gust_kph":17.2,"uv":1.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:05 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:29 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=23&key=wapi_key&q=3,%209
@@ -17292,7 +17293,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:05 GMT
+      - Thu, 25 Apr 2024 18:56:30 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -17302,7 +17303,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -17316,9 +17317,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '64982771'
+      - '66291143'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -17326,28 +17327,28 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:05
+      - 04/25/2024 18:56:30
       Cdn-Edgestorageid:
       - '871'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 2d41c245f313f7883cd7fc79691d1a40
+      - 0c1fb29e0e2088e9ec5c420d3fd138ad
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Boho","region":"Bioko Sur","country":"Equatorial
-        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714060982,"localtime":"2024-04-25
-        17:03"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        17:00","temp_c":26.7,"temp_f":80.0,"is_day":1,"condition":{"text":"Thundery
-        outbreaks in nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/200.png","code":1087},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":198,"wind_dir":"SSW","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.03,"precip_in":0.0,"humidity":81,"cloud":75,"feelslike_c":29.8,"feelslike_f":85.6,"vis_km":9.0,"vis_miles":5.0,"uv":6.0,"gust_mph":12.3,"gust_kph":19.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        Guinea","lat":3.0,"lon":9.0,"tz_id":"Africa/Malabo","localtime_epoch":1714071266,"localtime":"2024-04-25
+        19:54"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        19:45","temp_c":25.9,"temp_f":78.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":225,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.01,"precip_in":0.0,"humidity":85,"cloud":77,"feelslike_c":28.9,"feelslike_f":84.0,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":13.1,"gust_kph":21.1},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":29.0,"maxtemp_f":84.1,"mintemp_c":25.7,"mintemp_f":78.2,"avgtemp_c":27.2,"avgtemp_f":81.0,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":2.98,"totalprecip_in":0.12,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":88,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":9.0},"astro":{"sunrise":"06:16
         AM","sunset":"06:29 PM","moonrise":"07:47 PM","moonset":"07:11 AM","moon_phase":"Waning
         Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714082400,"time":"2024-04-25
         23:00","temp_c":26.7,"temp_f":80.1,"is_day":0,"condition":{"text":"Patchy
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":5.4,"wind_kph":8.6,"wind_degree":262,"wind_dir":"W","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":1.11,"precip_in":0.04,"snow_cm":0.0,"humidity":85,"cloud":80,"feelslike_c":30.4,"feelslike_f":86.6,"windchill_c":26.8,"windchill_f":80.2,"heatindex_c":30.4,"heatindex_f":86.6,"dewpoint_c":24.0,"dewpoint_f":75.1,"will_it_rain":1,"chance_of_rain":100,"will_it_snow":0,"chance_of_snow":0,"vis_km":9.0,"vis_miles":5.0,"gust_mph":8.1,"gust_kph":13.1,"uv":1.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:05 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:30 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=5&key=wapi_key&q=39.74001,%20-104.99202,%20&tp=24
@@ -17369,7 +17370,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:06 GMT
+      - Thu, 25 Apr 2024 18:56:30 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -17379,7 +17380,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -17393,9 +17394,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '69916178'
+      - '64959505'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -17403,20 +17404,21 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:06
+      - 04/25/2024 18:56:30
       Cdn-Edgestorageid:
       - '845'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 04e4aac454edc68267a77a885de18b0a
+      - 6d8dbed894469d223d27b9a126d64082
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
-      string: '{"location":{"name":"Yingko","region":"T''ai-wan","country":"Taiwan","lat":24.95,"lon":121.35,"tz_id":"Asia/Taipei","localtime_epoch":1714061076,"localtime":"2024-04-26
-        0:04"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-26
-        00:00","temp_c":23.0,"temp_f":73.4,"is_day":0,"condition":{"text":"Light rain","icon":"//cdn.weatherapi.com/weather/64x64/night/296.png","code":1183},"wind_mph":3.8,"wind_kph":6.1,"wind_degree":50,"wind_dir":"NE","pressure_mb":1007.0,"pressure_in":29.74,"precip_mm":1.16,"precip_in":0.05,"humidity":100,"cloud":75,"feelslike_c":25.2,"feelslike_f":77.4,"vis_km":7.0,"vis_miles":4.0,"uv":1.0,"gust_mph":13.6,"gust_kph":21.9},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":26.1,"maxtemp_f":79.0,"mintemp_c":21.3,"mintemp_f":70.4,"avgtemp_c":22.9,"avgtemp_f":73.2,"maxwind_mph":9.6,"maxwind_kph":15.5,"totalprecip_mm":10.64,"totalprecip_in":0.42,"totalsnow_cm":0.0,"avgvis_km":9.0,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":94,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Moderate
+      string: '{"location":{"name":"Yingko","region":"T''ai-wan","country":"Taiwan","lat":24.95,"lon":121.35,"tz_id":"Asia/Taipei","localtime_epoch":1714071266,"localtime":"2024-04-26
+        2:54"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-26
+        02:45","temp_c":21.9,"temp_f":71.3,"is_day":0,"condition":{"text":"Patchy
+        light drizzle","icon":"//cdn.weatherapi.com/weather/64x64/night/263.png","code":1150},"wind_mph":8.3,"wind_kph":13.3,"wind_degree":205,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.44,"precip_in":0.02,"humidity":86,"cloud":79,"feelslike_c":21.9,"feelslike_f":71.3,"vis_km":5.0,"vis_miles":3.0,"uv":1.0,"gust_mph":13.3,"gust_kph":21.5},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":26.1,"maxtemp_f":79.0,"mintemp_c":21.3,"mintemp_f":70.4,"avgtemp_c":22.9,"avgtemp_f":73.2,"maxwind_mph":9.6,"maxwind_kph":15.5,"totalprecip_mm":10.64,"totalprecip_in":0.42,"totalsnow_cm":0.0,"avgvis_km":9.0,"avgvis_miles":5.0,"avghumidity":86,"daily_will_it_rain":1,"daily_chance_of_rain":94,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Moderate
         rain","icon":"//cdn.weatherapi.com/weather/64x64/day/302.png","code":1189},"uv":4.0},"astro":{"sunrise":"05:23
         AM","sunset":"06:22 PM","moonrise":"08:38 PM","moonset":"06:31 AM","moon_phase":"Waning
         Gibbous","moon_illumination":96,"is_moon_up":0,"is_sun_up":1}},{"date":"2024-04-27","date_epoch":1714176000,"day":{"maxtemp_c":27.7,"maxtemp_f":81.8,"mintemp_c":20.4,"mintemp_f":68.7,"avgtemp_c":23.9,"avgtemp_f":74.9,"maxwind_mph":8.1,"maxwind_kph":13.0,"totalprecip_mm":5.67,"totalprecip_in":0.22,"totalsnow_cm":0.0,"avgvis_km":9.7,"avgvis_miles":6.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":89,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Moderate
@@ -17432,5 +17434,5 @@ http_interactions:
         rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":6.0},"astro":{"sunrise":"05:20
         AM","sunset":"06:24 PM","moonrise":"No moonrise","moonset":"10:06 AM","moon_phase":"Waning
         Gibbous","moon_illumination":66,"is_moon_up":1,"is_sun_up":1}}]}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:06 GMT
+  recorded_at: Thu, 25 Apr 2024 18:56:30 GMT
 recorded_with: VCR 6.2.0

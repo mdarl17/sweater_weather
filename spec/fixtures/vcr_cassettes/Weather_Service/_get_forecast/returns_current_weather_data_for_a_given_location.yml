@@ -92,7 +92,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 25 Apr 2024 16:05:07 GMT
+      - Thu, 25 Apr 2024 18:56:31 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -102,7 +102,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-894
+      - BunnyCDN-IL1-940
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -114,11 +114,11 @@ http_interactions:
       Cache-Control:
       - public, max-age=180
       Via:
-      - 1.1 haproxy-api-1 (Varnish/7.3)
+      - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999007'
+      - '4998750'
       X-Varnish:
-      - '64970024'
+      - '54150156'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -126,20 +126,21 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 04/25/2024 16:05:07
+      - 04/25/2024 18:56:31
       Cdn-Edgestorageid:
       - '1029'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 579bb04012a26a136729365e228d15a6
+      - b6b8fc5e3cd107fcfbde7354115ca719
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Los Angeles","region":"California","country":"United
-        States of America","lat":34.05,"lon":-118.24,"tz_id":"America/Los_Angeles","localtime_epoch":1714060996,"localtime":"2024-04-25
-        9:03"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
-        09:00","temp_c":14.4,"temp_f":57.9,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":240,"wind_dir":"WSW","pressure_mb":1018.0,"pressure_in":30.07,"precip_mm":0.0,"precip_in":0.0,"humidity":75,"cloud":100,"feelslike_c":14.3,"feelslike_f":57.8,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":11.4,"gust_kph":18.4}}'
-  recorded_at: Thu, 25 Apr 2024 16:05:06 GMT
+        States of America","lat":34.05,"lon":-118.24,"tz_id":"America/Los_Angeles","localtime_epoch":1714071267,"localtime":"2024-04-25
+        11:54"},"current":{"last_updated_epoch":1714070700,"last_updated":"2024-04-25
+        11:45","temp_c":15.4,"temp_f":59.7,"is_day":1,"condition":{"text":"Partly
+        Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":5.6,"wind_kph":9.0,"wind_degree":191,"wind_dir":"SSW","pressure_mb":1019.0,"pressure_in":30.09,"precip_mm":0.0,"precip_in":0.0,"humidity":59,"cloud":61,"feelslike_c":15.4,"feelslike_f":59.7,"vis_km":10.0,"vis_miles":6.0,"uv":5.0,"gust_mph":6.4,"gust_kph":10.4}}'
+  recorded_at: Thu, 25 Apr 2024 18:56:31 GMT
 recorded_with: VCR 6.2.0
