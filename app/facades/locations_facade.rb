@@ -1,5 +1,5 @@
 class LocationsFacade
-	def initialize(location="")
+	def initialize(location)
 		@service = LocationsService.new
 		@location = location 
 	end
@@ -28,7 +28,6 @@ class LocationsFacade
 	# end
 
 	def make_location_poro(geo_data)
-		require 'pry'; binding.pry
 		LocationPoro.new(geo_data[:results])
 	end
 end

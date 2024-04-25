@@ -5,7 +5,7 @@ RSpec.describe "Forecast for city", :vcr, type: :request do
 		it "retrieves weather for a city" do
 			location = "Denver, CO"
 			get "/api/v0/locations", headers: {"Content-Type": "application/json", "Accept": "application/json "}, 
-				params: { location: location }
+				params: { q: location }
 				latlon = JSON.parse(response.body, symbolize_names: true)
 				latitude = latlon[:lat]
 				longitude = latlon[:lon]
