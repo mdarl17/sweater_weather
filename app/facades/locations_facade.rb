@@ -28,6 +28,7 @@ class LocationsFacade
 	# end
 
 	def make_location_poro(geo_data)
+		require 'pry'; binding.pry
 		LocationPoro.new(geo_data[:results])
 	end
 end

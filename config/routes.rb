@@ -11,4 +11,6 @@ Rails.application.routes.draw do
   # get "/api/v1/weather", to: "api/v1/weather#show"
   get "/api/v0/locations", to: "api/v0/locations#search"
   get "/api/v0/forecast", to: "api/v0/weather#forecast"
+
+  post "/api/v0/users", to: "api/v0/users#create"
 end
