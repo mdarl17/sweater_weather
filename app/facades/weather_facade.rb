@@ -4,27 +4,29 @@ class WeatherFacade
 	def initialize(search_params)
 		@service = WeatherService.new
 		@location = search_params[:q]
-		@days = search_params[:days]
+		@days = search_params[:days] || 5
 	end
 
 	def weather
-		geo_data = LocationsFacade.new(@location).lat_lon
-		WeatherPoro.new(geocoding: geo_data, location: current_weather[:location], current: current_weather[:current], hourly: hourly_weather, daily: daily_weather)
+		loc_arr = @location.split(", ")
+		latlon = [loc_arr.first, loc_arr.second]
+
+		WeatherPoro.new(
+			real_time: current_weather(latlon.join(", ")),
+			hourly: hourly_weather(latlon.join(", ")),
+			daily: daily_weather(latlon.join(", "), @days)
+		)
 	end
 
-	def current_weather
-		location_weather = @service.get_current_data(@location)
-		{ 
-			location: location_weather[:location],
-			current: location_weather[:current]
-		}
+	def current_weather(coords)
+		@service.get_current_data(coords)
 	end
 
-	def hourly_weather
-		hourly = @service.get_hourly_data(@location)
+	def hourly_weather(coords)
+		@service.get_hourly_data(coords)
 	end
 
-	def daily_weather
-		daily = @service.get_daily_data(@location, @days)
+	def daily_weather(coords, days)
+		@service.get_daily_data(coords, days)
 	end
 end

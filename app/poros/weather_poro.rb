@@ -1,31 +1,20 @@
-# require "helpers/application_helper"
-
 class WeatherPoro
-	attr_reader :id, :type, :location, :current, :daily_weather, :hourly_weather
+	attr_reader :id, :type, :current_weather, :daily_weather, :hourly_weather
 	include ApplicationHelper
 	
 	def initialize(attrs)
 		@id = "null"
 		@type = "forecast"
-		@location = {
-			lat: attrs[:geocoding].latlon[:lat],
-			lon: attrs[:geocoding].latlon[:lng],
-			city: attrs[:location][:name],
-			state: get_state_code(attrs[:location][:region]),
-			country: attrs[:location][:country].include?("United States") ? 
-				"United States" : 
-				attrs[:location][:country]
-		}
-		@current = {
-			last_updated: attrs[:current][:last_updated],
-			temperature: attrs[:current][:temp_f],
-			feels_like: attrs[:current][:feels_like_f],
-			humidity: attrs[:current][:humidity],
-			uvi: attrs[:current][:uv],
-			visibility: attrs[:current][:vis_miles],
+		@current_weather = {
+			last_updated: attrs[:real_time][:current][:last_updated],
+			temperature: attrs[:real_time][:current][:temp_f],
+			feels_like: attrs[:real_time][:current][:feels_like_f],
+			humidity: attrs[:real_time][:current][:humidity],
+			uvi: attrs[:real_time][:current][:uv],
+			visibility: attrs[:real_time][:current][:vis_miles],
 			condition: {
-				text: attrs[:current][:condition][:text],
-				icon: attrs[:current][:condition][:icon]
+				text: attrs[:real_time][:current][:condition][:text],
+				icon: attrs[:real_time][:current][:condition][:icon]
 			}
 		}
 		@daily_weather = five_day_array(attrs[:daily]) if attrs[:daily]

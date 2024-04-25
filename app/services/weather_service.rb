@@ -19,7 +19,7 @@ class WeatherService
 		result = []
 		24.times do |n|
 			response = conn.get("/v1/forecast.json") do |f|
-				f.params[:q] = location
+				f.params[:q] = "#{location[0]}, #{location[1]}"
 				f.params[:hour] = n
 				f.params[:days] = 1
 			end
