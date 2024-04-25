@@ -77308,738 +77308,6 @@ http_interactions:
   recorded_at: Thu, 25 Apr 2024 00:04:56 GMT
 - request:
     method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=0&key=wapi_key&q=4,%201
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Thu, 25 Apr 2024 15:59:32 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-941
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999007'
-      X-Varnish:
-      - '59271381'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/25/2024 15:59:32
-      Cdn-Edgestorageid:
-      - '845'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 9c478b42d15a21648011d80830280cca
-      Cdn-Cache:
-      - EXPIRED
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"Batefe","region":"Volta","country":"Ghana","lat":4.0,"lon":1.0,"tz_id":"Africa/Accra","localtime_epoch":1714060662,"localtime":"2024-04-25
-        15:57"},"current":{"last_updated_epoch":1714059900,"last_updated":"2024-04-25
-        15:45","temp_c":31.1,"temp_f":87.9,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.9,"wind_kph":22.3,"wind_degree":206,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":7,"feelslike_c":37.6,"feelslike_f":99.6,"vis_km":10.0,"vis_miles":6.0,"uv":8.0,"gust_mph":15.9,"gust_kph":25.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":31.5,"maxtemp_f":88.8,"mintemp_c":27.8,"mintemp_f":82.1,"avgtemp_c":29.5,"avgtemp_f":85.2,"maxwind_mph":15.4,"maxwind_kph":24.8,"totalprecip_mm":0.06,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":77,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"05:47
-        AM","sunset":"06:04 PM","moonrise":"07:25 PM","moonset":"06:40 AM","moon_phase":"Waning
-        Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714003200,"time":"2024-04-25
-        00:00","temp_c":28.7,"temp_f":83.6,"is_day":0,"condition":{"text":"Patchy
-        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":6.5,"wind_kph":10.4,"wind_degree":221,"wind_dir":"SW","pressure_mb":1011.0,"pressure_in":29.84,"precip_mm":0.01,"precip_in":0.0,"snow_cm":0.0,"humidity":82,"cloud":81,"feelslike_c":34.3,"feelslike_f":93.8,"windchill_c":28.7,"windchill_f":83.6,"heatindex_c":34.3,"heatindex_f":93.8,"dewpoint_c":25.4,"dewpoint_f":77.7,"will_it_rain":0,"chance_of_rain":66,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":9.1,"gust_kph":14.6,"uv":1.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 15:59:32 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=1&key=wapi_key&q=4,%201
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Thu, 25 Apr 2024 15:59:33 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-940
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999007'
-      X-Varnish:
-      - '63125361'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/25/2024 15:59:33
-      Cdn-Edgestorageid:
-      - '894'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 988cc9a09208a5b19d34906818e668bb
-      Cdn-Cache:
-      - EXPIRED
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"Batefe","region":"Volta","country":"Ghana","lat":4.0,"lon":1.0,"tz_id":"Africa/Accra","localtime_epoch":1714060649,"localtime":"2024-04-25
-        15:57"},"current":{"last_updated_epoch":1714059900,"last_updated":"2024-04-25
-        15:45","temp_c":31.1,"temp_f":87.9,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.9,"wind_kph":22.3,"wind_degree":206,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":7,"feelslike_c":37.6,"feelslike_f":99.6,"vis_km":10.0,"vis_miles":6.0,"uv":8.0,"gust_mph":15.9,"gust_kph":25.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":31.5,"maxtemp_f":88.8,"mintemp_c":27.8,"mintemp_f":82.1,"avgtemp_c":29.5,"avgtemp_f":85.2,"maxwind_mph":15.4,"maxwind_kph":24.8,"totalprecip_mm":0.06,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":77,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"05:47
-        AM","sunset":"06:04 PM","moonrise":"07:25 PM","moonset":"06:40 AM","moon_phase":"Waning
-        Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714006800,"time":"2024-04-25
-        01:00","temp_c":28.5,"temp_f":83.4,"is_day":0,"condition":{"text":"Patchy
-        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":6.3,"wind_kph":10.1,"wind_degree":230,"wind_dir":"SW","pressure_mb":1010.0,"pressure_in":29.83,"precip_mm":0.01,"precip_in":0.0,"snow_cm":0.0,"humidity":82,"cloud":83,"feelslike_c":33.9,"feelslike_f":93.1,"windchill_c":28.6,"windchill_f":83.4,"heatindex_c":33.9,"heatindex_f":93.1,"dewpoint_c":25.2,"dewpoint_f":77.3,"will_it_rain":1,"chance_of_rain":88,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":8.9,"gust_kph":14.3,"uv":1.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 15:59:33 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=2&key=wapi_key&q=4,%201
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Thu, 25 Apr 2024 15:59:33 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-940
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '273'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999007'
-      X-Varnish:
-      - 40678607 69592671
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/25/2024 15:59:33
-      Cdn-Edgestorageid:
-      - '1070'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 93218b792c185b725f37d3f4724f4d97
-      Cdn-Cache:
-      - EXPIRED
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"Batefe","region":"Volta","country":"Ghana","lat":4.0,"lon":1.0,"tz_id":"Africa/Accra","localtime_epoch":1714060389,"localtime":"2024-04-25
-        15:53"},"current":{"last_updated_epoch":1714059900,"last_updated":"2024-04-25
-        15:45","temp_c":31.1,"temp_f":87.9,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.9,"wind_kph":22.3,"wind_degree":206,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":7,"feelslike_c":37.6,"feelslike_f":99.6,"vis_km":10.0,"vis_miles":6.0,"uv":8.0,"gust_mph":15.9,"gust_kph":25.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":31.5,"maxtemp_f":88.8,"mintemp_c":27.8,"mintemp_f":82.1,"avgtemp_c":29.5,"avgtemp_f":85.2,"maxwind_mph":15.4,"maxwind_kph":24.8,"totalprecip_mm":0.06,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":77,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"05:47
-        AM","sunset":"06:04 PM","moonrise":"07:25 PM","moonset":"06:40 AM","moon_phase":"Waning
-        Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714010400,"time":"2024-04-25
-        02:00","temp_c":28.1,"temp_f":82.6,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":7.4,"wind_kph":11.9,"wind_degree":214,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.8,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":82,"cloud":18,"feelslike_c":32.9,"feelslike_f":91.2,"windchill_c":28.1,"windchill_f":82.6,"heatindex_c":32.9,"heatindex_f":91.2,"dewpoint_c":24.7,"dewpoint_f":76.5,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":11.2,"gust_kph":18.0,"uv":1.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 15:59:33 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=3&key=wapi_key&q=4,%201
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Thu, 25 Apr 2024 15:59:33 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-940
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999007'
-      X-Varnish:
-      - '15000682'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/25/2024 15:59:33
-      Cdn-Edgestorageid:
-      - '1068'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - eb21c05b55eb9ea9142de82cad7c56ef
-      Cdn-Cache:
-      - EXPIRED
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"Batefe","region":"Volta","country":"Ghana","lat":4.0,"lon":1.0,"tz_id":"Africa/Accra","localtime_epoch":1714060649,"localtime":"2024-04-25
-        15:57"},"current":{"last_updated_epoch":1714059900,"last_updated":"2024-04-25
-        15:45","temp_c":31.1,"temp_f":87.9,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.9,"wind_kph":22.3,"wind_degree":206,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":7,"feelslike_c":37.6,"feelslike_f":99.6,"vis_km":10.0,"vis_miles":6.0,"uv":8.0,"gust_mph":15.9,"gust_kph":25.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":31.5,"maxtemp_f":88.8,"mintemp_c":27.8,"mintemp_f":82.1,"avgtemp_c":29.5,"avgtemp_f":85.2,"maxwind_mph":15.4,"maxwind_kph":24.8,"totalprecip_mm":0.06,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":77,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"05:47
-        AM","sunset":"06:04 PM","moonrise":"07:25 PM","moonset":"06:40 AM","moon_phase":"Waning
-        Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714014000,"time":"2024-04-25
-        03:00","temp_c":28.1,"temp_f":82.6,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":6.3,"wind_kph":10.1,"wind_degree":231,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.8,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":82,"cloud":14,"feelslike_c":32.8,"feelslike_f":91.1,"windchill_c":28.1,"windchill_f":82.5,"heatindex_c":32.8,"heatindex_f":91.1,"dewpoint_c":24.7,"dewpoint_f":76.4,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":9.6,"gust_kph":15.5,"uv":1.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 15:59:33 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=4&key=wapi_key&q=4,%201
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Thu, 25 Apr 2024 15:59:33 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-940
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '273'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999007'
-      X-Varnish:
-      - 71628734 74223292
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/25/2024 15:59:33
-      Cdn-Edgestorageid:
-      - '845'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 4a9f97529f37007b5255f47da2af6e5a
-      Cdn-Cache:
-      - EXPIRED
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"Batefe","region":"Volta","country":"Ghana","lat":4.0,"lon":1.0,"tz_id":"Africa/Accra","localtime_epoch":1714060500,"localtime":"2024-04-25
-        15:55"},"current":{"last_updated_epoch":1714059900,"last_updated":"2024-04-25
-        15:45","temp_c":31.1,"temp_f":87.9,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.9,"wind_kph":22.3,"wind_degree":206,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":7,"feelslike_c":37.6,"feelslike_f":99.6,"vis_km":10.0,"vis_miles":6.0,"uv":8.0,"gust_mph":15.9,"gust_kph":25.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":31.5,"maxtemp_f":88.8,"mintemp_c":27.8,"mintemp_f":82.1,"avgtemp_c":29.5,"avgtemp_f":85.2,"maxwind_mph":15.4,"maxwind_kph":24.8,"totalprecip_mm":0.06,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":77,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"05:47
-        AM","sunset":"06:04 PM","moonrise":"07:25 PM","moonset":"06:40 AM","moon_phase":"Waning
-        Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714017600,"time":"2024-04-25
-        04:00","temp_c":27.9,"temp_f":82.3,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":7.2,"wind_kph":11.5,"wind_degree":248,"wind_dir":"WSW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":82,"cloud":22,"feelslike_c":32.6,"feelslike_f":90.6,"windchill_c":28.0,"windchill_f":82.3,"heatindex_c":32.6,"heatindex_f":90.6,"dewpoint_c":24.6,"dewpoint_f":76.4,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":11.2,"gust_kph":18.0,"uv":1.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 15:59:33 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=5&key=wapi_key&q=4,%201
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Thu, 25 Apr 2024 15:59:34 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-940
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999007'
-      X-Varnish:
-      - '64002250'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/25/2024 15:59:34
-      Cdn-Edgestorageid:
-      - '941'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - e19e64c50e836d095ae481337d818d89
-      Cdn-Cache:
-      - EXPIRED
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"Batefe","region":"Volta","country":"Ghana","lat":4.0,"lon":1.0,"tz_id":"Africa/Accra","localtime_epoch":1714060650,"localtime":"2024-04-25
-        15:57"},"current":{"last_updated_epoch":1714059900,"last_updated":"2024-04-25
-        15:45","temp_c":31.1,"temp_f":87.9,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.9,"wind_kph":22.3,"wind_degree":206,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":7,"feelslike_c":37.6,"feelslike_f":99.6,"vis_km":10.0,"vis_miles":6.0,"uv":8.0,"gust_mph":15.9,"gust_kph":25.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":31.5,"maxtemp_f":88.8,"mintemp_c":27.8,"mintemp_f":82.1,"avgtemp_c":29.5,"avgtemp_f":85.2,"maxwind_mph":15.4,"maxwind_kph":24.8,"totalprecip_mm":0.06,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":77,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"05:47
-        AM","sunset":"06:04 PM","moonrise":"07:25 PM","moonset":"06:40 AM","moon_phase":"Waning
-        Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714021200,"time":"2024-04-25
-        05:00","temp_c":27.9,"temp_f":82.2,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":7.2,"wind_kph":11.5,"wind_degree":254,"wind_dir":"WSW","pressure_mb":1009.0,"pressure_in":29.8,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":83,"cloud":13,"feelslike_c":32.5,"feelslike_f":90.5,"windchill_c":27.9,"windchill_f":82.2,"heatindex_c":32.5,"heatindex_f":90.5,"dewpoint_c":24.6,"dewpoint_f":76.4,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":11.2,"gust_kph":18.1,"uv":1.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 15:59:34 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=6&key=wapi_key&q=4,%201
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Thu, 25 Apr 2024 15:59:34 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-940
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999007'
-      X-Varnish:
-      - '57661625'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/25/2024 15:59:34
-      Cdn-Edgestorageid:
-      - '894'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 38deabb1ded2fc546136bb2b1e7ef47c
-      Cdn-Cache:
-      - EXPIRED
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"Batefe","region":"Volta","country":"Ghana","lat":4.0,"lon":1.0,"tz_id":"Africa/Accra","localtime_epoch":1714060664,"localtime":"2024-04-25
-        15:57"},"current":{"last_updated_epoch":1714059900,"last_updated":"2024-04-25
-        15:45","temp_c":31.1,"temp_f":87.9,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.9,"wind_kph":22.3,"wind_degree":206,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":7,"feelslike_c":37.6,"feelslike_f":99.6,"vis_km":10.0,"vis_miles":6.0,"uv":8.0,"gust_mph":15.9,"gust_kph":25.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":31.5,"maxtemp_f":88.8,"mintemp_c":27.8,"mintemp_f":82.1,"avgtemp_c":29.5,"avgtemp_f":85.2,"maxwind_mph":15.4,"maxwind_kph":24.8,"totalprecip_mm":0.06,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":77,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"05:47
-        AM","sunset":"06:04 PM","moonrise":"07:25 PM","moonset":"06:40 AM","moon_phase":"Waning
-        Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714024800,"time":"2024-04-25
-        06:00","temp_c":27.8,"temp_f":82.1,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":248,"wind_dir":"WSW","pressure_mb":1009.0,"pressure_in":29.81,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":83,"cloud":6,"feelslike_c":32.4,"feelslike_f":90.3,"windchill_c":27.8,"windchill_f":82.1,"heatindex_c":32.4,"heatindex_f":90.3,"dewpoint_c":24.6,"dewpoint_f":76.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":12.3,"gust_kph":19.9,"uv":7.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 15:59:34 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=7&key=wapi_key&q=4,%201
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Thu, 25 Apr 2024 15:59:34 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-940
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999007'
-      X-Varnish:
-      - '56873616'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/25/2024 15:59:34
-      Cdn-Edgestorageid:
-      - '940'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 3d8d5697911d59c06d0b683a3a6dfd50
-      Cdn-Cache:
-      - EXPIRED
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"Batefe","region":"Volta","country":"Ghana","lat":4.0,"lon":1.0,"tz_id":"Africa/Accra","localtime_epoch":1714060774,"localtime":"2024-04-25
-        15:59"},"current":{"last_updated_epoch":1714059900,"last_updated":"2024-04-25
-        15:45","temp_c":31.1,"temp_f":87.9,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.9,"wind_kph":22.3,"wind_degree":206,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":7,"feelslike_c":37.6,"feelslike_f":99.6,"vis_km":10.0,"vis_miles":6.0,"uv":8.0,"gust_mph":15.9,"gust_kph":25.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":31.5,"maxtemp_f":88.8,"mintemp_c":27.8,"mintemp_f":82.1,"avgtemp_c":29.5,"avgtemp_f":85.2,"maxwind_mph":15.4,"maxwind_kph":24.8,"totalprecip_mm":0.06,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":77,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"05:47
-        AM","sunset":"06:04 PM","moonrise":"07:25 PM","moonset":"06:40 AM","moon_phase":"Waning
-        Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714028400,"time":"2024-04-25
-        07:00","temp_c":28.8,"temp_f":83.8,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":8.9,"wind_kph":14.4,"wind_degree":243,"wind_dir":"WSW","pressure_mb":1010.0,"pressure_in":29.83,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":77,"cloud":6,"feelslike_c":33.6,"feelslike_f":92.4,"windchill_c":28.8,"windchill_f":83.8,"heatindex_c":33.6,"heatindex_f":92.4,"dewpoint_c":24.4,"dewpoint_f":75.8,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":12.5,"gust_kph":20.1,"uv":7.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 15:59:34 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=8&key=wapi_key&q=4,%201
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Thu, 25 Apr 2024 15:59:35 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-940
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999007'
-      X-Varnish:
-      - '61471453'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/25/2024 15:59:35
-      Cdn-Edgestorageid:
-      - '871'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 73d5533746480adc17b0f496208f11bb
-      Cdn-Cache:
-      - EXPIRED
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"Batefe","region":"Volta","country":"Ghana","lat":4.0,"lon":1.0,"tz_id":"Africa/Accra","localtime_epoch":1714060745,"localtime":"2024-04-25
-        15:59"},"current":{"last_updated_epoch":1714059900,"last_updated":"2024-04-25
-        15:45","temp_c":31.1,"temp_f":87.9,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.9,"wind_kph":22.3,"wind_degree":206,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":7,"feelslike_c":37.6,"feelslike_f":99.6,"vis_km":10.0,"vis_miles":6.0,"uv":8.0,"gust_mph":15.9,"gust_kph":25.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":31.5,"maxtemp_f":88.8,"mintemp_c":27.8,"mintemp_f":82.1,"avgtemp_c":29.5,"avgtemp_f":85.2,"maxwind_mph":15.4,"maxwind_kph":24.8,"totalprecip_mm":0.06,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":77,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"05:47
-        AM","sunset":"06:04 PM","moonrise":"07:25 PM","moonset":"06:40 AM","moon_phase":"Waning
-        Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714032000,"time":"2024-04-25
-        08:00","temp_c":29.8,"temp_f":85.7,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":11.9,"wind_kph":19.1,"wind_degree":226,"wind_dir":"SW","pressure_mb":1011.0,"pressure_in":29.84,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":71,"cloud":10,"feelslike_c":34.8,"feelslike_f":94.7,"windchill_c":29.8,"windchill_f":85.7,"heatindex_c":34.8,"heatindex_f":94.7,"dewpoint_c":24.0,"dewpoint_f":75.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":15.2,"gust_kph":24.4,"uv":7.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 15:59:35 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=9&key=wapi_key&q=4,%201
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Thu, 25 Apr 2024 15:59:35 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-940
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999007'
-      X-Varnish:
-      - '59983759'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/25/2024 15:59:35
-      Cdn-Edgestorageid:
-      - '1069'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 50cde070c3b60113676d11ad523eeb7e
-      Cdn-Cache:
-      - EXPIRED
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"Batefe","region":"Volta","country":"Ghana","lat":4.0,"lon":1.0,"tz_id":"Africa/Accra","localtime_epoch":1714060788,"localtime":"2024-04-25
-        15:59"},"current":{"last_updated_epoch":1714059900,"last_updated":"2024-04-25
-        15:45","temp_c":31.1,"temp_f":87.9,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.9,"wind_kph":22.3,"wind_degree":206,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":7,"feelslike_c":37.6,"feelslike_f":99.6,"vis_km":10.0,"vis_miles":6.0,"uv":8.0,"gust_mph":15.9,"gust_kph":25.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":31.5,"maxtemp_f":88.8,"mintemp_c":27.8,"mintemp_f":82.1,"avgtemp_c":29.5,"avgtemp_f":85.2,"maxwind_mph":15.4,"maxwind_kph":24.8,"totalprecip_mm":0.06,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":77,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"05:47
-        AM","sunset":"06:04 PM","moonrise":"07:25 PM","moonset":"06:40 AM","moon_phase":"Waning
-        Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714035600,"time":"2024-04-25
-        09:00","temp_c":30.4,"temp_f":86.6,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.2,"wind_kph":21.2,"wind_degree":220,"wind_dir":"SW","pressure_mb":1011.0,"pressure_in":29.85,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":70,"cloud":14,"feelslike_c":35.8,"feelslike_f":96.4,"windchill_c":30.4,"windchill_f":86.6,"heatindex_c":35.8,"heatindex_f":96.4,"dewpoint_c":24.2,"dewpoint_f":75.5,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":16.0,"gust_kph":25.7,"uv":8.0}]}]}}'
-  recorded_at: Thu, 25 Apr 2024 15:59:35 GMT
-- request:
-    method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=10&key=wapi_key&q=4,%201
     body:
       encoding: US-ASCII
@@ -79146,118 +78414,6 @@ http_interactions:
         AM","sunset":"08:23 PM","moonrise":"01:40 AM","moonset":"10:14 AM","moon_phase":"Waning
         Gibbous","moon_illumination":76,"is_moon_up":0,"is_sun_up":1}}]}}'
   recorded_at: Thu, 25 Apr 2024 15:59:39 GMT
-- request:
-    method: get
-    uri: https://mapquestapi.com/geocoding/v1/address?key=HUm8TeTPbjdZdmNtPgOfHwQmekjwzGrg&location=Cleveland,%20OH
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Thu, 25 Apr 2024 16:00:30 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '804'
-      Connection:
-      - keep-alive
-      X-Powered-By:
-      - MapQuest
-      X-Request-Id:
-      - f0bbc5a0-031c-11ef-9ec4-f78d917d57da
-      Access-Control-Allow-Origin:
-      - "*"
-      Etag:
-      - W/"324-ZeZcGqtN1qIHiliWB9XG5YuNd80"
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJpbmZvIjp7InN0YXR1c2NvZGUiOjAsImNvcHlyaWdodCI6eyJ0ZXh0IjoiwqkgMjAyNCBNYXBRdWVzdCwgSW5jLiIsImltYWdlVXJsIjoiaHR0cDovL2FwaS5tcWNkbi5jb20vcmVzL21xbG9nby5naWYiLCJpbWFnZUFsdFRleHQiOiLCqSAyMDI0IE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbXX0sIm9wdGlvbnMiOnsibWF4UmVzdWx0cyI6LTEsImlnbm9yZUxhdExuZ0lucHV0IjpmYWxzZX0sInJlc3VsdHMiOlt7InByb3ZpZGVkTG9jYXRpb24iOnsibG9jYXRpb24iOiJDbGV2ZWxhbmQsIE9IIn0sImxvY2F0aW9ucyI6W3sic3RyZWV0IjoiIiwiYWRtaW5BcmVhNiI6IiIsImFkbWluQXJlYTZUeXBlIjoiTmVpZ2hib3Job29kIiwiYWRtaW5BcmVhNSI6IkNsZXZlbGFuZCIsImFkbWluQXJlYTVUeXBlIjoiQ2l0eSIsImFkbWluQXJlYTQiOiJDdXlhaG9nYSIsImFkbWluQXJlYTRUeXBlIjoiQ291bnR5IiwiYWRtaW5BcmVhMyI6Ik9IIiwiYWRtaW5BcmVhM1R5cGUiOiJTdGF0ZSIsImFkbWluQXJlYTEiOiJVUyIsImFkbWluQXJlYTFUeXBlIjoiQ291bnRyeSIsInBvc3RhbENvZGUiOiIiLCJnZW9jb2RlUXVhbGl0eUNvZGUiOiJBNVhBWCIsImdlb2NvZGVRdWFsaXR5IjoiQ0lUWSIsImRyYWdQb2ludCI6ZmFsc2UsInNpZGVPZlN0cmVldCI6Ik4iLCJsaW5rSWQiOiIwIiwidW5rbm93bklucHV0IjoiIiwidHlwZSI6InMiLCJsYXRMbmciOnsibGF0Ijo0MS41MDQ3MywibG5nIjotODEuNjkwNzR9LCJkaXNwbGF5TGF0TG5nIjp7ImxhdCI6NDEuNTA0NzMsImxuZyI6LTgxLjY5MDc0fSwibWFwVXJsIjoiIn1dfV19
-  recorded_at: Thu, 25 Apr 2024 16:00:30 GMT
-- request:
-    method: get
-    uri: https://api.weatherapi.com/v1/current.json?key=wapi_key&q=41.50473,%20-81.69074
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Thu, 25 Apr 2024 16:00:30 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      Server:
-      - BunnyCDN-IL1-871
-      Cdn-Pullzone:
-      - '93447'
-      Cdn-Uid:
-      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
-      Cdn-Requestcountrycode:
-      - US
-      Age:
-      - '0'
-      Cache-Control:
-      - public, max-age=180
-      Via:
-      - 1.1 varnish (Varnish/6.0)
-      X-Weatherapi-Qpm-Left:
-      - '4999007'
-      X-Varnish:
-      - '42228739'
-      Cdn-Proxyver:
-      - '1.04'
-      Cdn-Requestpullsuccess:
-      - 'True'
-      Cdn-Requestpullcode:
-      - '200'
-      Cdn-Cachedat:
-      - 04/25/2024 15:59:32
-      Cdn-Edgestorageid:
-      - '845'
-      Cdn-Status:
-      - '200'
-      Cdn-Requestid:
-      - 908fa4495d5aaea6de7cc7973c8c56db
-      Cdn-Cache:
-      - HIT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.69,"tz_id":"America/New_York","localtime_epoch":1714060649,"localtime":"2024-04-25
-        11:57"},"current":{"last_updated_epoch":1714059900,"last_updated":"2024-04-25
-        11:45","temp_c":8.9,"temp_f":48.0,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":5.6,"wind_kph":9.0,"wind_degree":320,"wind_dir":"NW","pressure_mb":1028.0,"pressure_in":30.36,"precip_mm":0.0,"precip_in":0.0,"humidity":66,"cloud":0,"feelslike_c":7.3,"feelslike_f":45.1,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":7.2,"gust_kph":11.6}}'
-  recorded_at: Thu, 25 Apr 2024 16:00:30 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=0&key=wapi_key&q=4,%201
@@ -81098,4 +80254,849 @@ http_interactions:
         AM","sunset":"08:23 PM","moonrise":"01:40 AM","moonset":"10:14 AM","moon_phase":"Waning
         Gibbous","moon_illumination":76,"is_moon_up":0,"is_sun_up":1}}]}}'
   recorded_at: Thu, 25 Apr 2024 16:00:34 GMT
+- request:
+    method: get
+    uri: https://mapquestapi.com/geocoding/v1/address?key=HUm8TeTPbjdZdmNtPgOfHwQmekjwzGrg&location=Cleveland,%20OH
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:32 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '804'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - MapQuest
+      X-Request-Id:
+      - 80c14760-031d-11ef-9e28-0da246a16d8a
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"324-ZeZcGqtN1qIHiliWB9XG5YuNd80"
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpbmZvIjp7InN0YXR1c2NvZGUiOjAsImNvcHlyaWdodCI6eyJ0ZXh0IjoiwqkgMjAyNCBNYXBRdWVzdCwgSW5jLiIsImltYWdlVXJsIjoiaHR0cDovL2FwaS5tcWNkbi5jb20vcmVzL21xbG9nby5naWYiLCJpbWFnZUFsdFRleHQiOiLCqSAyMDI0IE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbXX0sIm9wdGlvbnMiOnsibWF4UmVzdWx0cyI6LTEsImlnbm9yZUxhdExuZ0lucHV0IjpmYWxzZX0sInJlc3VsdHMiOlt7InByb3ZpZGVkTG9jYXRpb24iOnsibG9jYXRpb24iOiJDbGV2ZWxhbmQsIE9IIn0sImxvY2F0aW9ucyI6W3sic3RyZWV0IjoiIiwiYWRtaW5BcmVhNiI6IiIsImFkbWluQXJlYTZUeXBlIjoiTmVpZ2hib3Job29kIiwiYWRtaW5BcmVhNSI6IkNsZXZlbGFuZCIsImFkbWluQXJlYTVUeXBlIjoiQ2l0eSIsImFkbWluQXJlYTQiOiJDdXlhaG9nYSIsImFkbWluQXJlYTRUeXBlIjoiQ291bnR5IiwiYWRtaW5BcmVhMyI6Ik9IIiwiYWRtaW5BcmVhM1R5cGUiOiJTdGF0ZSIsImFkbWluQXJlYTEiOiJVUyIsImFkbWluQXJlYTFUeXBlIjoiQ291bnRyeSIsInBvc3RhbENvZGUiOiIiLCJnZW9jb2RlUXVhbGl0eUNvZGUiOiJBNVhBWCIsImdlb2NvZGVRdWFsaXR5IjoiQ0lUWSIsImRyYWdQb2ludCI6ZmFsc2UsInNpZGVPZlN0cmVldCI6Ik4iLCJsaW5rSWQiOiIwIiwidW5rbm93bklucHV0IjoiIiwidHlwZSI6InMiLCJsYXRMbmciOnsibGF0Ijo0MS41MDQ3MywibG5nIjotODEuNjkwNzR9LCJkaXNwbGF5TGF0TG5nIjp7ImxhdCI6NDEuNTA0NzMsImxuZyI6LTgxLjY5MDc0fSwibWFwVXJsIjoiIn1dfV19
+  recorded_at: Thu, 25 Apr 2024 16:04:32 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?key=wapi_key&q=41.50473,%20-81.69074
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:32 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1029
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '64358318'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:32
+      Cdn-Edgestorageid:
+      - '845'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - fe2ba2761289cb9f087ca04d79ce2043
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
+        of America","lat":41.5,"lon":-81.69,"tz_id":"America/New_York","localtime_epoch":1714061072,"localtime":"2024-04-25
+        12:04"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        12:00","temp_c":8.9,"temp_f":48.0,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":5.6,"wind_kph":9.0,"wind_degree":320,"wind_dir":"NW","pressure_mb":1028.0,"pressure_in":30.36,"precip_mm":0.0,"precip_in":0.0,"humidity":66,"cloud":0,"feelslike_c":6.7,"feelslike_f":44.1,"vis_km":16.0,"vis_miles":9.0,"uv":2.0,"gust_mph":9.8,"gust_kph":15.7}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:32 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=0&key=wapi_key&q=4,%201
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:32 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1029
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '51857117'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:32
+      Cdn-Edgestorageid:
+      - '845'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - c630adc8edebc6ffbc92f1c343f36beb
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Batefe","region":"Volta","country":"Ghana","lat":4.0,"lon":1.0,"tz_id":"Africa/Accra","localtime_epoch":1714061042,"localtime":"2024-04-25
+        16:04"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        16:00","temp_c":30.6,"temp_f":87.1,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.9,"wind_kph":22.3,"wind_degree":203,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":72,"cloud":15,"feelslike_c":37.1,"feelslike_f":98.7,"vis_km":10.0,"vis_miles":6.0,"uv":8.0,"gust_mph":15.9,"gust_kph":25.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":31.5,"maxtemp_f":88.8,"mintemp_c":27.8,"mintemp_f":82.1,"avgtemp_c":29.5,"avgtemp_f":85.2,"maxwind_mph":15.4,"maxwind_kph":24.8,"totalprecip_mm":0.06,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":77,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"05:47
+        AM","sunset":"06:04 PM","moonrise":"07:25 PM","moonset":"06:40 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714003200,"time":"2024-04-25
+        00:00","temp_c":28.7,"temp_f":83.6,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":6.5,"wind_kph":10.4,"wind_degree":221,"wind_dir":"SW","pressure_mb":1011.0,"pressure_in":29.84,"precip_mm":0.01,"precip_in":0.0,"snow_cm":0.0,"humidity":82,"cloud":81,"feelslike_c":34.3,"feelslike_f":93.8,"windchill_c":28.7,"windchill_f":83.6,"heatindex_c":34.3,"heatindex_f":93.8,"dewpoint_c":25.4,"dewpoint_f":77.7,"will_it_rain":0,"chance_of_rain":66,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":9.1,"gust_kph":14.6,"uv":1.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:32 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=1&key=wapi_key&q=4,%201
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:33 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1029
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '48968357'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:33
+      Cdn-Edgestorageid:
+      - '894'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - f5a584f6559e7d06a0704bc2a08f7cc2
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Batefe","region":"Volta","country":"Ghana","lat":4.0,"lon":1.0,"tz_id":"Africa/Accra","localtime_epoch":1714060949,"localtime":"2024-04-25
+        16:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        16:00","temp_c":30.6,"temp_f":87.1,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.9,"wind_kph":22.3,"wind_degree":203,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":72,"cloud":15,"feelslike_c":37.1,"feelslike_f":98.7,"vis_km":10.0,"vis_miles":6.0,"uv":8.0,"gust_mph":15.9,"gust_kph":25.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":31.5,"maxtemp_f":88.8,"mintemp_c":27.8,"mintemp_f":82.1,"avgtemp_c":29.5,"avgtemp_f":85.2,"maxwind_mph":15.4,"maxwind_kph":24.8,"totalprecip_mm":0.06,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":77,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"05:47
+        AM","sunset":"06:04 PM","moonrise":"07:25 PM","moonset":"06:40 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714006800,"time":"2024-04-25
+        01:00","temp_c":28.5,"temp_f":83.4,"is_day":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png","code":1063},"wind_mph":6.3,"wind_kph":10.1,"wind_degree":230,"wind_dir":"SW","pressure_mb":1010.0,"pressure_in":29.83,"precip_mm":0.01,"precip_in":0.0,"snow_cm":0.0,"humidity":82,"cloud":83,"feelslike_c":33.9,"feelslike_f":93.1,"windchill_c":28.6,"windchill_f":83.4,"heatindex_c":33.9,"heatindex_f":93.1,"dewpoint_c":25.2,"dewpoint_f":77.3,"will_it_rain":1,"chance_of_rain":88,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":8.9,"gust_kph":14.3,"uv":1.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:33 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=2&key=wapi_key&q=4,%201
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:33 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1029
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '36807731'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:33
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 259ba14da7e2ccde5a13b2a3e3b6ccd4
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Batefe","region":"Volta","country":"Ghana","lat":4.0,"lon":1.0,"tz_id":"Africa/Accra","localtime_epoch":1714060949,"localtime":"2024-04-25
+        16:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        16:00","temp_c":30.6,"temp_f":87.1,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.9,"wind_kph":22.3,"wind_degree":203,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":72,"cloud":15,"feelslike_c":37.1,"feelslike_f":98.7,"vis_km":10.0,"vis_miles":6.0,"uv":8.0,"gust_mph":15.9,"gust_kph":25.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":31.5,"maxtemp_f":88.8,"mintemp_c":27.8,"mintemp_f":82.1,"avgtemp_c":29.5,"avgtemp_f":85.2,"maxwind_mph":15.4,"maxwind_kph":24.8,"totalprecip_mm":0.06,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":77,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"05:47
+        AM","sunset":"06:04 PM","moonrise":"07:25 PM","moonset":"06:40 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714010400,"time":"2024-04-25
+        02:00","temp_c":28.1,"temp_f":82.6,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":7.4,"wind_kph":11.9,"wind_degree":214,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.8,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":82,"cloud":18,"feelslike_c":32.9,"feelslike_f":91.2,"windchill_c":28.1,"windchill_f":82.6,"heatindex_c":32.9,"heatindex_f":91.2,"dewpoint_c":24.7,"dewpoint_f":76.5,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":11.2,"gust_kph":18.0,"uv":1.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:33 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=3&key=wapi_key&q=4,%201
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:33 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1029
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '63658891'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:33
+      Cdn-Edgestorageid:
+      - '1068'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 6ceec43c81997fda4cd6e0de3635c998
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Batefe","region":"Volta","country":"Ghana","lat":4.0,"lon":1.0,"tz_id":"Africa/Accra","localtime_epoch":1714061073,"localtime":"2024-04-25
+        16:04"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        16:00","temp_c":30.6,"temp_f":87.1,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.9,"wind_kph":22.3,"wind_degree":203,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":72,"cloud":15,"feelslike_c":37.1,"feelslike_f":98.7,"vis_km":10.0,"vis_miles":6.0,"uv":8.0,"gust_mph":15.9,"gust_kph":25.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":31.5,"maxtemp_f":88.8,"mintemp_c":27.8,"mintemp_f":82.1,"avgtemp_c":29.5,"avgtemp_f":85.2,"maxwind_mph":15.4,"maxwind_kph":24.8,"totalprecip_mm":0.06,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":77,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"05:47
+        AM","sunset":"06:04 PM","moonrise":"07:25 PM","moonset":"06:40 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714014000,"time":"2024-04-25
+        03:00","temp_c":28.1,"temp_f":82.6,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":6.3,"wind_kph":10.1,"wind_degree":231,"wind_dir":"SW","pressure_mb":1009.0,"pressure_in":29.8,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":82,"cloud":14,"feelslike_c":32.8,"feelslike_f":91.1,"windchill_c":28.1,"windchill_f":82.5,"heatindex_c":32.8,"heatindex_f":91.1,"dewpoint_c":24.7,"dewpoint_f":76.4,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":9.6,"gust_kph":15.5,"uv":1.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:33 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=4&key=wapi_key&q=4,%201
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:33 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1029
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '69214765'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:33
+      Cdn-Edgestorageid:
+      - '845'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - ffc267dc6a7bd5f84efa6d0d10e491fb
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Batefe","region":"Volta","country":"Ghana","lat":4.0,"lon":1.0,"tz_id":"Africa/Accra","localtime_epoch":1714060950,"localtime":"2024-04-25
+        16:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        16:00","temp_c":30.6,"temp_f":87.1,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.9,"wind_kph":22.3,"wind_degree":203,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":72,"cloud":15,"feelslike_c":37.1,"feelslike_f":98.7,"vis_km":10.0,"vis_miles":6.0,"uv":8.0,"gust_mph":15.9,"gust_kph":25.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":31.5,"maxtemp_f":88.8,"mintemp_c":27.8,"mintemp_f":82.1,"avgtemp_c":29.5,"avgtemp_f":85.2,"maxwind_mph":15.4,"maxwind_kph":24.8,"totalprecip_mm":0.06,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":77,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"05:47
+        AM","sunset":"06:04 PM","moonrise":"07:25 PM","moonset":"06:40 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714017600,"time":"2024-04-25
+        04:00","temp_c":27.9,"temp_f":82.3,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":7.2,"wind_kph":11.5,"wind_degree":248,"wind_dir":"WSW","pressure_mb":1009.0,"pressure_in":29.79,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":82,"cloud":22,"feelslike_c":32.6,"feelslike_f":90.6,"windchill_c":28.0,"windchill_f":82.3,"heatindex_c":32.6,"heatindex_f":90.6,"dewpoint_c":24.6,"dewpoint_f":76.4,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":11.2,"gust_kph":18.0,"uv":1.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:33 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=5&key=wapi_key&q=4,%201
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:34 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1029
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '69747334'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:34
+      Cdn-Edgestorageid:
+      - '941'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - e39ceb1d452f290e757163cc50fb09cf
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Batefe","region":"Volta","country":"Ghana","lat":4.0,"lon":1.0,"tz_id":"Africa/Accra","localtime_epoch":1714060963,"localtime":"2024-04-25
+        16:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        16:00","temp_c":30.6,"temp_f":87.1,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.9,"wind_kph":22.3,"wind_degree":203,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":72,"cloud":15,"feelslike_c":37.1,"feelslike_f":98.7,"vis_km":10.0,"vis_miles":6.0,"uv":8.0,"gust_mph":15.9,"gust_kph":25.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":31.5,"maxtemp_f":88.8,"mintemp_c":27.8,"mintemp_f":82.1,"avgtemp_c":29.5,"avgtemp_f":85.2,"maxwind_mph":15.4,"maxwind_kph":24.8,"totalprecip_mm":0.06,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":77,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"05:47
+        AM","sunset":"06:04 PM","moonrise":"07:25 PM","moonset":"06:40 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714021200,"time":"2024-04-25
+        05:00","temp_c":27.9,"temp_f":82.2,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":7.2,"wind_kph":11.5,"wind_degree":254,"wind_dir":"WSW","pressure_mb":1009.0,"pressure_in":29.8,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":83,"cloud":13,"feelslike_c":32.5,"feelslike_f":90.5,"windchill_c":27.9,"windchill_f":82.2,"heatindex_c":32.5,"heatindex_f":90.5,"dewpoint_c":24.6,"dewpoint_f":76.4,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":11.2,"gust_kph":18.1,"uv":1.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:34 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=6&key=wapi_key&q=4,%201
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:34 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1029
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '57883993'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:34
+      Cdn-Edgestorageid:
+      - '894'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 7def2bc21e926a5eabeb2f6b30819cc6
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Batefe","region":"Volta","country":"Ghana","lat":4.0,"lon":1.0,"tz_id":"Africa/Accra","localtime_epoch":1714061081,"localtime":"2024-04-25
+        16:04"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        16:00","temp_c":30.6,"temp_f":87.1,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.9,"wind_kph":22.3,"wind_degree":203,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":72,"cloud":15,"feelslike_c":37.1,"feelslike_f":98.7,"vis_km":10.0,"vis_miles":6.0,"uv":8.0,"gust_mph":15.9,"gust_kph":25.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":31.5,"maxtemp_f":88.8,"mintemp_c":27.8,"mintemp_f":82.1,"avgtemp_c":29.5,"avgtemp_f":85.2,"maxwind_mph":15.4,"maxwind_kph":24.8,"totalprecip_mm":0.06,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":77,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"05:47
+        AM","sunset":"06:04 PM","moonrise":"07:25 PM","moonset":"06:40 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714024800,"time":"2024-04-25
+        06:00","temp_c":27.8,"temp_f":82.1,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":248,"wind_dir":"WSW","pressure_mb":1009.0,"pressure_in":29.81,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":83,"cloud":6,"feelslike_c":32.4,"feelslike_f":90.3,"windchill_c":27.8,"windchill_f":82.1,"heatindex_c":32.4,"heatindex_f":90.3,"dewpoint_c":24.6,"dewpoint_f":76.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":12.3,"gust_kph":19.9,"uv":7.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:34 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=7&key=wapi_key&q=4,%201
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:34 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1029
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '70349956'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:34
+      Cdn-Edgestorageid:
+      - '940'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - c0a89ab6bfc2c2d31905c5bed6946dda
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Batefe","region":"Volta","country":"Ghana","lat":4.0,"lon":1.0,"tz_id":"Africa/Accra","localtime_epoch":1714060964,"localtime":"2024-04-25
+        16:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        16:00","temp_c":30.6,"temp_f":87.1,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.9,"wind_kph":22.3,"wind_degree":203,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":72,"cloud":15,"feelslike_c":37.1,"feelslike_f":98.7,"vis_km":10.0,"vis_miles":6.0,"uv":8.0,"gust_mph":15.9,"gust_kph":25.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":31.5,"maxtemp_f":88.8,"mintemp_c":27.8,"mintemp_f":82.1,"avgtemp_c":29.5,"avgtemp_f":85.2,"maxwind_mph":15.4,"maxwind_kph":24.8,"totalprecip_mm":0.06,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":77,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"05:47
+        AM","sunset":"06:04 PM","moonrise":"07:25 PM","moonset":"06:40 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714028400,"time":"2024-04-25
+        07:00","temp_c":28.8,"temp_f":83.8,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":8.9,"wind_kph":14.4,"wind_degree":243,"wind_dir":"WSW","pressure_mb":1010.0,"pressure_in":29.83,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":77,"cloud":6,"feelslike_c":33.6,"feelslike_f":92.4,"windchill_c":28.8,"windchill_f":83.8,"heatindex_c":33.6,"heatindex_f":92.4,"dewpoint_c":24.4,"dewpoint_f":75.8,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":12.5,"gust_kph":20.1,"uv":7.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:34 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=8&key=wapi_key&q=4,%201
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:34 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1029
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4999007'
+      X-Varnish:
+      - '64622728'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/25/2024 16:04:34
+      Cdn-Edgestorageid:
+      - '871'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 888a10f5f0840550a0d71a7e833a97d1
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Batefe","region":"Volta","country":"Ghana","lat":4.0,"lon":1.0,"tz_id":"Africa/Accra","localtime_epoch":1714060951,"localtime":"2024-04-25
+        16:02"},"current":{"last_updated_epoch":1714060800,"last_updated":"2024-04-25
+        16:00","temp_c":30.6,"temp_f":87.1,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.9,"wind_kph":22.3,"wind_degree":203,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":72,"cloud":15,"feelslike_c":37.1,"feelslike_f":98.7,"vis_km":10.0,"vis_miles":6.0,"uv":8.0,"gust_mph":15.9,"gust_kph":25.7},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":31.5,"maxtemp_f":88.8,"mintemp_c":27.8,"mintemp_f":82.1,"avgtemp_c":29.5,"avgtemp_f":85.2,"maxwind_mph":15.4,"maxwind_kph":24.8,"totalprecip_mm":0.06,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":77,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":11.0},"astro":{"sunrise":"05:47
+        AM","sunset":"06:04 PM","moonrise":"07:25 PM","moonset":"06:40 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714032000,"time":"2024-04-25
+        08:00","temp_c":29.8,"temp_f":85.7,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":11.9,"wind_kph":19.1,"wind_degree":226,"wind_dir":"SW","pressure_mb":1011.0,"pressure_in":29.84,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":71,"cloud":10,"feelslike_c":34.8,"feelslike_f":94.7,"windchill_c":29.8,"windchill_f":85.7,"heatindex_c":34.8,"heatindex_f":94.7,"dewpoint_c":24.0,"dewpoint_f":75.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":15.2,"gust_kph":24.4,"uv":7.0}]}]}}'
+  recorded_at: Thu, 25 Apr 2024 16:04:34 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=9&key=wapi_key&q=4,%201
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 502
+      message: Bad Gateway
+    headers:
+      Date:
+      - Thu, 25 Apr 2024 16:04:35 GMT
+      Content-Type:
+      - text/html
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - BunnyCDN-IL1-1029
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Errorcode:
+      - '100'
+      Cdn-Status:
+      - '502'
+      Cdn-Requestid:
+      - 69d292112a14ac340a420d9afb773853
+      Cdn-Cache:
+      - EXPIRED
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <title>502 Bad Gateway</title>\r\n
+        \   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"
+        />\r\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"https://bunnynetassets.b-cdn.net/error.png\"
+        />\r\n    <script src=\"https://bunny.net/lib/jquery/jquery.min.js\"></script>\r\n
+        \   <script src=\"https://cdn.statuspage.io/se-v2.js\"></script>\r\n    <link
+        rel=\"stylesheet\" href=\"https://bunnynetassets.b-cdn.net/error.css\">\r\n</head>\r\n<body>\r\n
+        \   <div class=\"hero\"><div class=\"content\"><div class=\"alert-details\"><h3
+        class=\"alert\">ERROR 502</h3><h1>Bad Gateway</h1><h3>We could not establish
+        a connection to api.weatherapi.com</h3></div><div class=\"row cards\"><div
+        class=\"col-md g-md-1\"><div class=\"card\"> <img src=\"https://bunnynetassets.b-cdn.net/icons/you.svg\"
+        alt=\"Card Icon\" /><h2>You</h2> <small>IP: 174.16.154.57</small></div></div><div
+        class=\"col-md-1 g-md-1 icons\"> <img src=\"https://bunnynetassets.b-cdn.net/icons/arrow.svg\"
+        class=\"img-fluid\"></div><div class=\"col-md g-1\"><div class=\"card\"> <img
+        src=\"https://bunnynetassets.b-cdn.net/icons/bunny.svg\" alt=\"Card Icon\"
+        /><h2>bunny.net</h2> <small>Edge Network</small></div></div><div class=\"col-md-1
+        g-md-1 icons\"> <img src=\"https://bunnynetassets.b-cdn.net/icons/x.svg\"
+        class=\"img-fluid\"></div><div class=\"col-md g-1\"><div class=\"card\"> <img
+        src=\"https://bunnynetassets.b-cdn.net/icons/origin.svg\" alt=\"Card Icon\"
+        /><h2>api.weatherapi.com</h2> <small>Your Destination</small></div></div></div>
+        </div></div><div class=\"final-details\"><div class=\"box\"><h1>What happened?</h1><div
+        class=\"description\">There was a problem that occured while connecting to
+        api.weatherapi.com origin server. The server hosting the website might be
+        unavailable.</div></div><div class=\"box\"><h1>What can I do?</h1><div class=\"description\">If
+        you are a visitor, please try again in a few minutes. If you are the administrator,
+        please check your origin server status.</div></div></div>\r\n</body>\r\n</html>"
+  recorded_at: Thu, 25 Apr 2024 16:04:35 GMT
 recorded_with: VCR 6.2.0
