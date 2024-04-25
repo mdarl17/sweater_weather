@@ -8,6 +8,15 @@ class Api::V0::UsersController < ApplicationController
 		end
 	end
 
+	def login
+		user = User.find_by(email: request.params[:email])
+		if user && user.authenticate
+			render json: { data: user_data(user) }, status: 200
+		else
+			render json: { errors: user.errors.full_messages }, status: :unprocessable_entity
+		end
+	end
+
 	private
 
 	def user_params
