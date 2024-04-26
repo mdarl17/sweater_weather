@@ -8,10 +8,12 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
 
-  # get "/api/v1/weather", to: "api/v1/weather#show"
+  get "/api/v0/road_trips", to: "api/v0/road_trips#index"
+
   get "/api/v0/locations", to: "api/v0/locations#search"
   get "/api/v0/forecast", to: "api/v0/weather#forecast"
 
   post "/api/v0/users", to: "api/v0/users#create"
   get "/api/v0/users", to: "api/v0/users#login"
+  
 end
