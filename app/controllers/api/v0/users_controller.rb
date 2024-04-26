@@ -13,8 +13,7 @@ class Api::V0::UsersController < ApplicationController
 	end
 
 	def login
-
-		user = User.find_by(email: request.params[:email])
+		user = User.find_by(email: params[:email])
 		if user && user.authenticate(params[:password])
 			render json: { data: user_data(user) }, status: 200
 		else
