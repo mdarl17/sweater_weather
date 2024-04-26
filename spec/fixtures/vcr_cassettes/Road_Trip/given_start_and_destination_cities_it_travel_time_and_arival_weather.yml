@@ -1,0 +1,1956 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.mapquestapi.com/directions/v2/route?from=denver,co&key=HUm8TeTPbjdZdmNtPgOfHwQmekjwzGrg&to=telluride,co
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '19233'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - MapQuest
+      X-Request-Id:
+      - 65c46f40-0364-11ef-b77f-07e5ee26b8b3
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Transaction-Count:
+      - all=3,geocoding=2,directions=1
+      Etag:
+      - W/"4b21-gNFX29hEL0VLeZpzxoNYNz0TLRg"
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJzZXNzaW9uSWQiOiJBTWdBX3ZfX193VUFBUUFTQVFBQWVOcGpFR0prWUdKZ1lHRFBTQzFLdFVyT0ZlVTBsZ1p5R1JSTXR1X2c0TFU2R1dhNnFjZ3BCcDFtd0FILUF3SE1wRVpEV3dtUTJGcjNoMVZNdkRjbmhScW41XzJLZ3RFdmdYUVBrTVpuRW9oZTQ3emxhd296a09IbDJxREFOS2xGUVlDRGc0RkZnUW1tcm9VQjZId0JSaEFUSnNhNGdrV1JwMEdJUWFBeHBiV0JpY09WZ1lVaDBFdVFwVUdCc2FscEVvUEtSRTZtQmdZT0xRY1BBVVVubHFZVlFnRWFEQXdOQW95ZVFEUEFKbWRNWVFFQUJiSThyY3JwWTI4OmNhciIsInJlYWxUaW1lIjoyMTM5MSwiZGlzdGFuY2UiOjM2My4yMDU4LCJ0aW1lIjoyMTA3MiwiZm9ybWF0dGVkVGltZSI6IjA1OjUxOjEyIiwiaGFzSGlnaHdheSI6dHJ1ZSwiaGFzVG9sbFJvYWQiOmZhbHNlLCJoYXNCcmlkZ2UiOnRydWUsImhhc1NlYXNvbmFsQ2xvc3VyZSI6ZmFsc2UsImhhc1R1bm5lbCI6dHJ1ZSwiaGFzRmVycnkiOmZhbHNlLCJoYXNVbnBhdmVkIjpmYWxzZSwiaGFzVGltZWRSZXN0cmljdGlvbiI6ZmFsc2UsImhhc0NvdW50cnlDcm9zcyI6ZmFsc2UsImxlZ3MiOlt7ImluZGV4IjowLCJoYXNUb2xsUm9hZCI6ZmFsc2UsImhhc0hpZ2h3YXkiOnRydWUsImhhc0JyaWRnZSI6dHJ1ZSwiaGFzVW5wYXZlZCI6ZmFsc2UsImhhc1R1bm5lbCI6dHJ1ZSwiaGFzU2Vhc29uYWxDbG9zdXJlIjpmYWxzZSwiaGFzRmVycnkiOmZhbHNlLCJoYXNDb3VudHJ5Q3Jvc3MiOmZhbHNlLCJoYXNUaW1lZFJlc3RyaWN0aW9uIjpmYWxzZSwiZGlzdGFuY2UiOjM2My4yMDU4LCJ0aW1lIjoyMTM5MSwiZm9ybWF0dGVkVGltZSI6IjA1OjU2OjMxIiwib3JpZ0luZGV4IjowLCJvcmlnTmFycmF0aXZlIjoiIiwiZGVzdEluZGV4IjowLCJkZXN0TmFycmF0aXZlIjoiIiwibWFuZXV2ZXJzIjpbeyJpbmRleCI6MCwiZGlzdGFuY2UiOjAuMDE5MywibmFycmF0aXZlIjoiSGVhZCB0b3dhcmQgQ2hlcm9rZWUgU3Qgb24gVyBDb2xmYXggQXZlIChJLTcwLUJMIEUpLiBHbyBmb3IgMTAyIGZ0LiIsInRpbWUiOjEzLCJkaXJlY3Rpb24iOjgsImRpcmVjdGlvbk5hbWUiOiJFYXN0Iiwic2lnbnMiOltdLCJtYW5ldXZlck5vdGVzIjpbXSwiZm9ybWF0dGVkVGltZSI6IjAwOjAwOjEzIiwidHJhbnNwb3J0TW9kZSI6ImNhciIsInN0YXJ0UG9pbnQiOnsibGF0IjozOS43NDAwMSwibG5nIjotMTA0Ljk5MjAyfSwidHVyblR5cGUiOjAsImF0dHJpYnV0ZXMiOjAsImljb25VcmwiOiIiLCJzdHJlZXRzIjpbIkktNzAtQkwiLCJVUy00MCIsIlVTLTI4NyIsIlcgQ29sZmF4IEF2ZSJdLCJtYXBVcmwiOiJodHRwczovL3d3dy5tYXBxdWVzdGFwaS5jb20vc3RhdGljbWFwL3Y1L21hcD9rZXk9SFVtOFRlVFBiamRaZG1OdFBnT2ZId1FtZWtqd3pHcmcmc2l6ZT0yMjUsMTYwJmxvY2F0aW9ucz0zOS43NDAwMSwtMTA0Ljk5MjAyfG1hcmtlci0xfHwzOS43NDAwMSwtMTA0Ljk5MTY2fG1hcmtlci0yfHwmY2VudGVyPTM5Ljc0MDAxLC0xMDQuOTkxODQmZGVmYXVsdE1hcmtlcj1ub25lJnpvb209MTYmc2Vzc2lvbj1BTWdBX3ZfX193VUFBUUFTQVFBQWVOcGpFR0prWUdKZ1lHRFBTQzFLdFVyT0ZlVTBsZ1p5R1JSTXR1X2c0TFU2R1dhNnFjZ3BCcDFtd0FILUF3SE1wRVpEV3dtUTJGcjNoMVZNdkRjbmhScW41XzJLZ3RFdmdYUVBrTVpuRW9oZTQ3emxhd296a09IbDJxREFOS2xGUVlDRGc0RkZnUW1tcm9VQjZId0JSaEFUSnNhNGdrV1JwMEdJUWFBeHBiV0JpY09WZ1lVaDBFdVFwVUdCc2FscEVvUEtSRTZtQmdZT0xRY1BBVVVubHFZVlFnRWFEQXdOQW95ZVFEUEFKbWRNWVFFQUJiSThyY3JwWTI4OmNhciJ9LHsiaW5kZXgiOjEsImRpc3RhbmNlIjowLjQ1NDgsIm5hcnJhdGl2ZSI6Ik1ha2UgYSBVLVR1cm4gYXQgQ2hlcm9rZWUgU3Qgb250byBXIENvbGZheCBBdmUgKEktNzAtQkwgVykuIEdvIGZvciAwLjUgbWkuIiwidGltZSI6MTUxLCJkaXJlY3Rpb24iOjcsImRpcmVjdGlvbk5hbWUiOiJXZXN0Iiwic2lnbnMiOltdLCJtYW5ldXZlck5vdGVzIjpbXSwiZm9ybWF0dGVkVGltZSI6IjAwOjAyOjMxIiwidHJhbnNwb3J0TW9kZSI6ImNhciIsInN0YXJ0UG9pbnQiOnsibGF0IjozOS43NDAwMSwibG5nIjotMTA0Ljk5MTY2fSwidHVyblR5cGUiOjksImF0dHJpYnV0ZXMiOjAsImljb25VcmwiOiIiLCJzdHJlZXRzIjpbIkktNzAtQkwiLCJVUy00MCIsIlVTLTI4NyIsIlcgQ29sZmF4IEF2ZSJdLCJtYXBVcmwiOiJodHRwczovL3d3dy5tYXBxdWVzdGFwaS5jb20vc3RhdGljbWFwL3Y1L21hcD9rZXk9SFVtOFRlVFBiamRaZG1OdFBnT2ZId1FtZWtqd3pHcmcmc2l6ZT0yMjUsMTYwJmxvY2F0aW9ucz0zOS43NDAwMSwtMTA0Ljk5MTY2fG1hcmtlci0yfHwzOS43NDAyMzAwMDAwMDAwMiwtMTA0Ljk5OTk5OTk5OTk5OTk3fG1hcmtlci0zfHwmY2VudGVyPTM5Ljc0MDEyMDAwMDAwMDAwNSwtMTA0Ljk5NTgyOTk5OTk5OTk4JmRlZmF1bHRNYXJrZXI9bm9uZSZ6b29tPTE0JnNlc3Npb249QU1nQV92X19fd1VBQVFBU0FRQUFlTnBqRUdKa1lHSmdZR0RQU0MxS3RVck9GZVUwbGdaeUdSUk10dV9nNExVNkdXYTZxY2dwQnAxbXdBSC1Bd0hNcEVaRFd3bVEyRnIzaDFWTXZEY25oUnFuNV8yS2d0RXZnWFFQa01abkVvaGU0N3psYXdvemtPSGwycURBTktsRlFZQ0RnNEZGZ1FtbXJvVUI2SHdCUmhBVEpzYTRna1dScDBHSVFhQXhwYldCaWNPVmdZVWgwRXVRcFVHQnNhbHBFb1BLUkU2bUJnWU9MUWNQQVVVbmxxWVZRZ0VhREF3TkFveWVRRFBBSm1kTVlRRUFCYkk4cmNycFkyODpjYXIifSx7ImluZGV4IjoyLCJkaXN0YW5jZSI6MC45NzE4LCJuYXJyYXRpdmUiOiJUdXJuIGxlZnQgb250byBLYWxhbWF0aCBTdC4gR28gZm9yIDEuMCBtaS4iLCJ0aW1lIjoxNTcsImRpcmVjdGlvbiI6NCwiZGlyZWN0aW9uTmFtZSI6IlNvdXRoIiwic2lnbnMiOltdLCJtYW5ldXZlck5vdGVzIjpbXSwiZm9ybWF0dGVkVGltZSI6IjAwOjAyOjM3IiwidHJhbnNwb3J0TW9kZSI6ImNhciIsInN0YXJ0UG9pbnQiOnsibGF0IjozOS43NDAyMzAwMDAwMDAwMiwibG5nIjotMTA0Ljk5OTk5OTk5OTk5OTk3fSwidHVyblR5cGUiOjYsImF0dHJpYnV0ZXMiOjAsImljb25VcmwiOiIiLCJzdHJlZXRzIjpbIkktNzAtQkwiLCJVUy00MCIsIlVTLTI4NyIsIlcgQ29sZmF4IEF2ZSIsIkthbGFtYXRoIFN0Il0sIm1hcFVybCI6Imh0dHBzOi8vd3d3Lm1hcHF1ZXN0YXBpLmNvbS9zdGF0aWNtYXAvdjUvbWFwP2tleT1IVW04VGVUUGJqZFpkbU50UGdPZkh3UW1la2p3ekdyZyZzaXplPTIyNSwxNjAmbG9jYXRpb25zPTM5Ljc0MDIzMDAwMDAwMDAyLC0xMDQuOTk5OTk5OTk5OTk5OTd8bWFya2VyLTN8fDM5LjcyNjI4OTk5OTk5OTk4NSwtMTA1LjAwMDIwOTk5OTk5OTk3fG1hcmtlci00fHwmY2VudGVyPTM5LjczMzI2LC0xMDUuMDAwMTA0OTk5OTk5OTYmZGVmYXVsdE1hcmtlcj1ub25lJnpvb209MTMmc2Vzc2lvbj1BTWdBX3ZfX193VUFBUUFTQVFBQWVOcGpFR0prWUdKZ1lHRFBTQzFLdFVyT0ZlVTBsZ1p5R1JSTXR1X2c0TFU2R1dhNnFjZ3BCcDFtd0FILUF3SE1wRVpEV3dtUTJGcjNoMVZNdkRjbmhScW41XzJLZ3RFdmdYUVBrTVpuRW9oZTQ3emxhd296a09IbDJxREFOS2xGUVlDRGc0RkZnUW1tcm9VQjZId0JSaEFUSnNhNGdrV1JwMEdJUWFBeHBiV0JpY09WZ1lVaDBFdVFwVUdCc2FscEVvUEtSRTZtQmdZT0xRY1BBVVVubHFZVlFnRWFEQXdOQW95ZVFEUEFKbWRNWVFFQUJiSThyY3JwWTI4OmNhciJ9LHsiaW5kZXgiOjMsImRpc3RhbmNlIjo5LjU4MjgsIm5hcnJhdGl2ZSI6IktlZXAgcmlnaHQgb250byBXIDZ0aCBBdmUgKFVTLTYgVykuIEdvIGZvciA5LjYgbWkuIiwidGltZSI6NTkwLCJkaXJlY3Rpb24iOjcsImRpcmVjdGlvbk5hbWUiOiJXZXN0Iiwic2lnbnMiOltdLCJtYW5ldXZlck5vdGVzIjpbXSwiZm9ybWF0dGVkVGltZSI6IjAwOjA5OjUwIiwidHJhbnNwb3J0TW9kZSI6ImNhciIsInN0YXJ0UG9pbnQiOnsibGF0IjozOS43MjYyODk5OTk5OTk5ODUsImxuZyI6LTEwNS4wMDAyMDk5OTk5OTk5N30sInR1cm5UeXBlIjoxNiwiYXR0cmlidXRlcyI6MCwiaWNvblVybCI6IiIsInN0cmVldHMiOlsiVVMtNiIsIlcgNnRoIEF2ZSIsIjZ0aCBBdmUiXSwibWFwVXJsIjoiaHR0cHM6Ly93d3cubWFwcXVlc3RhcGkuY29tL3N0YXRpY21hcC92NS9tYXA/a2V5PUhVbThUZVRQYmpkWmRtTnRQZ09mSHdRbWVrand6R3JnJnNpemU9MjI1LDE2MCZsb2NhdGlvbnM9MzkuNzI2Mjg5OTk5OTk5OTg1LC0xMDUuMDAwMjA5OTk5OTk5OTd8bWFya2VyLTR8fDM5LjcyNTM5OTk5OTk5OTkyLC0xMDUuMTc5NzcwMDAwMDAwMDN8bWFya2VyLTV8fCZjZW50ZXI9MzkuNzI1ODQ0OTk5OTk5OTUsLTEwNS4wODk5OSZkZWZhdWx0TWFya2VyPW5vbmUmem9vbT05JnNlc3Npb249QU1nQV92X19fd1VBQVFBU0FRQUFlTnBqRUdKa1lHSmdZR0RQU0MxS3RVck9GZVUwbGdaeUdSUk10dV9nNExVNkdXYTZxY2dwQnAxbXdBSC1Bd0hNcEVaRFd3bVEyRnIzaDFWTXZEY25oUnFuNV8yS2d0RXZnWFFQa01abkVvaGU0N3psYXdvemtPSGwycURBTktsRlFZQ0RnNEZGZ1FtbXJvVUI2SHdCUmhBVEpzYTRna1dScDBHSVFhQXhwYldCaWNPVmdZVWgwRXVRcFVHQnNhbHBFb1BLUkU2bUJnWU9MUWNQQVVVbmxxWVZRZ0VhREF3TkFveWVRRFBBSm1kTVlRRUFCYkk4cmNycFkyODpjYXIifSx7ImluZGV4Ijo0LCJkaXN0YW5jZSI6MjI0LjkyNDYsIm5hcnJhdGl2ZSI6IlRha2UgdGhlIGV4aXQgdG93YXJkIEdyYW5kIEp1bmN0aW9uIG9udG8gSS03MCBXLiBHbyBmb3IgMjI1IG1pLiIsInRpbWUiOjExOTg0LCJkaXJlY3Rpb24iOjcsImRpcmVjdGlvbk5hbWUiOiJXZXN0Iiwic2lnbnMiOltdLCJtYW5ldXZlck5vdGVzIjpbXSwiZm9ybWF0dGVkVGltZSI6IjAzOjE5OjQ0IiwidHJhbnNwb3J0TW9kZSI6ImNhciIsInN0YXJ0UG9pbnQiOnsibGF0IjozOS43MjUzOTk5OTk5OTk5MiwibG5nIjotMTA1LjE3OTc3MDAwMDAwMDAzfSwidHVyblR5cGUiOjE0LCJhdHRyaWJ1dGVzIjowLCJpY29uVXJsIjoiIiwic3RyZWV0cyI6WyJJLTcwIiwiVVMtNDAiLCJMYXJpYXQgTG9vcCBTY2VuaWMgYW5kIEhpc3RvcmljIEJ5d3kiLCJVUy02IiwiRWlzZW5ob3dlciBNZW1vcmlhbCBUdW5uZWwiLCJDTy05IiwiVVMtMjQiXSwibWFwVXJsIjoiaHR0cHM6Ly93d3cubWFwcXVlc3RhcGkuY29tL3N0YXRpY21hcC92NS9tYXA/a2V5PUhVbThUZVRQYmpkWmRtTnRQZ09mSHdRbWVrand6R3JnJnNpemU9MjI1LDE2MCZsb2NhdGlvbnM9MzkuNzI1Mzk5OTk5OTk5OTIsLTEwNS4xNzk3NzAwMDAwMDAwM3xtYXJrZXItNXx8MzkuMTA2OTE5OTk5OTk5NzUsLTEwOC40NDEzMTAwMDAwMDE4MnxtYXJrZXItNnx8JmNlbnRlcj0zOS40MTYxNTk5OTk5OTk4MzQsLTEwNi44MTA1NDAwMDAwMDA5MyZkZWZhdWx0TWFya2VyPW5vbmUmem9vbT01JnNlc3Npb249QU1nQV92X19fd1VBQVFBU0FRQUFlTnBqRUdKa1lHSmdZR0RQU0MxS3RVck9GZVUwbGdaeUdSUk10dV9nNExVNkdXYTZxY2dwQnAxbXdBSC1Bd0hNcEVaRFd3bVEyRnIzaDFWTXZEY25oUnFuNV8yS2d0RXZnWFFQa01abkVvaGU0N3psYXdvemtPSGwycURBTktsRlFZQ0RnNEZGZ1FtbXJvVUI2SHdCUmhBVEpzYTRna1dScDBHSVFhQXhwYldCaWNPVmdZVWgwRXVRcFVHQnNhbHBFb1BLUkU2bUJnWU9MUWNQQVVVbmxxWVZRZ0VhREF3TkFveWVRRFBBSm1kTVlRRUFCYkk4cmNycFkyODpjYXIifSx7ImluZGV4Ijo1LCJkaXN0YW5jZSI6MS43MzI0LCJuYXJyYXRpdmUiOiJUYWtlIGV4aXQgMzcgdG93YXJkIEktNzAtQkwvQ2xpZnRvbi9VUy02L0dyYW5kIEpjdCBvbnRvIEktNzAtQkwgVy4gR28gZm9yIDEuNyBtaS4iLCJ0aW1lIjoxNzAsImRpcmVjdGlvbiI6NiwiZGlyZWN0aW9uTmFtZSI6IlNvdXRod2VzdCIsInNpZ25zIjpbXSwibWFuZXV2ZXJOb3RlcyI6W10sImZvcm1hdHRlZFRpbWUiOiIwMDowMjo1MCIsInRyYW5zcG9ydE1vZGUiOiJjYXIiLCJzdGFydFBvaW50Ijp7ImxhdCI6MzkuMTA2OTE5OTk5OTk5NzUsImxuZyI6LTEwOC40NDEzMTAwMDAwMDE4Mn0sInR1cm5UeXBlIjoxNCwiYXR0cmlidXRlcyI6MCwiaWNvblVybCI6IiIsInN0cmVldHMiOlsiSS03MC1CTCIsIkNPLTE0MSIsIlVTLTYiLCJJLTcwIEJ1c2luZXNzIExvb3AiXSwibWFwVXJsIjoiaHR0cHM6Ly93d3cubWFwcXVlc3RhcGkuY29tL3N0YXRpY21hcC92NS9tYXA/a2V5PUhVbThUZVRQYmpkWmRtTnRQZ09mSHdRbWVrand6R3JnJnNpemU9MjI1LDE2MCZsb2NhdGlvbnM9MzkuMTA2OTE5OTk5OTk5NzUsLTEwOC40NDEzMTAwMDAwMDE4MnxtYXJrZXItNnx8MzkuMDg4MDQ5OTk5OTk5NzU0LC0xMDguNDU4MDYwMDAwMDAxOTF8bWFya2VyLTd8fCZjZW50ZXI9MzkuMDk3NDg0OTk5OTk5NzUsLTEwOC40NDk2ODUwMDAwMDE4NiZkZWZhdWx0TWFya2VyPW5vbmUmem9vbT0xMiZzZXNzaW9uPUFNZ0Ffdl9fX3dVQUFRQVNBUUFBZU5wakVHSmtZR0pnWUdEUFNDMUt0VXJPRmVVMGxnWnlHUlJNdHVfZzRMVTZHV2E2cWNncEJwMW13QUgtQXdITXBFWkRXd21RMkZyM2gxVk12RGNuaFJxbjVfMktndEV2Z1hRUGtNWm5Fb2hlNDd6bGF3b3prT0hsMnFEQU5LbEZRWUNEZzRGRmdRbW1yb1VCNkh3QlJoQVRKc2E0Z2tXUnAwR0lRYUF4cGJXQmljT1ZnWVVoMEV1UXBVR0JzYWxwRW9QS1JFNm1CZ1lPTFFjUEFVVW5scVlWUWdFYURBd05Bb3llUURQQUptZE1ZUUVBQmJJOHJjcnBZMjg6Y2FyIn0seyJpbmRleCI6NiwiZGlzdGFuY2UiOjUuNDE1OSwibmFycmF0aXZlIjoiVHVybiBsZWZ0IG9udG8gMzIgUmQgKENPLTE0MSkgdG93YXJkIERlbHRhL1VTLTUwL01vbnRyb3NlLiBHbyBmb3IgNS40IG1pLiIsInRpbWUiOjQxMiwiZGlyZWN0aW9uIjo0LCJkaXJlY3Rpb25OYW1lIjoiU291dGgiLCJzaWducyI6W10sIm1hbmV1dmVyTm90ZXMiOltdLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MDY6NTIiLCJ0cmFuc3BvcnRNb2RlIjoiY2FyIiwic3RhcnRQb2ludCI6eyJsYXQiOjM5LjA4ODA0OTk5OTk5OTc1NCwibG5nIjotMTA4LjQ1ODA2MDAwMDAwMTkxfSwidHVyblR5cGUiOjYsImF0dHJpYnV0ZXMiOjAsImljb25VcmwiOiIiLCJzdHJlZXRzIjpbIjMyIFJkIiwiQ08tMTQxIl0sIm1hcFVybCI6Imh0dHBzOi8vd3d3Lm1hcHF1ZXN0YXBpLmNvbS9zdGF0aWNtYXAvdjUvbWFwP2tleT1IVW04VGVUUGJqZFpkbU50UGdPZkh3UW1la2p3ekdyZyZzaXplPTIyNSwxNjAmbG9jYXRpb25zPTM5LjA4ODA0OTk5OTk5OTc1NCwtMTA4LjQ1ODA2MDAwMDAwMTkxfG1hcmtlci03fHwzOS4wMTQ3OTk5OTk5OTk3NywtMTA4LjQ3NDQyMDAwMDAwMTl8bWFya2VyLTh8fCZjZW50ZXI9MzkuMDUxNDI0OTk5OTk5NzYsLTEwOC40NjYyNDAwMDAwMDE5JmRlZmF1bHRNYXJrZXI9bm9uZSZ6b29tPTEwJnNlc3Npb249QU1nQV92X19fd1VBQVFBU0FRQUFlTnBqRUdKa1lHSmdZR0RQU0MxS3RVck9GZVUwbGdaeUdSUk10dV9nNExVNkdXYTZxY2dwQnAxbXdBSC1Bd0hNcEVaRFd3bVEyRnIzaDFWTXZEY25oUnFuNV8yS2d0RXZnWFFQa01abkVvaGU0N3psYXdvemtPSGwycURBTktsRlFZQ0RnNEZGZ1FtbXJvVUI2SHdCUmhBVEpzYTRna1dScDBHSVFhQXhwYldCaWNPVmdZVWgwRXVRcFVHQnNhbHBFb1BLUkU2bUJnWU9MUWNQQVVVbmxxWVZRZ0VhREF3TkFveWVRRFBBSm1kTVlRRUFCYkk4cmNycFkyODpjYXIifSx7ImluZGV4Ijo3LCJkaXN0YW5jZSI6MC4wMjg2LCJuYXJyYXRpdmUiOiJLZWVwIGxlZnQgdG93YXJkIDMyIFJkL0NPLTE0MS4gR28gZm9yIDE1MSBmdC4iLCJ0aW1lIjoyMCwiZGlyZWN0aW9uIjo2LCJkaXJlY3Rpb25OYW1lIjoiU291dGh3ZXN0Iiwic2lnbnMiOltdLCJtYW5ldXZlck5vdGVzIjpbXSwiZm9ybWF0dGVkVGltZSI6IjAwOjAwOjIwIiwidHJhbnNwb3J0TW9kZSI6ImNhciIsInN0YXJ0UG9pbnQiOnsibGF0IjozOS4wMTQ3OTk5OTk5OTk3NywibG5nIjotMTA4LjQ3NDQyMDAwMDAwMTl9LCJ0dXJuVHlwZSI6MTcsImF0dHJpYnV0ZXMiOjAsImljb25VcmwiOiIiLCJzdHJlZXRzIjpbIkNPLTE0MSIsIjMyIFJkIl0sIm1hcFVybCI6Imh0dHBzOi8vd3d3Lm1hcHF1ZXN0YXBpLmNvbS9zdGF0aWNtYXAvdjUvbWFwP2tleT1IVW04VGVUUGJqZFpkbU50UGdPZkh3UW1la2p3ekdyZyZzaXplPTIyNSwxNjAmbG9jYXRpb25zPTM5LjAxNDc5OTk5OTk5OTc3LC0xMDguNDc0NDIwMDAwMDAxOXxtYXJrZXItOHx8MzkuMDE0NDU5OTk5OTk5NzY1LC0xMDguNDc0NzMwMDAwMDAxOXxtYXJrZXItOXx8JmNlbnRlcj0zOS4wMTQ2Mjk5OTk5OTk3NywtMTA4LjQ3NDU3NTAwMDAwMTg5JmRlZmF1bHRNYXJrZXI9bm9uZSZ6b29tPTE2JnNlc3Npb249QU1nQV92X19fd1VBQVFBU0FRQUFlTnBqRUdKa1lHSmdZR0RQU0MxS3RVck9GZVUwbGdaeUdSUk10dV9nNExVNkdXYTZxY2dwQnAxbXdBSC1Bd0hNcEVaRFd3bVEyRnIzaDFWTXZEY25oUnFuNV8yS2d0RXZnWFFQa01abkVvaGU0N3psYXdvemtPSGwycURBTktsRlFZQ0RnNEZGZ1FtbXJvVUI2SHdCUmhBVEpzYTRna1dScDBHSVFhQXhwYldCaWNPVmdZVWgwRXVRcFVHQnNhbHBFb1BLUkU2bUJnWU9MUWNQQVVVbmxxWVZRZ0VhREF3TkFveWVRRFBBSm1kTVlRRUFCYkk4cmNycFkyODpjYXIifSx7ImluZGV4Ijo4LCJkaXN0YW5jZSI6MC4xMjg2LCJuYXJyYXRpdmUiOiJUdXJuIGxlZnQgdG93YXJkIEhpZ2h3YXkgNTAvVVMtNTAuIEdvIGZvciAwLjEgbWkuIiwidGltZSI6MTQsImRpcmVjdGlvbiI6NSwiZGlyZWN0aW9uTmFtZSI6IlNvdXRoZWFzdCIsInNpZ25zIjpbXSwibWFuZXV2ZXJOb3RlcyI6W10sImZvcm1hdHRlZFRpbWUiOiIwMDowMDoxNCIsInRyYW5zcG9ydE1vZGUiOiJjYXIiLCJzdGFydFBvaW50Ijp7ImxhdCI6MzkuMDE0NDU5OTk5OTk5NzY1LCJsbmciOi0xMDguNDc0NzMwMDAwMDAxOX0sInR1cm5UeXBlIjo2LCJhdHRyaWJ1dGVzIjowLCJpY29uVXJsIjoiIiwic3RyZWV0cyI6W10sIm1hcFVybCI6Imh0dHBzOi8vd3d3Lm1hcHF1ZXN0YXBpLmNvbS9zdGF0aWNtYXAvdjUvbWFwP2tleT1IVW04VGVUUGJqZFpkbU50UGdPZkh3UW1la2p3ekdyZyZzaXplPTIyNSwxNjAmbG9jYXRpb25zPTM5LjAxNDQ1OTk5OTk5OTc2NSwtMTA4LjQ3NDczMDAwMDAwMTl8bWFya2VyLTl8fDM5LjAxMzM3OTk5OTk5OTc1NiwtMTA4LjQ3Mjc4MDAwMDAwMTg5fG1hcmtlci0xMHx8JmNlbnRlcj0zOS4wMTM5MTk5OTk5OTk3NiwtMTA4LjQ3Mzc1NTAwMDAwMTg5JmRlZmF1bHRNYXJrZXI9bm9uZSZ6b29tPTE1JnNlc3Npb249QU1nQV92X19fd1VBQVFBU0FRQUFlTnBqRUdKa1lHSmdZR0RQU0MxS3RVck9GZVUwbGdaeUdSUk10dV9nNExVNkdXYTZxY2dwQnAxbXdBSC1Bd0hNcEVaRFd3bVEyRnIzaDFWTXZEY25oUnFuNV8yS2d0RXZnWFFQa01abkVvaGU0N3psYXdvemtPSGwycURBTktsRlFZQ0RnNEZGZ1FtbXJvVUI2SHdCUmhBVEpzYTRna1dScDBHSVFhQXhwYldCaWNPVmdZVWgwRXVRcFVHQnNhbHBFb1BLUkU2bUJnWU9MUWNQQVVVbmxxWVZRZ0VhREF3TkFveWVRRFBBSm1kTVlRRUFCYkk4cmNycFkyODpjYXIifSx7ImluZGV4Ijo5LCJkaXN0YW5jZSI6NTMuMjE0MiwibmFycmF0aXZlIjoiQ29udGludWUgb24gSGlnaHdheSA1MCAoVVMtNTApLiBHbyBmb3IgNTMuMiBtaS4iLCJ0aW1lIjozMDUwLCJkaXJlY3Rpb24iOjUsImRpcmVjdGlvbk5hbWUiOiJTb3V0aGVhc3QiLCJzaWducyI6W10sIm1hbmV1dmVyTm90ZXMiOltdLCJmb3JtYXR0ZWRUaW1lIjoiMDA6NTA6NTAiLCJ0cmFuc3BvcnRNb2RlIjoiY2FyIiwic3RhcnRQb2ludCI6eyJsYXQiOjM5LjAxMzM3OTk5OTk5OTc1NiwibG5nIjotMTA4LjQ3Mjc4MDAwMDAwMTg5fSwidHVyblR5cGUiOjAsImF0dHJpYnV0ZXMiOjAsImljb25VcmwiOiIiLCJzdHJlZXRzIjpbIlVTLTUwIiwiQ08tMTQxIiwiSGlnaHdheSA1MCIsIk4gTWFpbiBTdCIsIk1haW4gU3QiLCJTIE1haW4gU3QiLCJOIFRvd25zZW5kIEF2ZSJdLCJtYXBVcmwiOiJodHRwczovL3d3dy5tYXBxdWVzdGFwaS5jb20vc3RhdGljbWFwL3Y1L21hcD9rZXk9SFVtOFRlVFBiamRaZG1OdFBnT2ZId1FtZWtqd3pHcmcmc2l6ZT0yMjUsMTYwJmxvY2F0aW9ucz0zOS4wMTMzNzk5OTk5OTk3NTYsLTEwOC40NzI3ODAwMDAwMDE4OXxtYXJrZXItMTB8fDM4LjQ4OTI0OTk5OTk5OTczNiwtMTA3Ljg4OTE4MDAwMDAwMTY5fG1hcmtlci0xMXx8JmNlbnRlcj0zOC43NTEzMTQ5OTk5OTk3NSwtMTA4LjE4MDk4MDAwMDAwMTgmZGVmYXVsdE1hcmtlcj1ub25lJnpvb209NyZzZXNzaW9uPUFNZ0Ffdl9fX3dVQUFRQVNBUUFBZU5wakVHSmtZR0pnWUdEUFNDMUt0VXJPRmVVMGxnWnlHUlJNdHVfZzRMVTZHV2E2cWNncEJwMW13QUgtQXdITXBFWkRXd21RMkZyM2gxVk12RGNuaFJxbjVfMktndEV2Z1hRUGtNWm5Fb2hlNDd6bGF3b3prT0hsMnFEQU5LbEZRWUNEZzRGRmdRbW1yb1VCNkh3QlJoQVRKc2E0Z2tXUnAwR0lRYUF4cGJXQmljT1ZnWVVoMEV1UXBVR0JzYWxwRW9QS1JFNm1CZ1lPTFFjUEFVVW5scVlWUWdFYURBd05Bb3llUURQQUptZE1ZUUVBQmJJOHJjcnBZMjg6Y2FyIn0seyJpbmRleCI6MTAsImRpc3RhbmNlIjoyNy4xMTkxLCJuYXJyYXRpdmUiOiJDb250aW51ZSBvbiBOIFRvd25zZW5kIEF2ZSAoVVMtNTUwKS4gR28gZm9yIDI3LjEgbWkuIiwidGltZSI6MTc2MywiZGlyZWN0aW9uIjo1LCJkaXJlY3Rpb25OYW1lIjoiU291dGhlYXN0Iiwic2lnbnMiOltdLCJtYW5ldXZlck5vdGVzIjpbXSwiZm9ybWF0dGVkVGltZSI6IjAwOjI5OjIzIiwidHJhbnNwb3J0TW9kZSI6ImNhciIsInN0YXJ0UG9pbnQiOnsibGF0IjozOC40ODkyNDk5OTk5OTk3MzYsImxuZyI6LTEwNy44ODkxODAwMDAwMDE2OX0sInR1cm5UeXBlIjowLCJhdHRyaWJ1dGVzIjowLCJpY29uVXJsIjoiIiwic3RyZWV0cyI6WyJVUy01NTAiLCJOIFRvd25zZW5kIEF2ZSIsIlMgVG93bnNlbmQgQXZlIiwiUyBIaWdod2F5IDU1MCIsIkhpZ2h3YXkgNTUwIiwiTiBIaWdod2F5IDU1MCJdLCJtYXBVcmwiOiJodHRwczovL3d3dy5tYXBxdWVzdGFwaS5jb20vc3RhdGljbWFwL3Y1L21hcD9rZXk9SFVtOFRlVFBiamRaZG1OdFBnT2ZId1FtZWtqd3pHcmcmc2l6ZT0yMjUsMTYwJmxvY2F0aW9ucz0zOC40ODkyNDk5OTk5OTk3MzYsLTEwNy44ODkxODAwMDAwMDE2OXxtYXJrZXItMTF8fDM4LjE1MTk5OTk5OTk5OTYyLC0xMDcuNzQ4ODgwMDAwMDAxNTh8bWFya2VyLTEyfHwmY2VudGVyPTM4LjMyMDYyNDk5OTk5OTY4LC0xMDcuODE5MDMwMDAwMDAxNjMmZGVmYXVsdE1hcmtlcj1ub25lJnpvb209OCZzZXNzaW9uPUFNZ0Ffdl9fX3dVQUFRQVNBUUFBZU5wakVHSmtZR0pnWUdEUFNDMUt0VXJPRmVVMGxnWnlHUlJNdHVfZzRMVTZHV2E2cWNncEJwMW13QUgtQXdITXBFWkRXd21RMkZyM2gxVk12RGNuaFJxbjVfMktndEV2Z1hRUGtNWm5Fb2hlNDd6bGF3b3prT0hsMnFEQU5LbEZRWUNEZzRGRmdRbW1yb1VCNkh3QlJoQVRKc2E0Z2tXUnAwR0lRYUF4cGJXQmljT1ZnWVVoMEV1UXBVR0JzYWxwRW9QS1JFNm1CZ1lPTFFjUEFVVW5scVlWUWdFYURBd05Bb3llUURQQUptZE1ZUUVBQmJJOHJjcnBZMjg6Y2FyIn0seyJpbmRleCI6MTEsImRpc3RhbmNlIjoyMy4yODA5LCJuYXJyYXRpdmUiOiJUdXJuIHJpZ2h0IG9udG8gU2hlcm1hbiBTdCAoQ08tNjIpLiBHbyBmb3IgMjMuMyBtaS4iLCJ0aW1lIjoxNTE1LCJkaXJlY3Rpb24iOjYsImRpcmVjdGlvbk5hbWUiOiJTb3V0aHdlc3QiLCJzaWducyI6W10sIm1hbmV1dmVyTm90ZXMiOltdLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MjU6MTUiLCJ0cmFuc3BvcnRNb2RlIjoiY2FyIiwic3RhcnRQb2ludCI6eyJsYXQiOjM4LjE1MTk5OTk5OTk5OTYyLCJsbmciOi0xMDcuNzQ4ODgwMDAwMDAxNTh9LCJ0dXJuVHlwZSI6MiwiYXR0cmlidXRlcyI6MCwiaWNvblVybCI6IiIsInN0cmVldHMiOlsiQ08tNjIiLCJTaGVybWFuIFN0IiwiU2FuIEp1YW4gU2t3eSIsIkhpZ2h3YXkgNjIiXSwibWFwVXJsIjoiaHR0cHM6Ly93d3cubWFwcXVlc3RhcGkuY29tL3N0YXRpY21hcC92NS9tYXA/a2V5PUhVbThUZVRQYmpkWmRtTnRQZ09mSHdRbWVrand6R3JnJnNpemU9MjI1LDE2MCZsb2NhdGlvbnM9MzguMTUxOTk5OTk5OTk5NjIsLTEwNy43NDg4ODAwMDAwMDE1OHxtYXJrZXItMTJ8fDM4LjAyMDgyOTk5OTk5OTY2LC0xMDguMDYxMTUwMDAwMDAxNjd8bWFya2VyLTEzfHwmY2VudGVyPTM4LjA4NjQxNDk5OTk5OTY0LC0xMDcuOTA1MDE1MDAwMDAxNjMmZGVmYXVsdE1hcmtlcj1ub25lJnpvb209OCZzZXNzaW9uPUFNZ0Ffdl9fX3dVQUFRQVNBUUFBZU5wakVHSmtZR0pnWUdEUFNDMUt0VXJPRmVVMGxnWnlHUlJNdHVfZzRMVTZHV2E2cWNncEJwMW13QUgtQXdITXBFWkRXd21RMkZyM2gxVk12RGNuaFJxbjVfMktndEV2Z1hRUGtNWm5Fb2hlNDd6bGF3b3prT0hsMnFEQU5LbEZRWUNEZzRGRmdRbW1yb1VCNkh3QlJoQVRKc2E0Z2tXUnAwR0lRYUF4cGJXQmljT1ZnWVVoMEV1UXBVR0JzYWxwRW9QS1JFNm1CZ1lPTFFjUEFVVW5scVlWUWdFYURBd05Bb3llUURQQUptZE1ZUUVBQmJJOHJjcnBZMjg6Y2FyIn0seyJpbmRleCI6MTIsImRpc3RhbmNlIjoxMi43NDMxLCJuYXJyYXRpdmUiOiJUdXJuIGxlZnQgb250byBIaWdod2F5IDE0NSAoQ08tMTQ1KS4gR28gZm9yIDEyLjcgbWkuIiwidGltZSI6OTQ3LCJkaXJlY3Rpb24iOjgsImRpcmVjdGlvbk5hbWUiOiJFYXN0Iiwic2lnbnMiOltdLCJtYW5ldXZlck5vdGVzIjpbXSwiZm9ybWF0dGVkVGltZSI6IjAwOjE1OjQ3IiwidHJhbnNwb3J0TW9kZSI6ImNhciIsInN0YXJ0UG9pbnQiOnsibGF0IjozOC4wMjA4Mjk5OTk5OTk2NiwibG5nIjotMTA4LjA2MTE1MDAwMDAwMTY3fSwidHVyblR5cGUiOjYsImF0dHJpYnV0ZXMiOjAsImljb25VcmwiOiIiLCJzdHJlZXRzIjpbIkNPLTE0NSIsIkhpZ2h3YXkgMTQ1IiwiU2FuIEp1YW4gU2t3eSJdLCJtYXBVcmwiOiJodHRwczovL3d3dy5tYXBxdWVzdGFwaS5jb20vc3RhdGljbWFwL3Y1L21hcD9rZXk9SFVtOFRlVFBiamRaZG1OdFBnT2ZId1FtZWtqd3pHcmcmc2l6ZT0yMjUsMTYwJmxvY2F0aW9ucz0zOC4wMjA4Mjk5OTk5OTk2NiwtMTA4LjA2MTE1MDAwMDAwMTY3fG1hcmtlci0xM3x8MzcuOTUwMzA5OTk5OTk5NjEsLTEwNy44NzE0OTAwMDAwMDE0fG1hcmtlci0xNHx8JmNlbnRlcj0zNy45ODU1Njk5OTk5OTk2NCwtMTA3Ljk2NjMyMDAwMDAwMTUzJmRlZmF1bHRNYXJrZXI9bm9uZSZ6b29tPTkmc2Vzc2lvbj1BTWdBX3ZfX193VUFBUUFTQVFBQWVOcGpFR0prWUdKZ1lHRFBTQzFLdFVyT0ZlVTBsZ1p5R1JSTXR1X2c0TFU2R1dhNnFjZ3BCcDFtd0FILUF3SE1wRVpEV3dtUTJGcjNoMVZNdkRjbmhScW41XzJLZ3RFdmdYUVBrTVpuRW9oZTQ3emxhd296a09IbDJxREFOS2xGUVlDRGc0RkZnUW1tcm9VQjZId0JSaEFUSnNhNGdrV1JwMEdJUWFBeHBiV0JpY09WZ1lVaDBFdVFwVUdCc2FscEVvUEtSRTZtQmdZT0xRY1BBVVVubHFZVlFnRWFEQXdOQW95ZVFEUEFKbWRNWVFFQUJiSThyY3JwWTI4OmNhciJ9LHsiaW5kZXgiOjEzLCJkaXN0YW5jZSI6Mi45MjU0LCJuYXJyYXRpdmUiOiJUYWtlIHRoZSAybmQgZXhpdCBmcm9tIHJvdW5kYWJvdXQgb250byBTYW4gSnVhbiBTa3d5IChDTy0xNDUtU1BVUiBOKSB0b3dhcmQgVGVsbHVyaWRlLiBHbyBmb3IgMi45IG1pLiIsInRpbWUiOjM3NywiZGlyZWN0aW9uIjo4LCJkaXJlY3Rpb25OYW1lIjoiRWFzdCIsInNpZ25zIjpbXSwibWFuZXV2ZXJOb3RlcyI6W10sImZvcm1hdHRlZFRpbWUiOiIwMDowNjoxNyIsInRyYW5zcG9ydE1vZGUiOiJjYXIiLCJzdGFydFBvaW50Ijp7ImxhdCI6MzcuOTUwMzA5OTk5OTk5NjEsImxuZyI6LTEwNy44NzE0OTAwMDAwMDE0fSwidHVyblR5cGUiOjI4LCJhdHRyaWJ1dGVzIjowLCJpY29uVXJsIjoiIiwic3RyZWV0cyI6WyJDTy0xNDUtU1BVUiIsIlNhbiBKdWFuIFNrd3kiLCJXIENvbG9yYWRvIEF2ZSJdLCJtYXBVcmwiOiJodHRwczovL3d3dy5tYXBxdWVzdGFwaS5jb20vc3RhdGljbWFwL3Y1L21hcD9rZXk9SFVtOFRlVFBiamRaZG1OdFBnT2ZId1FtZWtqd3pHcmcmc2l6ZT0yMjUsMTYwJmxvY2F0aW9ucz0zNy45NTAzMDk5OTk5OTk2MSwtMTA3Ljg3MTQ5MDAwMDAwMTR8bWFya2VyLTE0fHwzNy45NDEyNjk5OTk5OTk2MjYsLTEwNy44MjEwNzAwMDAwMDE0MXxtYXJrZXItMTV8fCZjZW50ZXI9MzcuOTQ1Nzg5OTk5OTk5NjIsLTEwNy44NDYyODAwMDAwMDE0JmRlZmF1bHRNYXJrZXI9bm9uZSZ6b29tPTExJnNlc3Npb249QU1nQV92X19fd1VBQVFBU0FRQUFlTnBqRUdKa1lHSmdZR0RQU0MxS3RVck9GZVUwbGdaeUdSUk10dV9nNExVNkdXYTZxY2dwQnAxbXdBSC1Bd0hNcEVaRFd3bVEyRnIzaDFWTXZEY25oUnFuNV8yS2d0RXZnWFFQa01abkVvaGU0N3psYXdvemtPSGwycURBTktsRlFZQ0RnNEZGZ1FtbXJvVUI2SHdCUmhBVEpzYTRna1dScDBHSVFhQXhwYldCaWNPVmdZVWgwRXVRcFVHQnNhbHBFb1BLUkU2bUJnWU9MUWNQQVVVbmxxWVZRZ0VhREF3TkFveWVRRFBBSm1kTVlRRUFCYkk4cmNycFkyODpjYXIifSx7ImluZGV4IjoxNCwiZGlzdGFuY2UiOjAuMjIzMSwibmFycmF0aXZlIjoiVGFrZSB0aGUgMm5kIGV4aXQgZnJvbSByb3VuZGFib3V0IG9udG8gVyBDb2xvcmFkbyBBdmUgKENPLTE0NS1TUFVSKS4gR28gZm9yIDAuMiBtaS4iLCJ0aW1lIjo4NSwiZGlyZWN0aW9uIjo1LCJkaXJlY3Rpb25OYW1lIjoiU291dGhlYXN0Iiwic2lnbnMiOltdLCJtYW5ldXZlck5vdGVzIjpbXSwiZm9ybWF0dGVkVGltZSI6IjAwOjAxOjI1IiwidHJhbnNwb3J0TW9kZSI6ImNhciIsInN0YXJ0UG9pbnQiOnsibGF0IjozNy45NDEyNjk5OTk5OTk2MjYsImxuZyI6LTEwNy44MjEwNzAwMDAwMDE0MX0sInR1cm5UeXBlIjoyOCwiYXR0cmlidXRlcyI6MCwiaWNvblVybCI6IiIsInN0cmVldHMiOlsiQ08tMTQ1LVNQVVIiLCJXIENvbG9yYWRvIEF2ZSIsIlNhbiBKdWFuIFNrd3kiXSwibWFwVXJsIjoiaHR0cHM6Ly93d3cubWFwcXVlc3RhcGkuY29tL3N0YXRpY21hcC92NS9tYXA/a2V5PUhVbThUZVRQYmpkWmRtTnRQZ09mSHdRbWVrand6R3JnJnNpemU9MjI1LDE2MCZsb2NhdGlvbnM9MzcuOTQxMjY5OTk5OTk5NjI2LC0xMDcuODIxMDcwMDAwMDAxNDF8bWFya2VyLTE1fHwzNy45MzkxNTk5OTk5OTk2MywtMTA3LjgxODI3MDAwMDAwMTR8bWFya2VyLTE2fHwmY2VudGVyPTM3Ljk0MDIxNDk5OTk5OTYyNSwtMTA3LjgxOTY3MDAwMDAwMTQxJmRlZmF1bHRNYXJrZXI9bm9uZSZ6b29tPTE1JnNlc3Npb249QU1nQV92X19fd1VBQVFBU0FRQUFlTnBqRUdKa1lHSmdZR0RQU0MxS3RVck9GZVUwbGdaeUdSUk10dV9nNExVNkdXYTZxY2dwQnAxbXdBSC1Bd0hNcEVaRFd3bVEyRnIzaDFWTXZEY25oUnFuNV8yS2d0RXZnWFFQa01abkVvaGU0N3psYXdvemtPSGwycURBTktsRlFZQ0RnNEZGZ1FtbXJvVUI2SHdCUmhBVEpzYTRna1dScDBHSVFhQXhwYldCaWNPVmdZVWgwRXVRcFVHQnNhbHBFb1BLUkU2bUJnWU9MUWNQQVVVbmxxWVZRZ0VhREF3TkFveWVRRFBBSm1kTVlRRUFCYkk4cmNycFkyODpjYXIifSx7ImluZGV4IjoxNSwiZGlzdGFuY2UiOjAuMDU0MSwibmFycmF0aXZlIjoiVHVybiBsZWZ0IG9udG8gTiBDb3JuZXQgU3QuIEdvIGZvciAyODUgZnQuIiwidGltZSI6MTksImRpcmVjdGlvbiI6MywiZGlyZWN0aW9uTmFtZSI6Ik5vcnRoZWFzdCIsInNpZ25zIjpbXSwibWFuZXV2ZXJOb3RlcyI6W10sImZvcm1hdHRlZFRpbWUiOiIwMDowMDoxOSIsInRyYW5zcG9ydE1vZGUiOiJjYXIiLCJzdGFydFBvaW50Ijp7ImxhdCI6MzcuOTM5MTU5OTk5OTk5NjMsImxuZyI6LTEwNy44MTgyNzAwMDAwMDE0fSwidHVyblR5cGUiOjYsImF0dHJpYnV0ZXMiOjAsImljb25VcmwiOiIiLCJzdHJlZXRzIjpbIk4gQ29ybmV0IFN0Il0sIm1hcFVybCI6Imh0dHBzOi8vd3d3Lm1hcHF1ZXN0YXBpLmNvbS9zdGF0aWNtYXAvdjUvbWFwP2tleT1IVW04VGVUUGJqZFpkbU50UGdPZkh3UW1la2p3ekdyZyZzaXplPTIyNSwxNjAmbG9jYXRpb25zPTM3LjkzOTE1OTk5OTk5OTYzLC0xMDcuODE4MjcwMDAwMDAxNHxtYXJrZXItMTZ8fDM3LjkzOTg4OTk5OTk5OTYzLC0xMDcuODE3OTEwMDAwMDAxNHxtYXJrZXItMTd8fCZjZW50ZXI9MzcuOTM5NTI0OTk5OTk5NjM0LC0xMDcuODE4MDkwMDAwMDAxNCZkZWZhdWx0TWFya2VyPW5vbmUmem9vbT0xNiZzZXNzaW9uPUFNZ0Ffdl9fX3dVQUFRQVNBUUFBZU5wakVHSmtZR0pnWUdEUFNDMUt0VXJPRmVVMGxnWnlHUlJNdHVfZzRMVTZHV2E2cWNncEJwMW13QUgtQXdITXBFWkRXd21RMkZyM2gxVk12RGNuaFJxbjVfMktndEV2Z1hRUGtNWm5Fb2hlNDd6bGF3b3prT0hsMnFEQU5LbEZRWUNEZzRGRmdRbW1yb1VCNkh3QlJoQVRKc2E0Z2tXUnAwR0lRYUF4cGJXQmljT1ZnWVVoMEV1UXBVR0JzYWxwRW9QS1JFNm1CZ1lPTFFjUEFVVW5scVlWUWdFYURBd05Bb3llUURQQUptZE1ZUUVBQmJJOHJjcnBZMjg6Y2FyIn0seyJpbmRleCI6MTYsImRpc3RhbmNlIjowLjM4NzEsIm5hcnJhdGl2ZSI6IlR1cm4gcmlnaHQgb250byBXIENvbHVtYmlhIEF2ZS4gR28gZm9yIDAuNCBtaS4iLCJ0aW1lIjoxMjQsImRpcmVjdGlvbiI6OCwiZGlyZWN0aW9uTmFtZSI6IkVhc3QiLCJzaWducyI6W10sIm1hbmV1dmVyTm90ZXMiOltdLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MDI6MDQiLCJ0cmFuc3BvcnRNb2RlIjoiY2FyIiwic3RhcnRQb2ludCI6eyJsYXQiOjM3LjkzOTg4OTk5OTk5OTYzLCJsbmciOi0xMDcuODE3OTEwMDAwMDAxNH0sInR1cm5UeXBlIjoyLCJhdHRyaWJ1dGVzIjowLCJpY29uVXJsIjoiIiwic3RyZWV0cyI6WyJXIENvbHVtYmlhIEF2ZSJdLCJtYXBVcmwiOiJodHRwczovL3d3dy5tYXBxdWVzdGFwaS5jb20vc3RhdGljbWFwL3Y1L21hcD9rZXk9SFVtOFRlVFBiamRaZG1OdFBnT2ZId1FtZWtqd3pHcmcmc2l6ZT0yMjUsMTYwJmxvY2F0aW9ucz0zNy45Mzk4ODk5OTk5OTk2MywtMTA3LjgxNzkxMDAwMDAwMTR8bWFya2VyLTE3fHwzNy45MzgxNjI5OTk5OTk2MiwtMTA3LjgxMTE3OTAwMDAwMTR8bWFya2VyLTE4fHwmY2VudGVyPTM3LjkzOTAyNjQ5OTk5OTYzLC0xMDcuODE0NTQ0NTAwMDAxNCZkZWZhdWx0TWFya2VyPW5vbmUmem9vbT0xNCZzZXNzaW9uPUFNZ0Ffdl9fX3dVQUFRQVNBUUFBZU5wakVHSmtZR0pnWUdEUFNDMUt0VXJPRmVVMGxnWnlHUlJNdHVfZzRMVTZHV2E2cWNncEJwMW13QUgtQXdITXBFWkRXd21RMkZyM2gxVk12RGNuaFJxbjVfMktndEV2Z1hRUGtNWm5Fb2hlNDd6bGF3b3prT0hsMnFEQU5LbEZRWUNEZzRGRmdRbW1yb1VCNkh3QlJoQVRKc2E0Z2tXUnAwR0lRYUF4cGJXQmljT1ZnWVVoMEV1UXBVR0JzYWxwRW9QS1JFNm1CZ1lPTFFjUEFVVW5scVlWUWdFYURBd05Bb3llUURQQUptZE1ZUUVBQmJJOHJjcnBZMjg6Y2FyIn0seyJpbmRleCI6MTcsImRpc3RhbmNlIjowLCJuYXJyYXRpdmUiOiJBcnJpdmUgYXQgVyBDb2x1bWJpYSBBdmUuIiwidGltZSI6MCwiZGlyZWN0aW9uIjowLCJkaXJlY3Rpb25OYW1lIjoiTm9uZSIsInNpZ25zIjpbXSwibWFuZXV2ZXJOb3RlcyI6W10sImZvcm1hdHRlZFRpbWUiOiIwMDowMDowMCIsInRyYW5zcG9ydE1vZGUiOiJjYXIiLCJzdGFydFBvaW50Ijp7ImxhdCI6MzcuOTM4MTYyOTk5OTk5NjIsImxuZyI6LTEwNy44MTExNzkwMDAwMDE0fSwidHVyblR5cGUiOjAsImF0dHJpYnV0ZXMiOjAsImljb25VcmwiOiIiLCJzdHJlZXRzIjpbXX1dfV0sIm9wdGlvbnMiOnsicm91dGVUeXBlIjoiRkFTVEVTVCIsIm5hcnJhdGl2ZVR5cGUiOiJ0ZXh0IiwiZW5oYW5jZWROYXJyYXRpdmUiOmZhbHNlLCJ3YWxraW5nU3BlZWQiOi0xLCJoaWdod2F5RWZmaWNpZW5jeSI6MjIsImF2b2lkcyI6ZmFsc2UsImdlbmVyYWxpemUiOi0xLCJzaGFwZUZvcm1hdCI6InJhdyIsInVuaXQiOiJNIiwibG9jYWxlIjoiZW5fVVMiLCJ1c2VUcmFmZmljIjpmYWxzZSwidGltZVR5cGUiOjAsImRhdGVUeXBlIjowLCJkb1JldmVyc2VHZW9jb2RlIjp0cnVlLCJtYW5NYXBzIjp0cnVlLCJ0b2xsQ29zdCI6ZmFsc2UsInNpZGVPZlN0cmVldERpc3BsYXkiOnRydWV9LCJib3VuZGluZ0JveCI6eyJ1bCI6eyJsYXQiOjM5Ljc2NjYwMDAwMDAwMDA0LCJsbmciOi0xMDguNDc0NzMwMDAwMDAxOX0sImxyIjp7ImxhdCI6MzcuOTM4MTYyOTk5OTk5NjIsImxuZyI6LTEwNC45OTE2M319LCJuYW1lIjoiSS03MCBhbmQgVVMtNTAiLCJtYXhSb3V0ZXMiOiIiLCJsb2NhdGlvbnMiOlt7InN0cmVldCI6IiIsImFkbWluQXJlYTYiOiIiLCJhZG1pbkFyZWE2VHlwZSI6Ik5laWdoYm9yaG9vZCIsImFkbWluQXJlYTUiOiJEZW52ZXIiLCJhZG1pbkFyZWE1VHlwZSI6IkNpdHkiLCJhZG1pbkFyZWE0IjoiRGVudmVyIiwiYWRtaW5BcmVhNFR5cGUiOiJDb3VudHkiLCJhZG1pbkFyZWEzIjoiQ08iLCJhZG1pbkFyZWEzVHlwZSI6IlN0YXRlIiwiYWRtaW5BcmVhMSI6IlVTIiwiYWRtaW5BcmVhMVR5cGUiOiJDb3VudHJ5IiwicG9zdGFsQ29kZSI6IiIsImdlb2NvZGVRdWFsaXR5Q29kZSI6IkE1WEFYIiwiZ2VvY29kZVF1YWxpdHkiOiJDSVRZIiwiZHJhZ1BvaW50IjpmYWxzZSwic2lkZU9mU3RyZWV0IjoiTiIsImxpbmtJZCI6IjAiLCJ1bmtub3duSW5wdXQiOiIiLCJ0eXBlIjoicyIsImxhdExuZyI6eyJsYXQiOjM5Ljc0MDAxLCJsbmciOi0xMDQuOTkyMDJ9LCJkaXNwbGF5TGF0TG5nIjp7ImxhdCI6MzkuNzQwMDEsImxuZyI6LTEwNC45OTIwMn0sIm1hcFVybCI6IiJ9LHsic3RyZWV0IjoiIiwiYWRtaW5BcmVhNiI6IiIsImFkbWluQXJlYTZUeXBlIjoiTmVpZ2hib3Job29kIiwiYWRtaW5BcmVhNSI6IlRlbGx1cmlkZSIsImFkbWluQXJlYTVUeXBlIjoiQ2l0eSIsImFkbWluQXJlYTQiOiJTYW4gTWlndWVsIiwiYWRtaW5BcmVhNFR5cGUiOiJDb3VudHkiLCJhZG1pbkFyZWEzIjoiQ08iLCJhZG1pbkFyZWEzVHlwZSI6IlN0YXRlIiwiYWRtaW5BcmVhMSI6IlVTIiwiYWRtaW5BcmVhMVR5cGUiOiJDb3VudHJ5IiwicG9zdGFsQ29kZSI6IiIsImdlb2NvZGVRdWFsaXR5Q29kZSI6IkE1WEFYIiwiZ2VvY29kZVF1YWxpdHkiOiJDSVRZIiwiZHJhZ1BvaW50IjpmYWxzZSwic2lkZU9mU3RyZWV0IjoiTiIsImxpbmtJZCI6IjAiLCJ1bmtub3duSW5wdXQiOiIiLCJ0eXBlIjoicyIsImxhdExuZyI6eyJsYXQiOjM3LjkzODE2LCJsbmciOi0xMDcuODExMTh9LCJkaXNwbGF5TGF0TG5nIjp7ImxhdCI6MzcuOTM4MTYsImxuZyI6LTEwNy44MTExOH0sIm1hcFVybCI6IiJ9XSwibG9jYXRpb25TZXF1ZW5jZSI6WzAsMV19LCJpbmZvIjp7InN0YXR1c2NvZGUiOjAsImNvcHlyaWdodCI6eyJ0ZXh0IjoiwqkgMjAyNCBNYXBRdWVzdCwgSW5jLiIsImltYWdlVXJsIjoiaHR0cDovL2FwaS5tcWNkbi5jb20vcmVzL21xbG9nby5naWYiLCJpbWFnZUFsdFRleHQiOiLCqSAyMDI0IE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbXX19
+  recorded_at: Fri, 26 Apr 2024 00:32:01 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/current.json?key=wapi_key&q=denver,co,%20
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:02 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '72659836'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:02
+      Cdn-Edgestorageid:
+      - '871'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 517fc9b0db7de62447b07cc54fcde89a
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Denver","region":"Colorado","country":"United
+        States of America","lat":39.74,"lon":-104.98,"tz_id":"America/Denver","localtime_epoch":1714091397,"localtime":"2024-04-25
+        18:29"},"current":{"last_updated_epoch":1714090500,"last_updated":"2024-04-25
+        18:15","temp_c":17.6,"temp_f":63.7,"is_day":1,"condition":{"text":"Moderate
+        or heavy rain with thunder","icon":"//cdn.weatherapi.com/weather/64x64/day/389.png","code":1276},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":310,"wind_dir":"NW","pressure_mb":1002.0,"pressure_in":29.6,"precip_mm":0.0,"precip_in":0.0,"humidity":32,"cloud":75,"feelslike_c":17.6,"feelslike_f":63.7,"vis_km":16.0,"vis_miles":9.0,"uv":5.0,"gust_mph":21.9,"gust_kph":35.3}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:02 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=0&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:02 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '73549729'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:02
+      Cdn-Edgestorageid:
+      - '718'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 013f771e8e51cfc0b0e32324dc37acf8
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091398,"localtime":"2024-04-26
+        3:59"},"current":{"last_updated_epoch":1714090500,"last_updated":"2024-04-26
+        03:45","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.1,"feelslike_f":75.4,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.6,"gust_kph":10.6},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714077000,"time":"2024-04-26
+        00:00","temp_c":28.7,"temp_f":83.7,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":7.8,"wind_kph":12.6,"wind_degree":244,"wind_dir":"WSW","pressure_mb":1007.0,"pressure_in":29.74,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":25,"cloud":5,"feelslike_c":27.2,"feelslike_f":80.9,"windchill_c":28.7,"windchill_f":83.7,"heatindex_c":27.2,"heatindex_f":80.9,"dewpoint_c":7.0,"dewpoint_f":44.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":14.9,"gust_kph":23.9,"uv":1.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:02 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=1&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:02 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '73014202'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:02
+      Cdn-Edgestorageid:
+      - '1068'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 577909a2ffd07826f698c07aea25693a
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091411,"localtime":"2024-04-26
+        4:00"},"current":{"last_updated_epoch":1714091400,"last_updated":"2024-04-26
+        04:00","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.2,"feelslike_f":75.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.1,"gust_kph":9.8},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714080600,"time":"2024-04-26
+        01:00","temp_c":28.0,"temp_f":82.5,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":253,"wind_dir":"WSW","pressure_mb":1007.0,"pressure_in":29.74,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":26,"cloud":5,"feelslike_c":26.7,"feelslike_f":80.0,"windchill_c":28.1,"windchill_f":82.5,"heatindex_c":26.7,"heatindex_f":80.0,"dewpoint_c":7.0,"dewpoint_f":44.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":13.7,"gust_kph":22.0,"uv":1.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:02 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=2&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:02 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '66166007'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:02
+      Cdn-Edgestorageid:
+      - '1068'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 0b045348538863a93260b9181406a4e1
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091399,"localtime":"2024-04-26
+        3:59"},"current":{"last_updated_epoch":1714090500,"last_updated":"2024-04-26
+        03:45","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.1,"feelslike_f":75.4,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.6,"gust_kph":10.6},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714084200,"time":"2024-04-26
+        02:00","temp_c":27.4,"temp_f":81.4,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":5.6,"wind_kph":9.0,"wind_degree":257,"wind_dir":"WSW","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":27,"cloud":5,"feelslike_c":26.3,"feelslike_f":79.3,"windchill_c":27.4,"windchill_f":81.4,"heatindex_c":26.3,"heatindex_f":79.3,"dewpoint_c":7.1,"dewpoint_f":44.7,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":11.6,"gust_kph":18.6,"uv":1.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:02 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=3&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:03 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '74589158'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:03
+      Cdn-Edgestorageid:
+      - '1068'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 85a2f6aacbc6460bcf5648d5a5a90a97
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091412,"localtime":"2024-04-26
+        4:00"},"current":{"last_updated_epoch":1714091400,"last_updated":"2024-04-26
+        04:00","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.2,"feelslike_f":75.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.1,"gust_kph":9.8},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714087800,"time":"2024-04-26
+        03:00","temp_c":26.6,"temp_f":79.9,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":3.1,"wind_kph":5.0,"wind_degree":259,"wind_dir":"W","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":30,"cloud":6,"feelslike_c":25.8,"feelslike_f":78.4,"windchill_c":26.6,"windchill_f":80.0,"heatindex_c":25.8,"heatindex_f":78.4,"dewpoint_c":7.5,"dewpoint_f":45.4,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":6.6,"gust_kph":10.6,"uv":1.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:03 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=4&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:03 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '58968550'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:03
+      Cdn-Edgestorageid:
+      - '845'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - c2067046d88c80710c8dd70d0d01cb2f
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091399,"localtime":"2024-04-26
+        3:59"},"current":{"last_updated_epoch":1714090500,"last_updated":"2024-04-26
+        03:45","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.1,"feelslike_f":75.4,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.6,"gust_kph":10.6},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714091400,"time":"2024-04-26
+        04:00","temp_c":26.3,"temp_f":79.4,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.9,"wind_kph":4.7,"wind_degree":183,"wind_dir":"S","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":30,"cloud":6,"feelslike_c":25.6,"feelslike_f":78.1,"windchill_c":26.3,"windchill_f":79.4,"heatindex_c":25.6,"heatindex_f":78.1,"dewpoint_c":7.5,"dewpoint_f":45.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":6.1,"gust_kph":9.8,"uv":1.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:03 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=5&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:03 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '71323650'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:03
+      Cdn-Edgestorageid:
+      - '845'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 6403c9e7edba5f4327f66f8e9146925f
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091399,"localtime":"2024-04-26
+        3:59"},"current":{"last_updated_epoch":1714090500,"last_updated":"2024-04-26
+        03:45","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.1,"feelslike_f":75.4,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.6,"gust_kph":10.6},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714095000,"time":"2024-04-26
+        05:00","temp_c":26.1,"temp_f":78.9,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":4.9,"wind_kph":7.9,"wind_degree":168,"wind_dir":"SSE","pressure_mb":1007.0,"pressure_in":29.75,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":30,"cloud":7,"feelslike_c":25.4,"feelslike_f":77.8,"windchill_c":26.1,"windchill_f":78.9,"heatindex_c":25.4,"heatindex_f":77.8,"dewpoint_c":7.1,"dewpoint_f":44.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":10.3,"gust_kph":16.6,"uv":1.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:03 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=6&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:04 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 haproxy-api-1 (Varnish/7.3)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '72662170'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:04
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - a5b19b81ca2b27959a294dbe3f505bd5
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091400,"localtime":"2024-04-26
+        4:00"},"current":{"last_updated_epoch":1714091400,"last_updated":"2024-04-26
+        04:00","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.2,"feelslike_f":75.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.1,"gust_kph":9.8},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714098600,"time":"2024-04-26
+        06:00","temp_c":26.9,"temp_f":80.3,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":4.9,"wind_kph":7.9,"wind_degree":167,"wind_dir":"SSE","pressure_mb":1008.0,"pressure_in":29.77,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":30,"cloud":7,"feelslike_c":26.0,"feelslike_f":78.8,"windchill_c":26.9,"windchill_f":80.3,"heatindex_c":26.0,"heatindex_f":78.8,"dewpoint_c":7.7,"dewpoint_f":45.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":9.2,"gust_kph":14.8,"uv":1.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:04 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=7&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:04 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '65381006'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:04
+      Cdn-Edgestorageid:
+      - '894'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 9222353cfa7d4d810ad4ed9bb52360e4
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091522,"localtime":"2024-04-26
+        4:02"},"current":{"last_updated_epoch":1714091400,"last_updated":"2024-04-26
+        04:00","temp_c":26.3,"temp_f":79.4,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.9,"wind_kph":4.7,"wind_degree":183,"wind_dir":"S","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":30,"cloud":6,"feelslike_c":25.6,"feelslike_f":78.1,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.1,"gust_kph":9.8},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714102200,"time":"2024-04-26
+        07:00","temp_c":28.7,"temp_f":83.6,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":4.7,"wind_kph":7.6,"wind_degree":164,"wind_dir":"SSE","pressure_mb":1008.0,"pressure_in":29.78,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":26,"cloud":8,"feelslike_c":27.2,"feelslike_f":80.9,"windchill_c":28.7,"windchill_f":83.6,"heatindex_c":27.2,"heatindex_f":80.9,"dewpoint_c":7.3,"dewpoint_f":45.2,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":6.6,"gust_kph":10.7,"uv":7.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:04 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=8&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:04 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '67616890'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:04
+      Cdn-Edgestorageid:
+      - '940'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 23c82d34d842b1a9ad09e95535df396f
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091400,"localtime":"2024-04-26
+        4:00"},"current":{"last_updated_epoch":1714091400,"last_updated":"2024-04-26
+        04:00","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.2,"feelslike_f":75.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.1,"gust_kph":9.8},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714105800,"time":"2024-04-26
+        08:00","temp_c":30.3,"temp_f":86.6,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":4.9,"wind_kph":7.9,"wind_degree":153,"wind_dir":"SSE","pressure_mb":1009.0,"pressure_in":29.78,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":23,"cloud":8,"feelslike_c":28.5,"feelslike_f":83.3,"windchill_c":30.4,"windchill_f":86.6,"heatindex_c":28.5,"heatindex_f":83.3,"dewpoint_c":7.1,"dewpoint_f":44.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":6.1,"gust_kph":9.8,"uv":8.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:04 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=9&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:04 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '67355430'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:04
+      Cdn-Edgestorageid:
+      - '941'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 7f6ec796b7b5f572a33ad2912e02f551
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091494,"localtime":"2024-04-26
+        4:01"},"current":{"last_updated_epoch":1714091400,"last_updated":"2024-04-26
+        04:00","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.2,"feelslike_f":75.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.1,"gust_kph":9.8},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714109400,"time":"2024-04-26
+        09:00","temp_c":31.9,"temp_f":89.3,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":4.7,"wind_kph":7.6,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1009.0,"pressure_in":29.78,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":21,"cloud":7,"feelslike_c":29.8,"feelslike_f":85.6,"windchill_c":31.9,"windchill_f":89.3,"heatindex_c":29.8,"heatindex_f":85.6,"dewpoint_c":7.1,"dewpoint_f":44.7,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":5.5,"gust_kph":8.9,"uv":8.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:04 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=10&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:05 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '62147439'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:05
+      Cdn-Edgestorageid:
+      - '871'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 1efeb1cc039af43f4a8a210c011f9a8f
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091532,"localtime":"2024-04-26
+        4:02"},"current":{"last_updated_epoch":1714091400,"last_updated":"2024-04-26
+        04:00","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.2,"feelslike_f":75.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.1,"gust_kph":9.8},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714113000,"time":"2024-04-26
+        10:00","temp_c":33.2,"temp_f":91.8,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":4.3,"wind_kph":6.8,"wind_degree":160,"wind_dir":"SSE","pressure_mb":1008.0,"pressure_in":29.78,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":20,"cloud":7,"feelslike_c":31.1,"feelslike_f":88.0,"windchill_c":33.3,"windchill_f":91.9,"heatindex_c":31.1,"heatindex_f":88.0,"dewpoint_c":7.0,"dewpoint_f":44.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":4.9,"gust_kph":7.9,"uv":8.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:05 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=11&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:05 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '66824697'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:05
+      Cdn-Edgestorageid:
+      - '894'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - fbf28a442d6d18ff941ab0da2aaebda6
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091401,"localtime":"2024-04-26
+        4:00"},"current":{"last_updated_epoch":1714090500,"last_updated":"2024-04-26
+        03:45","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.1,"feelslike_f":75.4,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.6,"gust_kph":10.6},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714116600,"time":"2024-04-26
+        11:00","temp_c":34.3,"temp_f":93.7,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":3.4,"wind_kph":5.4,"wind_degree":177,"wind_dir":"S","pressure_mb":1008.0,"pressure_in":29.76,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":18,"cloud":6,"feelslike_c":32.3,"feelslike_f":90.2,"windchill_c":34.3,"windchill_f":93.7,"heatindex_c":32.3,"heatindex_f":90.2,"dewpoint_c":6.7,"dewpoint_f":44.1,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":3.9,"gust_kph":6.2,"uv":8.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:05 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=12&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:05 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '62147441'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:05
+      Cdn-Edgestorageid:
+      - '1070'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - f09359833b371ef263d1a35ff08ccbbf
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091524,"localtime":"2024-04-26
+        4:02"},"current":{"last_updated_epoch":1714091400,"last_updated":"2024-04-26
+        04:00","temp_c":26.3,"temp_f":79.4,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.9,"wind_kph":4.7,"wind_degree":183,"wind_dir":"S","pressure_mb":1007.0,"pressure_in":29.73,"precip_mm":0.0,"precip_in":0.0,"humidity":30,"cloud":6,"feelslike_c":25.6,"feelslike_f":78.1,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.1,"gust_kph":9.8},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714120200,"time":"2024-04-26
+        12:00","temp_c":35.2,"temp_f":95.3,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":3.1,"wind_kph":5.0,"wind_degree":202,"wind_dir":"SSW","pressure_mb":1007.0,"pressure_in":29.74,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":17,"cloud":7,"feelslike_c":33.4,"feelslike_f":92.1,"windchill_c":35.2,"windchill_f":95.3,"heatindex_c":33.4,"heatindex_f":92.1,"dewpoint_c":6.4,"dewpoint_f":43.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":3.6,"gust_kph":5.8,"uv":9.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:05 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=13&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:05 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '74820164'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:05
+      Cdn-Edgestorageid:
+      - '1069'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - dfe6126a37f3a04efac7c749749df182
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091401,"localtime":"2024-04-26
+        4:00"},"current":{"last_updated_epoch":1714090500,"last_updated":"2024-04-26
+        03:45","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.1,"feelslike_f":75.4,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.6,"gust_kph":10.6},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714123800,"time":"2024-04-26
+        13:00","temp_c":35.9,"temp_f":96.6,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":2.9,"wind_kph":4.7,"wind_degree":225,"wind_dir":"SW","pressure_mb":1006.0,"pressure_in":29.72,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":16,"cloud":7,"feelslike_c":34.2,"feelslike_f":93.6,"windchill_c":35.9,"windchill_f":96.5,"heatindex_c":34.2,"heatindex_f":93.6,"dewpoint_c":6.1,"dewpoint_f":43.1,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":3.4,"gust_kph":5.4,"uv":9.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:05 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=14&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:06 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '76746257'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:06
+      Cdn-Edgestorageid:
+      - '941'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 8d30cec2ba5da5ae5b196779607a5c7f
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091533,"localtime":"2024-04-26
+        4:02"},"current":{"last_updated_epoch":1714091400,"last_updated":"2024-04-26
+        04:00","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.2,"feelslike_f":75.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.1,"gust_kph":9.8},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714127400,"time":"2024-04-26
+        14:00","temp_c":36.3,"temp_f":97.3,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":2.7,"wind_kph":4.3,"wind_degree":248,"wind_dir":"WSW","pressure_mb":1006.0,"pressure_in":29.7,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":15,"cloud":7,"feelslike_c":34.8,"feelslike_f":94.6,"windchill_c":36.3,"windchill_f":97.3,"heatindex_c":34.8,"heatindex_f":94.6,"dewpoint_c":6.0,"dewpoint_f":42.7,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":3.1,"gust_kph":5.0,"uv":9.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:06 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=15&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:06 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '69888423'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:06
+      Cdn-Edgestorageid:
+      - '1069'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 9e3c3f5d3deb859ccec2301c689e3422
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091402,"localtime":"2024-04-26
+        4:00"},"current":{"last_updated_epoch":1714090500,"last_updated":"2024-04-26
+        03:45","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.1,"feelslike_f":75.4,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.6,"gust_kph":10.6},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714131000,"time":"2024-04-26
+        15:00","temp_c":36.6,"temp_f":97.8,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":2.7,"wind_kph":4.3,"wind_degree":259,"wind_dir":"W","pressure_mb":1005.0,"pressure_in":29.68,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":15,"cloud":6,"feelslike_c":35.1,"feelslike_f":95.2,"windchill_c":36.6,"windchill_f":97.8,"heatindex_c":35.1,"heatindex_f":95.2,"dewpoint_c":5.6,"dewpoint_f":42.0,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":3.1,"gust_kph":5.0,"uv":9.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:06 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=16&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:06 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 haproxy-api-1 (Varnish/7.3)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '75671637'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:06
+      Cdn-Edgestorageid:
+      - '894'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 24d99f52ee6fd619903fa0ad15dd38e1
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091539,"localtime":"2024-04-26
+        4:02"},"current":{"last_updated_epoch":1714091400,"last_updated":"2024-04-26
+        04:00","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.2,"feelslike_f":75.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.1,"gust_kph":9.8},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714134600,"time":"2024-04-26
+        16:00","temp_c":36.6,"temp_f":97.9,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":2.9,"wind_kph":4.7,"wind_degree":263,"wind_dir":"W","pressure_mb":1005.0,"pressure_in":29.66,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":14,"cloud":6,"feelslike_c":35.2,"feelslike_f":95.3,"windchill_c":36.6,"windchill_f":97.9,"heatindex_c":35.2,"heatindex_f":95.3,"dewpoint_c":5.3,"dewpoint_f":41.5,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":3.5,"gust_kph":5.6,"uv":9.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:06 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=17&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:06 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '73503793'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:06
+      Cdn-Edgestorageid:
+      - '1067'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 8e27c33b34c29e167f53d68eca281247
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091402,"localtime":"2024-04-26
+        4:00"},"current":{"last_updated_epoch":1714090500,"last_updated":"2024-04-26
+        03:45","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.1,"feelslike_f":75.4,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.6,"gust_kph":10.6},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714138200,"time":"2024-04-26
+        17:00","temp_c":36.5,"temp_f":97.6,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":3.4,"wind_kph":5.4,"wind_degree":266,"wind_dir":"W","pressure_mb":1004.0,"pressure_in":29.66,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":14,"cloud":4,"feelslike_c":35.0,"feelslike_f":95.0,"windchill_c":36.5,"windchill_f":97.6,"heatindex_c":35.0,"heatindex_f":95.0,"dewpoint_c":5.1,"dewpoint_f":41.2,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":4.2,"gust_kph":6.8,"uv":9.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:06 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=18&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:07 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '76421882'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:07
+      Cdn-Edgestorageid:
+      - '1068'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - eaab00cabfb7b6f98c29129b7f799410
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091534,"localtime":"2024-04-26
+        4:02"},"current":{"last_updated_epoch":1714091400,"last_updated":"2024-04-26
+        04:00","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.2,"feelslike_f":75.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.1,"gust_kph":9.8},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714141800,"time":"2024-04-26
+        18:00","temp_c":35.4,"temp_f":95.8,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":3.6,"wind_kph":5.8,"wind_degree":251,"wind_dir":"WSW","pressure_mb":1004.0,"pressure_in":29.66,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":16,"cloud":4,"feelslike_c":33.7,"feelslike_f":92.7,"windchill_c":35.4,"windchill_f":95.8,"heatindex_c":33.7,"heatindex_f":92.7,"dewpoint_c":5.7,"dewpoint_f":42.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":5.4,"gust_kph":8.7,"uv":9.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:07 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=19&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:07 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '72659864'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:07
+      Cdn-Edgestorageid:
+      - '871'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 75bdda181034706c916daa39c69c78b8
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091403,"localtime":"2024-04-26
+        4:00"},"current":{"last_updated_epoch":1714090500,"last_updated":"2024-04-26
+        03:45","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.1,"feelslike_f":75.4,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.6,"gust_kph":10.6},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714145400,"time":"2024-04-26
+        19:00","temp_c":34.2,"temp_f":93.5,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":3.4,"wind_kph":5.4,"wind_degree":237,"wind_dir":"WSW","pressure_mb":1005.0,"pressure_in":29.67,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":17,"cloud":3,"feelslike_c":32.2,"feelslike_f":89.9,"windchill_c":34.2,"windchill_f":93.5,"heatindex_c":32.2,"heatindex_f":89.9,"dewpoint_c":5.9,"dewpoint_f":42.5,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":6.0,"gust_kph":9.6,"uv":8.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:07 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=20&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:07 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '50777627'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:07
+      Cdn-Edgestorageid:
+      - '871'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 4ef64f41d442436a307727baefbcfe0e
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091497,"localtime":"2024-04-26
+        4:01"},"current":{"last_updated_epoch":1714091400,"last_updated":"2024-04-26
+        04:00","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.2,"feelslike_f":75.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.1,"gust_kph":9.8},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714149000,"time":"2024-04-26
+        20:00","temp_c":33.3,"temp_f":92.0,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":3.1,"wind_kph":5.0,"wind_degree":226,"wind_dir":"SW","pressure_mb":1005.0,"pressure_in":29.68,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":18,"cloud":4,"feelslike_c":31.2,"feelslike_f":88.2,"windchill_c":33.3,"windchill_f":92.0,"heatindex_c":31.2,"heatindex_f":88.2,"dewpoint_c":6.0,"dewpoint_f":42.8,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":6.2,"gust_kph":9.9,"uv":1.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:07 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=21&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:07 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '51827595'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:07
+      Cdn-Edgestorageid:
+      - '894'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - a0809ba7c1a38178e11bcb1ce1cd53fe
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091527,"localtime":"2024-04-26
+        4:02"},"current":{"last_updated_epoch":1714091400,"last_updated":"2024-04-26
+        04:00","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.2,"feelslike_f":75.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.1,"gust_kph":9.8},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714152600,"time":"2024-04-26
+        21:00","temp_c":32.7,"temp_f":90.9,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":5.1,"wind_kph":8.3,"wind_degree":208,"wind_dir":"SSW","pressure_mb":1005.0,"pressure_in":29.68,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":18,"cloud":4,"feelslike_c":30.6,"feelslike_f":87.0,"windchill_c":32.7,"windchill_f":90.9,"heatindex_c":30.6,"heatindex_f":87.0,"dewpoint_c":5.5,"dewpoint_f":41.8,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":10.4,"gust_kph":16.8,"uv":1.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:07 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=22&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:08 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '73014233'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:08
+      Cdn-Edgestorageid:
+      - '1068'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - e2e4ff5d09a9401f8e32b3467e30578a
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091528,"localtime":"2024-04-26
+        4:02"},"current":{"last_updated_epoch":1714091400,"last_updated":"2024-04-26
+        04:00","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.2,"feelslike_f":75.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.1,"gust_kph":9.8},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714156200,"time":"2024-04-26
+        22:00","temp_c":31.3,"temp_f":88.3,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":11.0,"wind_kph":17.6,"wind_degree":202,"wind_dir":"SSW","pressure_mb":1005.0,"pressure_in":29.68,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":21,"cloud":5,"feelslike_c":29.1,"feelslike_f":84.5,"windchill_c":31.3,"windchill_f":88.3,"heatindex_c":29.1,"heatindex_f":84.5,"dewpoint_c":6.3,"dewpoint_f":43.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":21.2,"gust_kph":34.1,"uv":1.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:08 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=1&hour=23&key=wapi_key&q=d,%20e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:08 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1069
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '74622039'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:08
+      Cdn-Edgestorageid:
+      - '1068'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - d562038a71f1cdddc5ecd6e7a5d05793
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Khomeys-E Sa`D","region":"Khuzestan","country":"Iran","lat":31.82,"lon":48.36,"tz_id":"Asia/Tehran","localtime_epoch":1714091404,"localtime":"2024-04-26
+        4:00"},"current":{"last_updated_epoch":1714091400,"last_updated":"2024-04-26
+        04:00","temp_c":24.0,"temp_f":75.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.5,"wind_kph":4.0,"wind_degree":150,"wind_dir":"SSE","pressure_mb":1006.0,"pressure_in":29.71,"precip_mm":0.0,"precip_in":0.0,"humidity":50,"cloud":0,"feelslike_c":24.2,"feelslike_f":75.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":6.1,"gust_kph":9.8},"forecast":{"forecastday":[{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":36.6,"maxtemp_f":97.9,"mintemp_c":26.1,"mintemp_f":78.9,"avgtemp_c":31.8,"avgtemp_f":89.2,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":21,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:35
+        AM","sunset":"07:53 PM","moonrise":"10:30 PM","moonset":"07:44 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1714159800,"time":"2024-04-26
+        23:00","temp_c":30.6,"temp_f":87.0,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":11.9,"wind_kph":19.1,"wind_degree":205,"wind_dir":"SSW","pressure_mb":1005.0,"pressure_in":29.68,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":22,"cloud":6,"feelslike_c":28.6,"feelslike_f":83.4,"windchill_c":30.6,"windchill_f":87.0,"heatindex_c":28.6,"heatindex_f":83.4,"dewpoint_c":6.5,"dewpoint_f":43.7,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":22.1,"gust_kph":35.6,"uv":1.0}]}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:08 GMT
+- request:
+    method: get
+    uri: https://api.weatherapi.com/v1/forecast.json?days=5&key=wapi_key&q=denver,co,%20&tp=24
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Apr 2024 00:32:08 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-871
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Age:
+      - '0'
+      Cache-Control:
+      - public, max-age=180
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Weatherapi-Qpm-Left:
+      - '4998143'
+      X-Varnish:
+      - '59727322'
+      Cdn-Proxyver:
+      - '1.04'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2024 00:32:08
+      Cdn-Edgestorageid:
+      - '1069'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - de1d6f3f2c5d72c2ba814b2145bcf29f
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Denver","region":"Colorado","country":"United
+        States of America","lat":39.74,"lon":-104.98,"tz_id":"America/Denver","localtime_epoch":1714091528,"localtime":"2024-04-25
+        18:32"},"current":{"last_updated_epoch":1714091400,"last_updated":"2024-04-25
+        18:30","temp_c":17.6,"temp_f":63.7,"is_day":1,"condition":{"text":"Moderate
+        or heavy rain with thunder","icon":"//cdn.weatherapi.com/weather/64x64/day/389.png","code":1276},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":310,"wind_dir":"NW","pressure_mb":1002.0,"pressure_in":29.6,"precip_mm":0.0,"precip_in":0.0,"humidity":32,"cloud":75,"feelslike_c":17.6,"feelslike_f":63.7,"vis_km":16.0,"vis_miles":9.0,"uv":5.0,"gust_mph":21.9,"gust_kph":35.3},"forecast":{"forecastday":[{"date":"2024-04-25","date_epoch":1714003200,"day":{"maxtemp_c":24.5,"maxtemp_f":76.0,"mintemp_c":11.2,"mintemp_f":52.2,"avgtemp_c":16.9,"avgtemp_f":62.3,"maxwind_mph":20.4,"maxwind_kph":32.8,"totalprecip_mm":0.71,"totalprecip_in":0.03,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":37,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":8.0},"astro":{"sunrise":"06:07
+        AM","sunset":"07:49 PM","moonrise":"10:03 PM","moonset":"06:46 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":99,"is_moon_up":0,"is_sun_up":1}},{"date":"2024-04-26","date_epoch":1714089600,"day":{"maxtemp_c":20.4,"maxtemp_f":68.8,"mintemp_c":9.0,"mintemp_f":48.2,"avgtemp_c":14.0,"avgtemp_f":57.2,"maxwind_mph":14.1,"maxwind_kph":22.7,"totalprecip_mm":11.22,"totalprecip_in":0.44,"totalsnow_cm":0.0,"avgvis_km":8.7,"avgvis_miles":5.0,"avghumidity":46,"daily_will_it_rain":1,"daily_chance_of_rain":89,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Moderate
+        rain","icon":"//cdn.weatherapi.com/weather/64x64/day/302.png","code":1189},"uv":8.0},"astro":{"sunrise":"06:06
+        AM","sunset":"07:50 PM","moonrise":"11:09 PM","moonset":"07:20 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":96,"is_moon_up":0,"is_sun_up":1}},{"date":"2024-04-27","date_epoch":1714176000,"day":{"maxtemp_c":7.6,"maxtemp_f":45.7,"mintemp_c":3.7,"mintemp_f":38.7,"avgtemp_c":6.4,"avgtemp_f":43.4,"maxwind_mph":17.9,"maxwind_kph":28.8,"totalprecip_mm":33.35,"totalprecip_in":1.31,"totalsnow_cm":0.0,"avgvis_km":7.7,"avgvis_miles":4.0,"avghumidity":88,"daily_will_it_rain":1,"daily_chance_of_rain":86,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Heavy
+        rain","icon":"//cdn.weatherapi.com/weather/64x64/day/308.png","code":1195},"uv":5.0},"astro":{"sunrise":"06:05
+        AM","sunset":"07:51 PM","moonrise":"No moonrise","moonset":"08:03 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":91,"is_moon_up":0,"is_sun_up":1}},{"date":"2024-04-28","date_epoch":1714262400,"day":{"maxtemp_c":15.9,"maxtemp_f":60.6,"mintemp_c":3.6,"mintemp_f":38.5,"avgtemp_c":8.8,"avgtemp_f":47.8,"maxwind_mph":12.3,"maxwind_kph":19.8,"totalprecip_mm":1.45,"totalprecip_in":0.06,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":68,"daily_will_it_rain":1,"daily_chance_of_rain":89,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        rain nearby","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":7.0},"astro":{"sunrise":"06:03
+        AM","sunset":"07:52 PM","moonrise":"12:12 AM","moonset":"08:56 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":84,"is_moon_up":0,"is_sun_up":1}},{"date":"2024-04-29","date_epoch":1714348800,"day":{"maxtemp_c":21.2,"maxtemp_f":70.2,"mintemp_c":6.9,"mintemp_f":44.5,"avgtemp_c":13.7,"avgtemp_f":56.6,"maxwind_mph":8.7,"maxwind_kph":14.0,"totalprecip_mm":0.0,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":40,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":4.0},"astro":{"sunrise":"06:02
+        AM","sunset":"07:53 PM","moonrise":"01:09 AM","moonset":"09:59 AM","moon_phase":"Waning
+        Gibbous","moon_illumination":76,"is_moon_up":0,"is_sun_up":1}}]}}'
+  recorded_at: Fri, 26 Apr 2024 00:32:08 GMT
+recorded_with: VCR 6.2.0

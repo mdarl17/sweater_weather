@@ -21,10 +21,6 @@ class Api::V0::UsersController < ApplicationController
 		end
 	end
 
-	def road_trip
-		
-	end
-
 	private
 
 	def user_params
