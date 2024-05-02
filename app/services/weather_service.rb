@@ -1,30 +1,38 @@
 class WeatherService
-	def get_current_data(location)
+	def get_current_data(coords)
 		response = conn.get("/v1/current.json") do |f|
-			f.params[:q] = location
+			f.params[:q] = coords
 		end
 		JSON.parse(response.body, symbolize_names: true)
 	end
 
-	def get_daily_data(location, days)
+	def get_daily_data(coords, days)
 		response = conn.get("/v1/forecast.json") do |f|
-			f.params[:q] = location
+			f.params[:q] = coords
 			f.params[:days] = days
 			f.params[:tp] = 24
 		end
 		JSON.parse(response.body, symbolize_names: true)[:forecast][:forecastday]
 	end
 
-	def get_hourly_data(location)
+	def get_hourly_data(coords, days)
 		result = []
-		24.times do |n|
-			response = conn.get("/v1/forecast.json") do |f|
-				f.params[:q] = "#{location[0]}, #{location[1]}"
-				f.params[:hour] = n
-				f.params[:days] = 1
+		response = conn.get("/v1/forecast.json") do |f|
+			f.params[:q] = coords
+			f.params[:days] = days
+		end
+		
+		parsed = JSON.parse(response.body, symbolize_names: true)
+
+		(days.to_i).times do |n|
+			day = parsed[:forecast][:forecastday][n][:hour].map do |h|
+				{
+					time: h[:time],
+					temp: h[:temp_f],
+					condition: h[:condition][:text]
+				}
 			end
-			parsed = JSON.parse(response.body, symbolize_names: true)
-			result << parsed[:forecast][:forecastday].first[:hour].first
+			result << day
 		end
 		result
 	end
