@@ -22,7 +22,7 @@ RSpec.describe "Forecast for city", :vcr, type: :request do
 				[:last_updated, :temperature, :feels_like, :humidity, :uvi, :visibility, :condition]
 			)
 			expect(parsed_response[:data][:attributes][:current_weather][:last_updated]).to be_a String
-			expect(parsed_response[:data][:attributes][:current_weather][:temperature]).to be_a Float
+			expect(parsed_response[:data][:attributes][:current_weather][:temperature]).to be_a String
 			expect(parsed_response[:data][:attributes][:current_weather][:feels_like]).to be_a(String).or(be_nil)
 			expect(parsed_response[:data][:attributes][:current_weather][:humidity]).to be_an Integer
 			expect(parsed_response[:data][:attributes][:current_weather][:uvi]).to be_a Float

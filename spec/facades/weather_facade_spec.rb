@@ -35,7 +35,7 @@ RSpec.describe WeatherFacade, :vcr, type: :facade do
 				[:last_updated, :temperature, :feels_like, :humidity, :uvi, :visibility, :condition]
 			)
 			expect(@weather.current_weather[:last_updated]).to be_a String
-			expect(@weather.current_weather[:temperature]).to be_a Float
+			expect(@weather.current_weather[:temperature]).to be_a String
 			expect(@weather.current_weather[:feels_like]).to (be_nil).or (be_a String)
 			expect(@weather.current_weather[:humidity]).to be_an Integer
 			expect(@weather.current_weather[:uvi]).to be_a Float
