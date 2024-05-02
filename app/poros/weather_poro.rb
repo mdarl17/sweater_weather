@@ -13,7 +13,7 @@ class WeatherPoro
 	def current_array(attrs)
 		{
 			last_updated: attrs[:current][:last_updated],
-				temperature: attrs[:current][:temp_f],
+				temperature: "#{attrs[:current][:temp_f]}°F",
 				feels_like: "#{attrs[:current][:feelslike_f]}°F",
 				humidity: attrs[:current][:humidity],
 				uvi: attrs[:current][:uv],
@@ -31,8 +31,8 @@ class WeatherPoro
 				date: d[:date],
 				sunrise: d[:astro][:sunrise],
 				sunset: d[:astro][:sunset],
-				max_temp: d[:day][:maxtemp_f],
-				min_temp: d[:day][:mintemp_f],
+				max_temp: "#{d[:day][:maxtemp_f]}°F",
+				min_temp: "#{d[:day][:mintemp_f]}°F",
 				condition: d[:day][:condition][:text],
 				icon: d[:day][:condition][:icon]
 			}
@@ -44,6 +44,7 @@ class WeatherPoro
 		hours_array.map do |day_array|
 			day_array.map do |d|
 				{
+					date: d[:date],
 					time: "#{Time.parse(d[:time]).strftime("%-l:%M")}#{am_or_pm(Time.parse(d[:time]).hour)}",
 					temperature: "#{d[:temp]}°F",
 					condition: d[:condition].strip,
