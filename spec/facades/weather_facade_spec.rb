@@ -3,20 +3,24 @@ require "rails_helper"
 RSpec.describe WeatherFacade, :vcr, type: :facade do 
 	before(:each) do 
 		@loc_poro = LocationsFacade.new("Cleveland, OH").lat_lon
-		lat = @loc_poro.latlon[:lat]
-		lon = @loc_poro.latlon[:lng]
+		
+		lat = @loc_poro[:lat]
+		lon = @loc_poro[:lng]
 		lat_lon = "#{lat}, #{lon}"
-		@facade = WeatherFacade.new(q: lat_lon, days: 5)
+		@facade = WeatherFacade.new(location: lat_lon, days: 5)
 		@weather = @facade.weather
 	end
 
 	describe "#initialize" do 
 		it "is instantiated with a new WeatherService instance, and given location and air quality attributes" do 
 			expect(@facade).to be_a WeatherFacade
-			expect(@facade.instance_variables).to match_array([:@service, :@location, :@days])
+			expect(@facade.instance_variables).to match_array( [:@geo_coords, :@location, :@service])
 			expect(@facade.service).to be_a WeatherService
-			expect(@facade.location).to be_a String
-			expect(@facade.location).to eq("41.50473, -81.69074")
+			expect(@facade.location).to be_a Hash
+			expect(@facade.location[:location]).to be_a String
+			expect(@facade.location[:location]).to eq("41.50473, -81.69074")
+			expect(@facade.location[:days]).to be_an Integer
+			expect(@facade.location[:days]).to eq(5)
 		end
 	end
 
@@ -32,7 +36,7 @@ RSpec.describe WeatherFacade, :vcr, type: :facade do
 			)
 			expect(@weather.current_weather[:last_updated]).to be_a String
 			expect(@weather.current_weather[:temperature]).to be_a Float
-			expect(@weather.current_weather[:feels_like]).to be_nil.or be_a Float
+			expect(@weather.current_weather[:feels_like]).to (be_nil).or (be_a String)
 			expect(@weather.current_weather[:humidity]).to be_an Integer
 			expect(@weather.current_weather[:uvi]).to be_a Float
 			expect(@weather.current_weather[:visibility]).to be_a Float

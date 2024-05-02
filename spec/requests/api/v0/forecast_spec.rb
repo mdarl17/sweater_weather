@@ -3,17 +3,11 @@ require "rails_helper"
 RSpec.describe "Forecast for city", :vcr, type: :request do 
 	describe "Api::V0::Forecast" do 
 		it "retrieves weather for a city" do
-			location = "Denver, CO"
-			get "/api/v0/locations", headers: {"Content-Type": "application/json", "Accept": "application/json "}, 
-				params: { q: location }
-				latlon = JSON.parse(response.body, symbolize_names: true)
-				latitude = latlon[:lat]
-				longitude = latlon[:lon]
-				days = 5
-
+			location = "denver,co"
+			days = 5
+			
 			get "/api/v0/forecast", headers: { "Content-Type": "application/json", "Accept": "application/json"},
-				params: { q: [latitude, longitude], days: days }
-
+				params: { q: location, days: days }
 			parsed_response = JSON.parse(response.body, symbolize_names: true)
 			expect(response).to have_http_status(200)
 			expect(parsed_response).to have_key(:data)
@@ -29,7 +23,7 @@ RSpec.describe "Forecast for city", :vcr, type: :request do
 			)
 			expect(parsed_response[:data][:attributes][:current_weather][:last_updated]).to be_a String
 			expect(parsed_response[:data][:attributes][:current_weather][:temperature]).to be_a Float
-			expect(parsed_response[:data][:attributes][:current_weather][:feels_like]).to be_nil.or be_a Float
+			expect(parsed_response[:data][:attributes][:current_weather][:feels_like]).to be_a(String).or(be_nil)
 			expect(parsed_response[:data][:attributes][:current_weather][:humidity]).to be_an Integer
 			expect(parsed_response[:data][:attributes][:current_weather][:uvi]).to be_a Float
 			expect(parsed_response[:data][:attributes][:current_weather][:visibility]).to be_a Float
