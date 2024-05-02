@@ -47,11 +47,35 @@ RSpec.describe WeatherFacade, :vcr, type: :facade do
 		end
 	end
 
-	describe "#make_weather_poro" do 
-		it "converts a weather data hash into a ruby object (of class WeatherPoro)" do 
-			expect(@facade).to be_a WeatherFacade
-			weather_data = @facade.weather
-			expect(weather_data).to be_a WeatherPoro
+	describe "#geo_coords" do 
+		it "takes a city location and returns the latitude/longitude coordinates of that city" do 
+			expect(WeatherFacade.new("Denver, CO").geo_coords).to be_a String
+			expect(WeatherFacade.new("Denver, CO").geo_coords).to eq("39.74001,-104.99202")
+		end
+	end
+
+	describe "#current_weather" do 
+		it "given latitude and longitude of a location, it returns the current weather conditions of that location" do
+			cw = WeatherFacade.new("Denver, CO").current_weather
+			
+			expect(WeatherFacade.new("Denver, CO").geo_coords).to eq("39.74001,-104.99202")
+			expect(cw.keys).to eq([:location, :current])
+			expect(cw[:location]).to be_a Hash
+			expect(cw[:location].keys).to eq([:name, :region, :country, :lat, :lon, :tz_id, :localtime_epoch, :localtime])
+			expect(cw[:location][:name]).to be_a String
+			expect(cw[:location][:name]).to eq("Denver")
+			expect(cw[:location][:region]).to be_a String
+			expect(cw[:location][:region]).to eq("Colorado")
+			expect(cw[:location][:country]).to be_a String
+			expect(cw[:location][:country]).to eq("United States of America")
+			expect(cw[:location][:lat]).to be_a Float
+			expect(cw[:location][:lat]).to eq(39.74)
+			expect(cw[:location][:lon]).to be_a Float
+			expect(cw[:location][:lon]).to eq(-104.99)
+			expect(cw[:location][:tz_id]).to be_a String
+			expect(cw[:location][:tz_id]).to eq("America/Denver")
+			expect(cw[:location][:localtime_epoch]).to be_an Integer
+			expect(cw[:location][:localtime]).to be_a String
 		end
 	end
 end 
