@@ -3,7 +3,6 @@ class LocationPoro
 	def initialize(attributes)
 		@id = "null"
 		@type = "geocoding"
-		@latlon = attributes.first[:locations].first[:latLng]
-		# @location = attributes.first[:providedLocation][:location]
+		# @lat_lon = attributes.first[:providedLocation][:latLng]
 	end
 end
