@@ -26,7 +26,7 @@ class RoadTripsFacade
 		min_to_sec = dur_array.second.to_i * 60
 		sec = dur_array.third.to_i
 		total_sec = hrs_to_sec + min_to_sec + sec
-		total_sec + time_zone_offset * 3600
+		total_sec
 	end
 
 	def time_zone_offset
@@ -34,15 +34,15 @@ class RoadTripsFacade
 	end
 
 	def get_eta
-		arrive_time = Time.now + trip_time_in_seconds + @round_hour * 3600
+		arrive_time = Time.now + trip_time_in_seconds + @round_hour * 3600 + time_zone_offset * 3600
 		arrive_time
 	end
 
 	def dest_weather
 		@trip_time_minutes = @duration.split(":").second.to_i
-		
+
 		hourly_forecast = WeatherFacade.new(@destination).hourly_weather(5)
-		hourly_forecast.flatten[Time.now.hour + @trip_time_hours + @round_hour.to_i + time_zone_offset]
+		hourly_forecast.flatten[Time.now.hour + @trip_time_hours + @round_hour.to_i]
 	end
 
 	def trip_details
