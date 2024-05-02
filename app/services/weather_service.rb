@@ -26,6 +26,7 @@ class WeatherService
 		(days.to_i).times do |n|
 			day = parsed[:forecast][:forecastday][n][:hour].map do |h|
 				{
+					date: parsed[:forecast][:forecastday][n][:date],
 					time: h[:time],
 					temp: h[:temp_f],
 					condition: h[:condition][:text]
