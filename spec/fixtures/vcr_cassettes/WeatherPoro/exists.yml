@@ -2099,47 +2099,6 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 02 May 2024 16:55:13 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '804'
-      Connection:
-      - keep-alive
-      X-Powered-By:
-      - MapQuest
-      X-Request-Id:
-      - bea4e0f0-08a4-11ef-9ec4-f78d917d57da
-      Access-Control-Allow-Origin:
-      - "*"
-      Etag:
-      - W/"324-ZeZcGqtN1qIHiliWB9XG5YuNd80"
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJpbmZvIjp7InN0YXR1c2NvZGUiOjAsImNvcHlyaWdodCI6eyJ0ZXh0IjoiwqkgMjAyNCBNYXBRdWVzdCwgSW5jLiIsImltYWdlVXJsIjoiaHR0cDovL2FwaS5tcWNkbi5jb20vcmVzL21xbG9nby5naWYiLCJpbWFnZUFsdFRleHQiOiLCqSAyMDI0IE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbXX0sIm9wdGlvbnMiOnsibWF4UmVzdWx0cyI6LTEsImlnbm9yZUxhdExuZ0lucHV0IjpmYWxzZX0sInJlc3VsdHMiOlt7InByb3ZpZGVkTG9jYXRpb24iOnsibG9jYXRpb24iOiJDbGV2ZWxhbmQsIE9IIn0sImxvY2F0aW9ucyI6W3sic3RyZWV0IjoiIiwiYWRtaW5BcmVhNiI6IiIsImFkbWluQXJlYTZUeXBlIjoiTmVpZ2hib3Job29kIiwiYWRtaW5BcmVhNSI6IkNsZXZlbGFuZCIsImFkbWluQXJlYTVUeXBlIjoiQ2l0eSIsImFkbWluQXJlYTQiOiJDdXlhaG9nYSIsImFkbWluQXJlYTRUeXBlIjoiQ291bnR5IiwiYWRtaW5BcmVhMyI6Ik9IIiwiYWRtaW5BcmVhM1R5cGUiOiJTdGF0ZSIsImFkbWluQXJlYTEiOiJVUyIsImFkbWluQXJlYTFUeXBlIjoiQ291bnRyeSIsInBvc3RhbENvZGUiOiIiLCJnZW9jb2RlUXVhbGl0eUNvZGUiOiJBNVhBWCIsImdlb2NvZGVRdWFsaXR5IjoiQ0lUWSIsImRyYWdQb2ludCI6ZmFsc2UsInNpZGVPZlN0cmVldCI6Ik4iLCJsaW5rSWQiOiIwIiwidW5rbm93bklucHV0IjoiIiwidHlwZSI6InMiLCJsYXRMbmciOnsibGF0Ijo0MS41MDQ3MywibG5nIjotODEuNjkwNzR9LCJkaXNwbGF5TGF0TG5nIjp7ImxhdCI6NDEuNTA0NzMsImxuZyI6LTgxLjY5MDc0fSwibWFwVXJsIjoiIn1dfV19
-  recorded_at: Thu, 02 May 2024 16:55:13 GMT
-- request:
-    method: get
-    uri: https://mapquestapi.com/geocoding/v1/address?key=HUm8TeTPbjdZdmNtPgOfHwQmekjwzGrg&location=Cleveland,%20OH
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-      Accept:
-      - application/json
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
       - Thu, 02 May 2024 17:00:16 GMT
       Content-Type:
       - application/json; charset=utf-8
@@ -2203,6 +2162,47 @@ http_interactions:
   recorded_at: Thu, 02 May 2024 17:04:13 GMT
 - request:
     method: get
+    uri: https://mapquestapi.com/geocoding/v1/address?key=HUm8TeTPbjdZdmNtPgOfHwQmekjwzGrg&location=Cleveland,%20OH
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 02 May 2024 17:27:22 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '804'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - MapQuest
+      X-Request-Id:
+      - 3be60400-08a9-11ef-9ec4-f78d917d57da
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"324-ZeZcGqtN1qIHiliWB9XG5YuNd80"
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpbmZvIjp7InN0YXR1c2NvZGUiOjAsImNvcHlyaWdodCI6eyJ0ZXh0IjoiwqkgMjAyNCBNYXBRdWVzdCwgSW5jLiIsImltYWdlVXJsIjoiaHR0cDovL2FwaS5tcWNkbi5jb20vcmVzL21xbG9nby5naWYiLCJpbWFnZUFsdFRleHQiOiLCqSAyMDI0IE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbXX0sIm9wdGlvbnMiOnsibWF4UmVzdWx0cyI6LTEsImlnbm9yZUxhdExuZ0lucHV0IjpmYWxzZX0sInJlc3VsdHMiOlt7InByb3ZpZGVkTG9jYXRpb24iOnsibG9jYXRpb24iOiJDbGV2ZWxhbmQsIE9IIn0sImxvY2F0aW9ucyI6W3sic3RyZWV0IjoiIiwiYWRtaW5BcmVhNiI6IiIsImFkbWluQXJlYTZUeXBlIjoiTmVpZ2hib3Job29kIiwiYWRtaW5BcmVhNSI6IkNsZXZlbGFuZCIsImFkbWluQXJlYTVUeXBlIjoiQ2l0eSIsImFkbWluQXJlYTQiOiJDdXlhaG9nYSIsImFkbWluQXJlYTRUeXBlIjoiQ291bnR5IiwiYWRtaW5BcmVhMyI6Ik9IIiwiYWRtaW5BcmVhM1R5cGUiOiJTdGF0ZSIsImFkbWluQXJlYTEiOiJVUyIsImFkbWluQXJlYTFUeXBlIjoiQ291bnRyeSIsInBvc3RhbENvZGUiOiIiLCJnZW9jb2RlUXVhbGl0eUNvZGUiOiJBNVhBWCIsImdlb2NvZGVRdWFsaXR5IjoiQ0lUWSIsImRyYWdQb2ludCI6ZmFsc2UsInNpZGVPZlN0cmVldCI6Ik4iLCJsaW5rSWQiOiIwIiwidW5rbm93bklucHV0IjoiIiwidHlwZSI6InMiLCJsYXRMbmciOnsibGF0Ijo0MS41MDQ3MywibG5nIjotODEuNjkwNzR9LCJkaXNwbGF5TGF0TG5nIjp7ImxhdCI6NDEuNTA0NzMsImxuZyI6LTgxLjY5MDc0fSwibWFwVXJsIjoiIn1dfV19
+  recorded_at: Thu, 02 May 2024 17:27:22 GMT
+- request:
+    method: get
     uri: https://api.weatherapi.com/v1/current.json?key=wapi_key&q=41.50473,-81.69074
     body:
       encoding: US-ASCII
@@ -2222,7 +2222,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 02 May 2024 17:04:13 GMT
+      - Thu, 02 May 2024 17:27:22 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -2232,7 +2232,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-718
+      - BunnyCDN-IL1-894
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -2244,11 +2244,11 @@ http_interactions:
       Cache-Control:
       - public, max-age=180
       Via:
-      - 1.1 varnish (Varnish/6.0)
+      - 1.1 haproxy-api-1 (Varnish/7.3)
       X-Weatherapi-Qpm-Left:
-      - '4999831'
+      - '4999792'
       X-Varnish:
-      - '162607016'
+      - '154409730'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -2256,22 +2256,22 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 05/02/2024 17:04:08
+      - 05/02/2024 17:27:18
       Cdn-Edgestorageid:
       - '1069'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 51a3d4e6260fd139a53d1f0992b37272
+      - 504abc3cf64a3d25689aa0fadf458ece
       Cdn-Cache:
       - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.69,"tz_id":"America/New_York","localtime_epoch":1714669441,"localtime":"2024-05-02
-        13:04"},"current":{"last_updated_epoch":1714669200,"last_updated":"2024-05-02
-        13:00","temp_c":16.1,"temp_f":61.0,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.6,"wind_kph":22.0,"wind_degree":30,"wind_dir":"NNE","pressure_mb":1018.0,"pressure_in":30.07,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":0,"feelslike_c":16.1,"feelslike_f":61.0,"vis_km":16.0,"vis_miles":9.0,"uv":5.0,"gust_mph":18.1,"gust_kph":29.2}}'
-  recorded_at: Thu, 02 May 2024 17:04:13 GMT
+        of America","lat":41.5,"lon":-81.69,"tz_id":"America/New_York","localtime_epoch":1714670832,"localtime":"2024-05-02
+        13:27"},"current":{"last_updated_epoch":1714670100,"last_updated":"2024-05-02
+        13:15","temp_c":16.7,"temp_f":62.1,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.6,"wind_kph":22.0,"wind_degree":30,"wind_dir":"NNE","pressure_mb":1018.0,"pressure_in":30.05,"precip_mm":0.0,"precip_in":0.0,"humidity":67,"cloud":0,"feelslike_c":16.7,"feelslike_f":62.1,"vis_km":16.0,"vis_miles":9.0,"uv":5.0,"gust_mph":18.1,"gust_kph":29.2}}'
+  recorded_at: Thu, 02 May 2024 17:27:22 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=5&key=wapi_key&q=41.50473,-81.69074
@@ -2293,7 +2293,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 02 May 2024 17:04:13 GMT
+      - Thu, 02 May 2024 17:27:22 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -2303,7 +2303,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-718
+      - BunnyCDN-IL1-894
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -2317,9 +2317,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999831'
+      - '4999792'
       X-Varnish:
-      - '146571388'
+      - '107031419'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -2327,21 +2327,21 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 05/02/2024 17:04:08
+      - 05/02/2024 17:27:18
       Cdn-Edgestorageid:
       - '1069'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 8164ad8d2586ca6b7eeba22c37e2c80f
+      - b9599da5e225b043faa72c2f84ab4bdc
       Cdn-Cache:
       - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.69,"tz_id":"America/New_York","localtime_epoch":1714669441,"localtime":"2024-05-02
-        13:04"},"current":{"last_updated_epoch":1714669200,"last_updated":"2024-05-02
-        13:00","temp_c":16.1,"temp_f":61.0,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.6,"wind_kph":22.0,"wind_degree":30,"wind_dir":"NNE","pressure_mb":1018.0,"pressure_in":30.07,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":0,"feelslike_c":16.1,"feelslike_f":61.0,"vis_km":16.0,"vis_miles":9.0,"uv":5.0,"gust_mph":18.1,"gust_kph":29.2},"forecast":{"forecastday":[{"date":"2024-05-02","date_epoch":1714608000,"day":{"maxtemp_c":16.6,"maxtemp_f":61.9,"mintemp_c":11.1,"mintemp_f":51.9,"avgtemp_c":14.5,"avgtemp_f":58.1,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":0.1,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":74,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:22
+        of America","lat":41.5,"lon":-81.69,"tz_id":"America/New_York","localtime_epoch":1714670832,"localtime":"2024-05-02
+        13:27"},"current":{"last_updated_epoch":1714670100,"last_updated":"2024-05-02
+        13:15","temp_c":16.7,"temp_f":62.1,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.6,"wind_kph":22.0,"wind_degree":30,"wind_dir":"NNE","pressure_mb":1018.0,"pressure_in":30.05,"precip_mm":0.0,"precip_in":0.0,"humidity":67,"cloud":0,"feelslike_c":16.7,"feelslike_f":62.1,"vis_km":16.0,"vis_miles":9.0,"uv":5.0,"gust_mph":18.1,"gust_kph":29.2},"forecast":{"forecastday":[{"date":"2024-05-02","date_epoch":1714608000,"day":{"maxtemp_c":16.6,"maxtemp_f":61.9,"mintemp_c":11.1,"mintemp_f":51.9,"avgtemp_c":14.5,"avgtemp_f":58.1,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":0.1,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":74,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:22
         AM","sunset":"08:26 PM","moonrise":"03:39 AM","moonset":"01:57 PM","moon_phase":"Waning
         Crescent","moon_illumination":44,"is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1714622400,"time":"2024-05-02
         00:00","temp_c":14.7,"temp_f":58.4,"is_day":0,"condition":{"text":"Clear ","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":5.1,"wind_kph":8.3,"wind_degree":266,"wind_dir":"W","pressure_mb":1014.0,"pressure_in":29.94,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":76,"cloud":5,"feelslike_c":14.5,"feelslike_f":58.0,"windchill_c":14.5,"windchill_f":58.0,"heatindex_c":14.7,"heatindex_f":58.4,"dewpoint_c":10.4,"dewpoint_f":50.7,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":10.8,"gust_kph":17.4,"uv":1.0},{"time_epoch":1714626000,"time":"2024-05-02
@@ -2358,7 +2358,7 @@ http_interactions:
         10:00","temp_c":14.4,"temp_f":57.9,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":6.7,"wind_kph":10.8,"wind_degree":41,"wind_dir":"NE","pressure_mb":1018.0,"pressure_in":30.06,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":72,"cloud":2,"feelslike_c":14.1,"feelslike_f":57.4,"windchill_c":14.1,"windchill_f":57.4,"heatindex_c":14.4,"heatindex_f":57.9,"dewpoint_c":9.3,"dewpoint_f":48.7,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":9.5,"gust_kph":15.3,"uv":4.0},{"time_epoch":1714662000,"time":"2024-05-02
         11:00","temp_c":15.3,"temp_f":59.6,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":6.5,"wind_kph":10.4,"wind_degree":28,"wind_dir":"NNE","pressure_mb":1018.0,"pressure_in":30.06,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":66,"cloud":2,"feelslike_c":15.2,"feelslike_f":59.3,"windchill_c":15.2,"windchill_f":59.3,"heatindex_c":15.3,"heatindex_f":59.6,"dewpoint_c":9.2,"dewpoint_f":48.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":9.2,"gust_kph":14.9,"uv":5.0},{"time_epoch":1714665600,"time":"2024-05-02
         12:00","temp_c":15.8,"temp_f":60.5,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":6.7,"wind_kph":10.8,"wind_degree":15,"wind_dir":"NNE","pressure_mb":1018.0,"pressure_in":30.05,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":64,"cloud":6,"feelslike_c":15.8,"feelslike_f":60.4,"windchill_c":15.8,"windchill_f":60.4,"heatindex_c":15.8,"heatindex_f":60.5,"dewpoint_c":9.5,"dewpoint_f":49.0,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":9.7,"gust_kph":15.7,"uv":5.0},{"time_epoch":1714669200,"time":"2024-05-02
-        13:00","temp_c":16.1,"temp_f":61.0,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.6,"wind_kph":22.0,"wind_degree":30,"wind_dir":"NNE","pressure_mb":1018.0,"pressure_in":30.07,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":70,"cloud":0,"feelslike_c":16.0,"feelslike_f":60.8,"windchill_c":16.0,"windchill_f":60.8,"heatindex_c":16.0,"heatindex_f":60.9,"dewpoint_c":9.7,"dewpoint_f":49.4,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":16.0,"vis_miles":9.0,"gust_mph":18.1,"gust_kph":29.2,"uv":5.0},{"time_epoch":1714672800,"time":"2024-05-02
+        13:00","temp_c":16.7,"temp_f":62.1,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.6,"wind_kph":22.0,"wind_degree":30,"wind_dir":"NNE","pressure_mb":1018.0,"pressure_in":30.05,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":67,"cloud":0,"feelslike_c":16.0,"feelslike_f":60.8,"windchill_c":16.0,"windchill_f":60.8,"heatindex_c":16.0,"heatindex_f":60.9,"dewpoint_c":9.7,"dewpoint_f":49.4,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":16.0,"vis_miles":9.0,"gust_mph":18.1,"gust_kph":29.2,"uv":5.0},{"time_epoch":1714672800,"time":"2024-05-02
         14:00","temp_c":16.3,"temp_f":61.3,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":8.3,"wind_kph":13.3,"wind_degree":9,"wind_dir":"N","pressure_mb":1017.0,"pressure_in":30.03,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":65,"cloud":8,"feelslike_c":16.3,"feelslike_f":61.3,"windchill_c":16.3,"windchill_f":61.3,"heatindex_c":16.3,"heatindex_f":61.3,"dewpoint_c":9.8,"dewpoint_f":49.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":12.2,"gust_kph":19.7,"uv":5.0},{"time_epoch":1714676400,"time":"2024-05-02
         15:00","temp_c":16.4,"temp_f":61.5,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":13,"wind_dir":"NNE","pressure_mb":1016.0,"pressure_in":30.01,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":65,"cloud":6,"feelslike_c":16.4,"feelslike_f":61.4,"windchill_c":16.4,"windchill_f":61.4,"heatindex_c":16.4,"heatindex_f":61.5,"dewpoint_c":9.9,"dewpoint_f":49.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":10.9,"gust_kph":17.6,"uv":5.0},{"time_epoch":1714680000,"time":"2024-05-02
         16:00","temp_c":16.5,"temp_f":61.7,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":8.3,"wind_kph":13.3,"wind_degree":14,"wind_dir":"NNE","pressure_mb":1016.0,"pressure_in":30.01,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":66,"cloud":5,"feelslike_c":16.5,"feelslike_f":61.7,"windchill_c":16.5,"windchill_f":61.7,"heatindex_c":16.5,"heatindex_f":61.7,"dewpoint_c":10.2,"dewpoint_f":50.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":13.5,"gust_kph":21.8,"uv":5.0},{"time_epoch":1714683600,"time":"2024-05-02
@@ -2526,7 +2526,7 @@ http_interactions:
         Cloudy ","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":5.4,"wind_kph":8.6,"wind_degree":99,"wind_dir":"E","pressure_mb":1013.0,"pressure_in":29.92,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":79,"cloud":57,"feelslike_c":13.2,"feelslike_f":55.7,"windchill_c":13.2,"windchill_f":55.7,"heatindex_c":13.6,"heatindex_f":56.5,"dewpoint_c":10.0,"dewpoint_f":50.0,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":11.0,"gust_kph":17.6,"uv":1.0},{"time_epoch":1715050800,"time":"2024-05-06
         23:00","temp_c":13.4,"temp_f":56.1,"is_day":0,"condition":{"text":"Partly
         Cloudy ","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":5.1,"wind_kph":8.3,"wind_degree":113,"wind_dir":"ESE","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":81,"cloud":59,"feelslike_c":12.9,"feelslike_f":55.3,"windchill_c":12.9,"windchill_f":55.3,"heatindex_c":13.4,"heatindex_f":56.1,"dewpoint_c":9.9,"dewpoint_f":49.8,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":10.8,"gust_kph":17.4,"uv":1.0}]}]}}'
-  recorded_at: Thu, 02 May 2024 17:04:13 GMT
+  recorded_at: Thu, 02 May 2024 17:27:22 GMT
 - request:
     method: get
     uri: https://api.weatherapi.com/v1/forecast.json?days=5&key=wapi_key&q=41.50473,-81.69074&tp=24
@@ -2548,7 +2548,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 02 May 2024 17:04:13 GMT
+      - Thu, 02 May 2024 17:27:22 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -2558,7 +2558,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-718
+      - BunnyCDN-IL1-894
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -2572,9 +2572,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999831'
+      - '4999792'
       X-Varnish:
-      - '132471561'
+      - '149786723'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -2582,21 +2582,21 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 05/02/2024 17:04:08
+      - 05/02/2024 17:27:18
       Cdn-Edgestorageid:
       - '941'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 3b82361b26f302af797d5bd38a162a11
+      - 97cfb6dbaf42f11b7836f58f8f9cd535
       Cdn-Cache:
       - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cleveland","region":"Ohio","country":"United States
-        of America","lat":41.5,"lon":-81.69,"tz_id":"America/New_York","localtime_epoch":1714669442,"localtime":"2024-05-02
-        13:04"},"current":{"last_updated_epoch":1714669200,"last_updated":"2024-05-02
-        13:00","temp_c":16.1,"temp_f":61.0,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.6,"wind_kph":22.0,"wind_degree":30,"wind_dir":"NNE","pressure_mb":1018.0,"pressure_in":30.07,"precip_mm":0.0,"precip_in":0.0,"humidity":70,"cloud":0,"feelslike_c":16.1,"feelslike_f":61.0,"vis_km":16.0,"vis_miles":9.0,"uv":5.0,"gust_mph":18.1,"gust_kph":29.2},"forecast":{"forecastday":[{"date":"2024-05-02","date_epoch":1714608000,"day":{"maxtemp_c":16.6,"maxtemp_f":61.9,"mintemp_c":11.1,"mintemp_f":51.9,"avgtemp_c":14.5,"avgtemp_f":58.1,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":0.1,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":74,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:22
+        of America","lat":41.5,"lon":-81.69,"tz_id":"America/New_York","localtime_epoch":1714670832,"localtime":"2024-05-02
+        13:27"},"current":{"last_updated_epoch":1714670100,"last_updated":"2024-05-02
+        13:15","temp_c":16.7,"temp_f":62.1,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.6,"wind_kph":22.0,"wind_degree":30,"wind_dir":"NNE","pressure_mb":1018.0,"pressure_in":30.05,"precip_mm":0.0,"precip_in":0.0,"humidity":67,"cloud":0,"feelslike_c":16.7,"feelslike_f":62.1,"vis_km":16.0,"vis_miles":9.0,"uv":5.0,"gust_mph":18.1,"gust_kph":29.2},"forecast":{"forecastday":[{"date":"2024-05-02","date_epoch":1714608000,"day":{"maxtemp_c":16.6,"maxtemp_f":61.9,"mintemp_c":11.1,"mintemp_f":51.9,"avgtemp_c":14.5,"avgtemp_f":58.1,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":0.1,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":74,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":8.0},"astro":{"sunrise":"06:22
         AM","sunset":"08:26 PM","moonrise":"03:39 AM","moonset":"01:57 PM","moon_phase":"Waning
         Crescent","moon_illumination":44,"is_moon_up":0,"is_sun_up":1}},{"date":"2024-05-03","date_epoch":1714694400,"day":{"maxtemp_c":20.0,"maxtemp_f":68.0,"mintemp_c":13.8,"mintemp_f":56.8,"avgtemp_c":15.6,"avgtemp_f":60.1,"maxwind_mph":8.1,"maxwind_kph":13.0,"totalprecip_mm":13.87,"totalprecip_in":0.55,"totalsnow_cm":0.0,"avgvis_km":7.3,"avgvis_miles":4.0,"avghumidity":89,"daily_will_it_rain":1,"daily_chance_of_rain":85,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Moderate
         rain","icon":"//cdn.weatherapi.com/weather/64x64/day/302.png","code":1189},"uv":5.0},"astro":{"sunrise":"06:20
@@ -2611,5 +2611,5 @@ http_interactions:
         Cloudy ","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"uv":1.0},"astro":{"sunrise":"06:17
         AM","sunset":"08:30 PM","moonrise":"05:17 AM","moonset":"07:05 PM","moon_phase":"Waning
         Crescent","moon_illumination":6,"is_moon_up":0,"is_sun_up":1}}]}}'
-  recorded_at: Thu, 02 May 2024 17:04:13 GMT
+  recorded_at: Thu, 02 May 2024 17:27:22 GMT
 recorded_with: VCR 6.2.0
