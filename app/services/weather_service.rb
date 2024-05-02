@@ -10,7 +10,6 @@ class WeatherService
 		response = conn.get("/v1/forecast.json") do |f|
 			f.params[:q] = coords
 			f.params[:days] = days
-			f.params[:tp] = 24
 		end
 		JSON.parse(response.body, symbolize_names: true)[:forecast][:forecastday]
 	end
