@@ -1,9 +1,9 @@
 class ApplicationController < ActionController::API
-	before_action :configure_permitted_parameters, if: :devise_controller?
+	before_action :current_user
+	# helper_method :current_user
 
 	private
-
-	def configure_permitted_parameters
-		devise_parameter_sanitizer.permit(:sign_up, keys: [:email, :password, :password_confirmation])
+	def current_user
+		@_current_user = User.find_by(email: params[:email])
 	end
 end
