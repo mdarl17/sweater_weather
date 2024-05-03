@@ -82,5 +82,5 @@ VCR.configure do |config|
   config.default_cassette_options = { re_record_interval: 1.days }
   # config.default_cassette_options = { record: :all }
   # config.default_cassette_options = { record: :once }
-  # config.default_cassette_options = { record: :new_episodes }
+  config.default_cassette_options = { record: :new_episodes }
 end
