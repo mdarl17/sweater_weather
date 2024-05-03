@@ -3,10 +3,12 @@ class RoadTripsFacade
 		@origin = trip_params[:origin]
 		@destination = trip_params[:destination]
 		@duration = route_hash[:route][:formattedTime]
-		@dest_coords = WeatherFacade.new(@destination).geo_coords
-		@origin_coords = WeatherFacade.new(@origin).geo_coords
-		@dest_time = WeatherFacade.new(@dest_coords).current_weather[:location][:localtime].split(" ").second
-		@origin_time = WeatherFacade.new(@origin_coords).current_weather[:location][:localtime].split(" ").second
+		dest_coords = LocationsFacade.new(@destination).lat_lon
+		dest_latlon = "#{dest_coords[:lat]}, #{dest_coords[:lng]}"
+		origin_coords = LocationsFacade.new(@origin).lat_lon
+		origin_latlon = "#{origin_coords[:lat]}, #{origin_coords[:lng]}"
+		@dest_time = WeatherFacade.new(dest_latlon).current_weather[:location][:localtime].split(" ").second
+		@origin_time = WeatherFacade.new(origin_latlon).current_weather[:location][:localtime].split(" ").second
 		@trip_time_hours = @duration.split(":").first.to_i
 		@trip_time_minutes = @duration.split(":").second.to_i
 		@round_hour = @trip_time_minutes >= 30 ? 1 : 0
