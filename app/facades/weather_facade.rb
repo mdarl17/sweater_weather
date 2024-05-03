@@ -1,7 +1,8 @@
 class WeatherFacade
 	attr_reader :service, :location
 
-	def initialize(loc_data)
+	def initialize(loc_data, days=5)
+		@days = days
 		@location = loc_data
 		@service = WeatherService.new
 		@geo_coords = geo_coords
@@ -26,11 +27,11 @@ class WeatherFacade
 		@service.get_daily_data(@geo_coords, days)
 	end
 	
-	def weather
+	def weather(days=@days)
 		WeatherPoro.new(
 			real_time: self.current_weather,
-			hourly: self.hourly_weather,
-			daily: self.daily_weather
+			hourly: self.hourly_weather(days),
+			daily: self.daily_weather(days)
 		)
 	end
 end
