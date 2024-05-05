@@ -19,7 +19,7 @@ class RoadTripsFacade
 	end
 
 	def index
-		route_hash = RoadTripsService.new(@origin, @destination).get_travel_time
+		RoadTripsService.new(@origin, @destination).get_travel_time
 	end
 
 	def trip_time_in_seconds
