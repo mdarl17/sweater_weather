@@ -2,8 +2,10 @@ class RoadTripsFacade
 	def initialize(trip_params)
 		@origin = trip_params[:origin]
 		@destination = trip_params[:destination]
+		@api_key = trip_params[:api_key]
 		@duration = route_hash[:route][:formattedTime]
 		dest_coords = LocationsFacade.new(@destination).lat_lon
+		require 'pry'; binding.pry
 		dest_latlon = "#{dest_coords[:lat]}, #{dest_coords[:lng]}"
 		origin_coords = LocationsFacade.new(@origin).lat_lon
 		origin_latlon = "#{origin_coords[:lat]}, #{origin_coords[:lng]}"
@@ -12,6 +14,10 @@ class RoadTripsFacade
 		@trip_time_hours = @duration.split(":").first.to_i
 		@trip_time_minutes = @duration.split(":").second.to_i
 		@round_hour = @trip_time_minutes >= 30 ? 1 : 0
+	end
+
+	def name_to_latitude_longitude()
+
 	end
 
 	def route_hash
