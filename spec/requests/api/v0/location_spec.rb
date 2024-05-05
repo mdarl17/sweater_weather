@@ -4,7 +4,7 @@ RSpec.describe "Get geo data", :vcr, type: :request do
 	describe "Api::V0::Location" do 
 		it "it returns latitude and longitude data for a given city, state, or region" do
 			get "/api/v0/locations", headers: {"Content-Type": "application/json", "Accept": "application/json "}, 
-					params: { location: "90,-43" }
+					params: { location: "cincinnati,oh" }
 			
 			parsed = JSON.parse(response.body, symbolize_names: true)
 			expect(response).to have_http_status(200)
