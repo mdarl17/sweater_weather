@@ -2,19 +2,9 @@ class Api::V0::LocationsController < ApplicationController
 	def search
 		facade = LocationsFacade.new(params[:location])
 		result = facade.lat_lon
-
-		if result[:lat] && result[:lng]
-			render json: { "lat": result[:lat], "lon": result[:lng] }
-		elsif !result[:lat]
-			render json: { error: "Could not find latitude value for #{params[:location]}" }
-		elsif !result[:lng]
-			render json: { error: "Could not find longitude value for #{params[:location]}" }
-		elsif params[:api_key].errors.include?("doesn't match API key")
-			render json: { error: "API key validation error: API key provided does not match the API key on file" }
-		elsif params[:api_key].errors.include?("can't be blank")
-			render json: { error: "A valid API key must be included in the request params"}
-		else
-			render json: { error: "A validation error occurred. Please check spelling and try again."}
+			raise ArgumentError, "A valid location must be provided" if params[:location].scan(/\d/).length > 0
+			raise SecurityError, "The user's email was not included in this request" unless current_user && params[:email] == current_user.email
+			raise SecurityError, "The user's api_key was not included in this request" unless params[:api_key] == current_user.api_key
+			render json: { "lat": result[:lat], "lon": result[:lng] } 
 		end
 	end
-end
