@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.describe "Get geo data", type: :request do 
+RSpec.describe "Get geo data", :vcr, type: :request do 
 	describe "Api::V0::Location" do 
 		it "searches for and returns geo data for a given city and state/region" do
 			location = "cincinnati,oh"

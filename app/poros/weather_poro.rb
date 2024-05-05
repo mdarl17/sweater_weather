@@ -41,8 +41,8 @@ class WeatherPoro
 
 	def hourly_array(hours_array)
 
-		hours_array.map do |day_array|
-			day_array.map do |d|
+		hours_array.flat_map do |day_array|
+			day_array.flat_map do |d|
 				{
 					date: d[:date],
 					time: "#{Time.parse(d[:time]).strftime("%-l:%M")}#{am_or_pm(Time.parse(d[:time]).hour)}",
