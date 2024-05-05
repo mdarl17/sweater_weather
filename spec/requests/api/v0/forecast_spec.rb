@@ -1,13 +1,17 @@
 require "rails_helper"
 
 RSpec.describe "Forecast for city", :vcr, type: :request do 
-	describe "Api::V0::Forecast" do 
+	before(:each) do 
+		User.delete_all
+		@user = User.create!(email: "mattyd@turing.edu", password: "pass123", password_confirmation: "pass123", api_key: SecureRandom.hex(13))
+	end
+	describe "Api::V0::Forecast" do
 		it "retrieves weather for a city" do
 			location = "denver,co"
 			days = 5
 			
 			get "/api/v0/forecast", headers: { "Content-Type": "application/json", "Accept": "application/json"},
-				params: { q: location, days: days }
+				params: { location: location, days: days }
 			parsed_response = JSON.parse(response.body, symbolize_names: true)
 			expect(response).to have_http_status(200)
 			expect(parsed_response).to have_key(:data)
